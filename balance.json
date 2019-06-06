@@ -1,0 +1,6992 @@
+{
+  "buildings": {
+    "commandCenter": {
+      "size": {
+        "x": 4,
+        "y": 4
+      },
+      "counts": [],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 0,
+          "upgradeTime": 0,
+          "requiredPlayerLevel": 1,
+          "energy": 3,
+          "upgradeCost": {},
+          "coin": {
+            "time": 1.0,
+            "adamantite": 0.05,
+            "crystalite": 0.05,
+            "titanium": 0.05
+          },
+          "display": {
+            "crystaliteCapacity": 960,
+            "adamantiteCapacity": 960,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 0,
+          "upgradeTime": 900,
+          "requiredPlayerLevel": 1,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 800
+          },
+          "coin": {
+            "time": 1.5,
+            "adamantite": 0.1,
+            "crystalite": 0.1,
+            "titanium": 0.1
+          },
+          "display": {
+            "crystaliteCapacity": 1920,
+            "adamantiteCapacity": 1920,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 0,
+          "upgradeTime": 1800,
+          "requiredPlayerLevel": 1,
+          "energy": 6,
+          "botMax": 3,
+          "botImprove": {
+            "building": 10
+          },
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "coin": {
+            "time": 2.0,
+            "adamantite": 0.15,
+            "crystalite": 0.15,
+            "titanium": 0.15
+          },
+          "display": {
+            "crystaliteCapacity": 3840,
+            "adamantiteCapacity": 3840,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 0,
+          "upgradeTime": 3600,
+          "requiredPlayerLevel": 1,
+          "energy": 9,
+          "botMax": 4,
+          "botImprove": {
+            "building": 10
+          },
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "coin": {
+            "time": 2.5,
+            "adamantite": 0.2,
+            "crystalite": 0.2,
+            "titanium": 0.2
+          },
+          "display": {
+            "crystaliteCapacity": 7680,
+            "adamantiteCapacity": 7680,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 0,
+          "upgradeTime": 7200,
+          "requiredPlayerLevel": 1,
+          "energy": 14,
+          "botMax": 5,
+          "botImprove": {
+            "building": 10
+          },
+          "upgradeCost": {
+            "adamantite": 6400
+          },
+          "coin": {
+            "time": 3.0,
+            "adamantite": 0.25,
+            "crystalite": 0.25,
+            "titanium": 0.25
+          },
+          "display": {
+            "crystaliteCapacity": 15400,
+            "adamantiteCapacity": 15400,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 0,
+          "upgradeTime": 14400,
+          "requiredPlayerLevel": 1,
+          "energy": 21,
+          "botMax": 6,
+          "botImprove": {
+            "building": 10
+          },
+          "upgradeCost": {
+            "adamantite": 12800
+          },
+          "coin": {
+            "time": 3.5,
+            "adamantite": 0.3,
+            "crystalite": 0.3,
+            "titanium": 0.3
+          },
+          "display": {
+            "crystaliteCapacity": 30700,
+            "adamantiteCapacity": 30700,
+            "titaniumCapacity": 0,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 0,
+          "upgradeTime": 28800,
+          "requiredPlayerLevel": 1,
+          "energy": 32,
+          "botMax": 7,
+          "botImprove": {
+            "building": 9
+          },
+          "upgradeCost": {
+            "adamantite": 25600
+          },
+          "coin": {
+            "time": 4.0,
+            "adamantite": 0.35,
+            "crystalite": 0.35,
+            "titanium": 0.35
+          },
+          "display": {
+            "crystaliteCapacity": 38400,
+            "adamantiteCapacity": 38400,
+            "titaniumCapacity": 30800,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 0,
+          "upgradeTime": 57600,
+          "requiredPlayerLevel": 1,
+          "energy": 48,
+          "botMax": 8,
+          "botImprove": {
+            "building": 9
+          },
+          "upgradeCost": {
+            "adamantite": 51200,
+            "titanium": 15400
+          },
+          "coin": {
+            "time": 4.5,
+            "adamantite": 0.4,
+            "crystalite": 0.4,
+            "titanium": 0.4
+          },
+          "display": {
+            "crystaliteCapacity": 69000,
+            "adamantiteCapacity": 69000,
+            "titaniumCapacity": 55500,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 0,
+          "upgradeTime": 115000,
+          "requiredPlayerLevel": 1,
+          "energy": 62,
+          "botMax": 9,
+          "botImprove": {
+            "building": 9
+          },
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 30600
+          },
+          "coin": {
+            "time": 5.0,
+            "adamantite": 0.45,
+            "crystalite": 0.45,
+            "titanium": 0.45
+          },
+          "display": {
+            "crystaliteCapacity": 124000,
+            "adamantiteCapacity": 124000,
+            "titaniumCapacity": 99500,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 0,
+          "upgradeTime": 230000,
+          "requiredPlayerLevel": 1,
+          "energy": 81,
+          "botMax": 10,
+          "botImprove": {
+            "building": 9
+          },
+          "upgradeCost": {
+            "adamantite": 205000,
+            "titanium": 61200
+          },
+          "coin": {
+            "time": 5.5,
+            "adamantite": 0.5,
+            "crystalite": 0.5,
+            "titanium": 0.5
+          },
+          "display": {
+            "crystaliteCapacity": 224000,
+            "adamantiteCapacity": 224000,
+            "titaniumCapacity": 178000,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 0,
+          "upgradeTime": 346000,
+          "requiredPlayerLevel": 1,
+          "energy": 105,
+          "botMax": 11,
+          "botImprove": {
+            "building": 9
+          },
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 91800
+          },
+          "coin": {
+            "time": 6.0,
+            "adamantite": 0.55,
+            "crystalite": 0.55,
+            "titanium": 0.55
+          },
+          "display": {
+            "crystaliteCapacity": 402000,
+            "adamantiteCapacity": 402000,
+            "titaniumCapacity": 321000,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 0,
+          "upgradeTime": 380000,
+          "requiredPlayerLevel": 1,
+          "energy": 136,
+          "botMax": 12,
+          "botImprove": {
+            "building": 8
+          },
+          "upgradeCost": {
+            "adamantite": 816000,
+            "titanium": 138000
+          },
+          "coin": {
+            "time": 6.5,
+            "adamantite": 0.6,
+            "crystalite": 0.6,
+            "titanium": 0.6
+          },
+          "display": {
+            "crystaliteCapacity": 520000,
+            "adamantiteCapacity": 520000,
+            "titaniumCapacity": 417000,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 0,
+          "upgradeTime": 418000,
+          "requiredPlayerLevel": 1,
+          "energy": 177,
+          "botMax": 13,
+          "botImprove": {
+            "building": 8
+          },
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 206000
+          },
+          "coin": {
+            "time": 7.0,
+            "adamantite": 0.65,
+            "crystalite": 0.65,
+            "titanium": 0.65
+          },
+          "display": {
+            "crystaliteCapacity": 680000,
+            "adamantiteCapacity": 680000,
+            "titaniumCapacity": 545000,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 0,
+          "upgradeTime": 460000,
+          "requiredPlayerLevel": 1,
+          "energy": 230,
+          "botMax": 14,
+          "botImprove": {
+            "building": 8
+          },
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 309000
+          },
+          "coin": {
+            "time": 7.5,
+            "adamantite": 0.7,
+            "crystalite": 0.7,
+            "titanium": 0.7
+          },
+          "display": {
+            "crystaliteCapacity": 880000,
+            "adamantiteCapacity": 880000,
+            "titaniumCapacity": 705000,
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 15,
+          "xpGain": 0,
+          "upgradeTime": 506000,
+          "requiredPlayerLevel": 1,
+          "energy": 299,
+          "botMax": 15,
+          "botImprove": {
+            "building": 8
+          },
+          "upgradeCost": {
+            "adamantite": 6520000,
+            "titanium": 462000
+          },
+          "coin": {
+            "time": 8.0,
+            "adamantite": 0.75,
+            "crystalite": 0.75,
+            "titanium": 0.75
+          },
+          "display": {
+            "crystaliteCapacity": 1140000,
+            "adamantiteCapacity": 1140000,
+            "titaniumCapacity": 915000,
+            "generateEnergy": 40
+          }
+        }
+      ]
+    },
+    "crystaliteSilo": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 1,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 6
+        },
+        {
+          "count": 3,
+          "commandCenter": 8
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 3,
+          "upgradeCost": {
+            "adamantite": 100
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "all-the-same",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 240
+              }
+            },
+            {
+              "num": 2,
+              "mission": "first-word",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 240
+              }
+            },
+            {
+              "num": 3,
+              "mission": "speechmodule",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 240
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 1200
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "pangram",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 480
+              }
+            },
+            {
+              "num": 2,
+              "mission": "3-chefs",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 480
+              }
+            },
+            {
+              "num": 3,
+              "mission": "create-intervals",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 480
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 2400
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 6,
+          "upgradeCost": {
+            "adamantite": 400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "digits-multiplication",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 960
+              }
+            },
+            {
+              "num": 2,
+              "mission": "three-words",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 960
+              }
+            },
+            {
+              "num": 3,
+              "mission": "box-probability",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 960
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 4800
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 9,
+          "upgradeCost": {
+            "adamantite": 800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "count-inversions",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            },
+            {
+              "num": 2,
+              "mission": "bigger-price",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            },
+            {
+              "num": 3,
+              "mission": "every-person-is-unique",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 9600
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 14,
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "non-unique-elements",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            },
+            {
+              "num": 2,
+              "mission": "time-converter-24h-to-12h",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            },
+            {
+              "num": 3,
+              "mission": "long-non-repeat",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 1920
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 19200
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 21,
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "time-converter-12h-to-24h",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 3840
+              }
+            },
+            {
+              "num": 2,
+              "mission": "popular-words",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 3840
+              }
+            },
+            {
+              "num": 3,
+              "mission": "largest-histogram",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 3840
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 38400
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "upgradeCost": {
+            "adamantite": 6400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "matrix-pattern",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 7680
+              }
+            },
+            {
+              "num": 2,
+              "mission": "ghosts-age",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 7680
+              }
+            },
+            {
+              "num": 3,
+              "mission": "feed-pigeons",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 7680
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 76800
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "upgradeCost": {
+            "adamantite": 12800,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "pawn-brotherhood",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 13800
+              }
+            },
+            {
+              "num": 2,
+              "mission": "stick-sawing",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 13800
+              }
+            },
+            {
+              "num": 3,
+              "mission": "check-digit",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 13800
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 138000
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "upgradeCost": {
+            "adamantite": 25600,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "probably-dice",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 24900
+              }
+            },
+            {
+              "num": 2,
+              "mission": "network-attack",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 24900
+              }
+            },
+            {
+              "num": 3,
+              "mission": "painting-wall",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteCapacity": 24900
+              }
+            }
+          ],
+          "display": {
+            "crystaliteCapacity": 249000
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "upgradeCost": {
+            "adamantite": 51200,
+            "titanium": 20400
+          },
+          "display": {
+            "crystaliteCapacity": 447000
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 30600
+          },
+          "display": {
+            "crystaliteCapacity": 804000
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "upgradeCost": {
+            "adamantite": 204000,
+            "titanium": 45900
+          },
+          "display": {
+            "crystaliteCapacity": 1040000
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 68800
+          },
+          "display": {
+            "crystaliteCapacity": 1360000
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "upgradeCost": {
+            "adamantite": 816000,
+            "titanium": 103000
+          },
+          "display": {
+            "crystaliteCapacity": 1760000
+          }
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 154000
+          },
+          "display": {
+            "crystaliteCapacity": 2290000
+          }
+        }
+      ]
+    },
+    "crystaliteFarm": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 2,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 3
+        },
+        {
+          "count": 3,
+          "commandCenter": 5
+        },
+        {
+          "count": 4,
+          "commandCenter": 7
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 3,
+          "upgradeCost": {
+            "adamantite": 50
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "easy-unpack",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 20
+              }
+            },
+            {
+              "num": 2,
+              "mission": "fizz-buzz",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 80
+              }
+            },
+            {
+              "num": 3,
+              "mission": "end-of-other",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 80
+              }
+            },
+            {
+              "num": 4,
+              "mission": "between-markers",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 80
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 100,
+            "crystaliteProductionCapacity": 400
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 100
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "follow-instructions",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 160
+              }
+            },
+            {
+              "num": 2,
+              "mission": "even-last",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 160
+              }
+            },
+            {
+              "num": 3,
+              "mission": "bird-language",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 40
+              }
+            },
+            {
+              "num": 4,
+              "mission": "loading-cargo",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 160
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 200,
+            "crystaliteProductionCapacity": 800
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 6,
+          "botMax": 1,
+          "botImprove": {
+            "crystaliteProduction": 40
+          },
+          "upgradeCost": {
+            "adamantite": 200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "conversion-from-camelcase",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 80
+              }
+            },
+            {
+              "num": 2,
+              "mission": "skew-symmetric-matrix",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 80
+              }
+            },
+            {
+              "num": 3,
+              "mission": "caesar-cipher-encryptor",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 320
+              }
+            },
+            {
+              "num": 4,
+              "mission": "auto-painting",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 320
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 400,
+            "crystaliteProductionCapacity": 1600
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 9,
+          "botMax": 2,
+          "botImprove": {
+            "crystaliteProduction": 80
+          },
+          "upgradeCost": {
+            "adamantite": 400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "worth-of-words",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 2,
+              "mission": "the-highest-building",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 160
+              }
+            },
+            {
+              "num": 3,
+              "mission": "calls-home",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 4,
+              "mission": "date-and-time-converter",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 160
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 800,
+            "crystaliteProductionCapacity": 3200
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 14,
+          "botMax": 3,
+          "botImprove": {
+            "crystaliteProduction": 120
+          },
+          "upgradeCost": {
+            "adamantite": 800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "common-words",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 2,
+              "mission": "weak-point",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 3,
+              "mission": "making-change",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 120
+              }
+            },
+            {
+              "num": 4,
+              "mission": "the-fastest-horse",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 640
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 1200,
+            "crystaliteProductionCapacity": 6400
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 21,
+          "botMax": 4,
+          "botImprove": {
+            "crystaliteProduction": 180
+          },
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "weekend-counter",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 180
+              }
+            },
+            {
+              "num": 2,
+              "mission": "hamming-distance2",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 1280
+              }
+            },
+            {
+              "num": 4,
+              "mission": "flatten-list",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 180
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 1800,
+            "crystaliteProductionCapacity": 12800
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "botMax": 5,
+          "botImprove": {
+            "crystaliteProduction": 270
+          },
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "node-subnetworks",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 270
+              }
+            },
+            {
+              "num": 2,
+              "mission": "gcd",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 270
+              }
+            },
+            {
+              "num": 4,
+              "mission": "rotate-hole",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 2560
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 2700,
+            "crystaliteProductionCapacity": 25600
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "botMax": 6,
+          "botImprove": {
+            "crystaliteProduction": 324
+          },
+          "upgradeCost": {
+            "adamantite": 6400,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "striped-words",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 4610
+              }
+            },
+            {
+              "num": 2,
+              "mission": "sort-array-by-element-frequency",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 4610
+              }
+            },
+            {
+              "num": 4,
+              "mission": "hidden-word",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 324
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 3240,
+            "crystaliteProductionCapacity": 46100
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "botMax": 7,
+          "botImprove": {
+            "crystaliteProduction": 389
+          },
+          "upgradeCost": {
+            "adamantite": 12800,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "the-square-chest",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 389
+              }
+            },
+            {
+              "num": 2,
+              "mission": "gate-puzzles",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProduction": 389
+              }
+            },
+            {
+              "num": 4,
+              "mission": "node-disconnected-users2",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "crystaliteProductionCapacity": 8300
+              }
+            }
+          ],
+          "display": {
+            "crystaliteProduction": 3890,
+            "crystaliteProductionCapacity": 83000
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "botMax": 8,
+          "botImprove": {
+            "crystaliteProduction": 467
+          },
+          "upgradeCost": {
+            "adamantite": 25600,
+            "titanium": 20400
+          },
+          "display": {
+            "crystaliteProduction": 4670,
+            "crystaliteProductionCapacity": 149000
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "botMax": 9,
+          "botImprove": {
+            "crystaliteProduction": 560
+          },
+          "upgradeCost": {
+            "adamantite": 51000,
+            "titanium": 30600
+          },
+          "display": {
+            "crystaliteProduction": 5600,
+            "crystaliteProductionCapacity": 268000
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "botMax": 10,
+          "botImprove": {
+            "crystaliteProduction": 672
+          },
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 45900
+          },
+          "display": {
+            "crystaliteProduction": 6720,
+            "crystaliteProductionCapacity": 348000
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "botMax": 11,
+          "botImprove": {
+            "crystaliteProduction": 806
+          },
+          "upgradeCost": {
+            "adamantite": 204000,
+            "titanium": 68800
+          },
+          "display": {
+            "crystaliteProduction": 8060,
+            "crystaliteProductionCapacity": 452000
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "botMax": 12,
+          "botImprove": {
+            "crystaliteProduction": 967
+          },
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 103000
+          },
+          "display": {
+            "crystaliteProduction": 9670,
+            "crystaliteProductionCapacity": 588000
+          }
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "botMax": 13,
+          "botImprove": {
+            "crystaliteProduction": 1160
+          },
+          "upgradeCost": {
+            "adamantite": 815000,
+            "titanium": 154000
+          },
+          "display": {
+            "crystaliteProduction": 11600,
+            "crystaliteProductionCapacity": 764000
+          }
+        }
+      ]
+    },
+    "adamantiteStorage": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 3,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 6
+        },
+        {
+          "count": 3,
+          "commandCenter": 10
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 3,
+          "upgradeCost": {
+            "adamantite": 100
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "say-history",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 240
+              }
+            },
+            {
+              "num": 2,
+              "mission": "days-diff",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 240
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 1200
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "binary-count",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 480
+              }
+            },
+            {
+              "num": 2,
+              "mission": "verify-anagrams",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 480
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 2400
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 6,
+          "upgradeCost": {
+            "adamantite": 400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "morse-encoder",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 960
+              }
+            },
+            {
+              "num": 2,
+              "mission": "when-is-friday",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 960
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 4800
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 9,
+          "upgradeCost": {
+            "adamantite": 800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "group-equal-consecutive",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 1920
+              }
+            },
+            {
+              "num": 2,
+              "mission": "the-ship-teams",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 1920
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 9600
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 14,
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "brackets",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 3840
+              }
+            },
+            {
+              "num": 2,
+              "mission": "morse-decoder",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 1920
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 19200
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 21,
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "friends",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 7680
+              }
+            },
+            {
+              "num": 2,
+              "mission": "area-of-a-convex-polygon",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 3840
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 38400
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "upgradeCost": {
+            "adamantite": 6400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "identify-block",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 13800
+              }
+            },
+            {
+              "num": 2,
+              "mission": "roman-numerals",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 7680
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 76800
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "upgradeCost": {
+            "adamantite": 12800,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 2,
+              "mission": "compass-map-and-spyglass",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 13800
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 138000
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "upgradeCost": {
+            "adamantite": 25600,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 2,
+              "mission": "friendly-number",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 24900
+              }
+            }
+          ],
+          "display": {
+            "adamantiteCapacity": 249000
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "upgradeCost": {
+            "adamantite": 51200,
+            "titanium": 20400
+          },
+          "display": {
+            "adamantiteCapacity": 447000
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 30600
+          },
+          "display": {
+            "adamantiteCapacity": 804000
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "upgradeCost": {
+            "adamantite": 204000,
+            "titanium": 45900
+          },
+          "display": {
+            "adamantiteCapacity": 1040000
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 68800
+          },
+          "display": {
+            "adamantiteCapacity": 1360000
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "upgradeCost": {
+            "adamantite": 816000,
+            "titanium": 103000
+          },
+          "display": {
+            "adamantiteCapacity": 1760000
+          }
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 154000
+          },
+          "display": {
+            "adamantiteCapacity": 2290000
+          }
+        }
+      ]
+    },
+    "adamantiteMine": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 4,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 2
+        },
+        {
+          "count": 3,
+          "commandCenter": 5
+        },
+        {
+          "count": 4,
+          "commandCenter": 8
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 3,
+          "upgradeCost": {
+            "adamantite": 50
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "multiply-intro",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 20
+              }
+            },
+            {
+              "num": 2,
+              "mission": "index-power",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 20
+              }
+            },
+            {
+              "num": 3,
+              "mission": "boolean-algebra",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 80
+              }
+            },
+            {
+              "num": 4,
+              "mission": "multiplication-table",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 80
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 100,
+            "adamantiteProductionCapacity": 400
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 100
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "middle-characters",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 160
+              }
+            },
+            {
+              "num": 2,
+              "mission": "conversion-into-camelcase",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 40
+              }
+            },
+            {
+              "num": 3,
+              "mission": "monkey-typing",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 40
+              }
+            },
+            {
+              "num": 4,
+              "mission": "bag-of-santa-claus",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 160
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 200,
+            "adamantiteProductionCapacity": 800
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 6,
+          "botMax": 1,
+          "botImprove": {
+            "adamantiteProduction": 40
+          },
+          "upgradeCost": {
+            "adamantite": 200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "unlucky-days",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 80
+              }
+            },
+            {
+              "num": 2,
+              "mission": "letter-queue",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 80
+              }
+            },
+            {
+              "num": 3,
+              "mission": "cut-sentence",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 320
+              }
+            },
+            {
+              "num": 4,
+              "mission": "counting-tiles",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 320
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 400,
+            "adamantiteProductionCapacity": 1600
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 9,
+          "botMax": 2,
+          "botImprove": {
+            "adamantiteProduction": 80
+          },
+          "upgradeCost": {
+            "adamantite": 400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "best-stock",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 160
+              }
+            },
+            {
+              "num": 2,
+              "mission": "absolute-sorting",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 3,
+              "mission": "good-radix",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 4,
+              "mission": "comp_funcs",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 800,
+            "adamantiteProductionCapacity": 3200
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 14,
+          "botMax": 3,
+          "botImprove": {
+            "adamantiteProduction": 120
+          },
+          "upgradeCost": {
+            "adamantite": 800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "second-index",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 2,
+              "mission": "sun-angle",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            },
+            {
+              "num": 3,
+              "mission": "double-substring",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 180
+              }
+            },
+            {
+              "num": 4,
+              "mission": "most-wanted-letter",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 640
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 1200,
+            "adamantiteProductionCapacity": 6400
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 21,
+          "botMax": 4,
+          "botImprove": {
+            "adamantiteProduction": 180
+          },
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "super-root",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 1280
+              }
+            },
+            {
+              "num": 2,
+              "mission": "the-most-frequent-weekdays",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 1280
+              }
+            },
+            {
+              "num": 3,
+              "mission": "node-crucial",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 2560
+              }
+            },
+            {
+              "num": 4,
+              "mission": "stressful-subject",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 180
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 1800,
+            "adamantiteProductionCapacity": 12800
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "botMax": 5,
+          "botImprove": {
+            "adamantiteProduction": 270
+          },
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "the-longest-palindromic",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 270
+              }
+            },
+            {
+              "num": 2,
+              "mission": "morse-clock",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 270
+              }
+            },
+            {
+              "num": 3,
+              "mission": "wrong-family",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 324
+              }
+            },
+            {
+              "num": 4,
+              "mission": "flatten-dict",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 270
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 2700,
+            "adamantiteProductionCapacity": 25600
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "botMax": 6,
+          "botImprove": {
+            "adamantiteProduction": 324
+          },
+          "upgradeCost": {
+            "adamantite": 6400,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "digits-doublets",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 324
+              }
+            },
+            {
+              "num": 2,
+              "mission": "disposable-teleports",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 324
+              }
+            },
+            {
+              "num": 4,
+              "mission": "number-factory",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 324
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 3240,
+            "adamantiteProductionCapacity": 46100
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "botMax": 7,
+          "botImprove": {
+            "adamantiteProduction": 389
+          },
+          "upgradeCost": {
+            "adamantite": 12800,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "ip-network-route-summarization",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProductionCapacity": 8300
+              }
+            },
+            {
+              "num": 4,
+              "mission": "seven-segment",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteProduction": 389
+              }
+            }
+          ],
+          "display": {
+            "adamantiteProduction": 3890,
+            "adamantiteProductionCapacity": 83000
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "botMax": 8,
+          "botImprove": {
+            "adamantiteProduction": 467
+          },
+          "upgradeCost": {
+            "adamantite": 25600,
+            "titanium": 20400
+          },
+          "display": {
+            "adamantiteProduction": 4670,
+            "adamantiteProductionCapacity": 149000
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "botMax": 9,
+          "botImprove": {
+            "adamantiteProduction": 560
+          },
+          "upgradeCost": {
+            "adamantite": 51000,
+            "titanium": 30600
+          },
+          "display": {
+            "adamantiteProduction": 5600,
+            "adamantiteProductionCapacity": 268000
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "botMax": 10,
+          "botImprove": {
+            "adamantiteProduction": 672
+          },
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 45900
+          },
+          "display": {
+            "adamantiteProduction": 6720,
+            "adamantiteProductionCapacity": 348000
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "botMax": 11,
+          "botImprove": {
+            "adamantiteProduction": 806
+          },
+          "upgradeCost": {
+            "adamantite": 204000,
+            "titanium": 68800
+          },
+          "display": {
+            "adamantiteProduction": 8060,
+            "adamantiteProductionCapacity": 452000
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "botMax": 12,
+          "botImprove": {
+            "adamantiteProduction": 967
+          },
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 103000
+          },
+          "display": {
+            "adamantiteProduction": 9670,
+            "adamantiteProductionCapacity": 588000
+          }
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "botMax": 13,
+          "botImprove": {
+            "adamantiteProduction": 1160
+          },
+          "upgradeCost": {
+            "adamantite": 815000,
+            "titanium": 154000
+          },
+          "display": {
+            "adamantiteProduction": 11600,
+            "adamantiteProductionCapacity": 764000
+          }
+        }
+      ]
+    },
+    "titaniumStorage": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 6,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 7
+        },
+        {
+          "count": 2,
+          "commandCenter": 10
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "upgradeCost": {
+            "adamantite": 12800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "x-o-referee",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 6150
+              }
+            }
+          ],
+          "display": {
+            "titaniumCapacity": 61500
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "upgradeCost": {
+            "adamantite": 19200,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "cipher-map2",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 11100
+              }
+            }
+          ],
+          "display": {
+            "titaniumCapacity": 111000
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "upgradeCost": {
+            "adamantite": 38400,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "treasures",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "adamantiteCapacity": 19900
+              }
+            }
+          ],
+          "display": {
+            "titaniumCapacity": 199000
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "upgradeCost": {
+            "adamantite": 76800,
+            "titanium": 20400
+          },
+          "display": {
+            "titaniumCapacity": 357000
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "upgradeCost": {
+            "adamantite": 153000,
+            "titanium": 30600
+          },
+          "display": {
+            "titaniumCapacity": 642000
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "upgradeCost": {
+            "adamantite": 245000,
+            "titanium": 45900
+          },
+          "display": {
+            "titaniumCapacity": 834000
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "upgradeCost": {
+            "adamantite": 490000,
+            "titanium": 68800
+          },
+          "display": {
+            "titaniumCapacity": 1090000
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "upgradeCost": {
+            "adamantite": 979000,
+            "titanium": 103000
+          },
+          "display": {
+            "titaniumCapacity": 1410000
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "upgradeCost": {
+            "adamantite": 1960000,
+            "titanium": 154000
+          },
+          "display": {
+            "titaniumCapacity": 1830000
+          }
+        }
+      ]
+    },
+    "titaniumLab": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 7,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 7
+        },
+        {
+          "count": 2,
+          "commandCenter": 9
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "botMax": 5,
+          "botImprove": {
+            "titaniumProduction": 216
+          },
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "triangle-angles",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProductionCapacity": 4100
+              }
+            },
+            {
+              "num": 2,
+              "mission": "find-sequence",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProduction": 432
+              }
+            }
+          ],
+          "display": {
+            "titaniumProduction": 2160,
+            "titaniumProductionCapacity": 20500
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "botMax": 6,
+          "botImprove": {
+            "titaniumProduction": 259
+          },
+          "upgradeCost": {
+            "adamantite": 6400,
+            "titanium": 5120
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "completely-empty",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProduction": 518
+              }
+            },
+            {
+              "num": 2,
+              "mission": "find-friends",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProductionCapacity": 7380
+              }
+            }
+          ],
+          "display": {
+            "titaniumProduction": 2590,
+            "titaniumProductionCapacity": 36900
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "botMax": 7,
+          "botImprove": {
+            "titaniumProduction": 311
+          },
+          "upgradeCost": {
+            "adamantite": 12800,
+            "titanium": 10200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "three-points-circle",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProductionCapacity": 13280
+              }
+            },
+            {
+              "num": 2,
+              "mission": "amsco-cipher",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "titaniumProduction": 622
+              }
+            }
+          ],
+          "display": {
+            "titaniumProduction": 3110,
+            "titaniumProductionCapacity": 66400
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "botMax": 8,
+          "botImprove": {
+            "titaniumProduction": 374
+          },
+          "upgradeCost": {
+            "adamantite": 25600,
+            "titanium": 20400
+          },
+          "display": {
+            "titaniumProduction": 3740,
+            "titaniumProductionCapacity": 119000
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "botMax": 9,
+          "botImprove": {
+            "titaniumProduction": 448
+          },
+          "upgradeCost": {
+            "adamantite": 51000,
+            "titanium": 30600
+          },
+          "display": {
+            "titaniumProduction": 4480,
+            "titaniumProductionCapacity": 214000
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "botMax": 10,
+          "botImprove": {
+            "titaniumProduction": 538
+          },
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 45900
+          },
+          "display": {
+            "titaniumProduction": 5380,
+            "titaniumProductionCapacity": 278000
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "botMax": 11,
+          "botImprove": {
+            "titaniumProduction": 645
+          },
+          "upgradeCost": {
+            "adamantite": 204000,
+            "titanium": 68800
+          },
+          "display": {
+            "titaniumProduction": 6450,
+            "titaniumProductionCapacity": 362000
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "botMax": 12,
+          "botImprove": {
+            "titaniumProduction": 774
+          },
+          "upgradeCost": {
+            "adamantite": 408000,
+            "titanium": 103000
+          },
+          "display": {
+            "titaniumProduction": 7740,
+            "titaniumProductionCapacity": 470000
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "botMax": 13,
+          "botImprove": {
+            "titaniumProduction": 928
+          },
+          "upgradeCost": {
+            "adamantite": 815000,
+            "titanium": 154000
+          },
+          "display": {
+            "titaniumProduction": 9280,
+            "titaniumProductionCapacity": 611000
+          }
+        }
+      ]
+    },
+    "vault": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "resource",
+      "position": 5,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 6
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 72,
+          "upgradeTime": 21600,
+          "commandCenter": 6,
+          "energy": 10,
+          "upgradeCost": {
+            "adamantite": 8000
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 144,
+          "upgradeTime": 43200,
+          "commandCenter": 7,
+          "energy": 16,
+          "upgradeCost": {
+            "adamantite": 16000
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 288,
+          "upgradeTime": 86400,
+          "commandCenter": 8,
+          "energy": 24,
+          "upgradeCost": {
+            "adamantite": 32000,
+            "titanium": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 576,
+          "upgradeTime": 173000,
+          "commandCenter": 9,
+          "energy": 31,
+          "upgradeCost": {
+            "adamantite": 64000,
+            "titanium": 25500
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 576,
+          "upgradeTime": 346000,
+          "commandCenter": 10,
+          "energy": 40,
+          "upgradeCost": {
+            "adamantite": 128000,
+            "titanium": 51000
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 864,
+          "upgradeTime": 518000,
+          "commandCenter": 11,
+          "energy": 52,
+          "upgradeCost": {
+            "adamantite": 255000,
+            "titanium": 76500
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 475,
+          "upgradeTime": 570000,
+          "commandCenter": 12,
+          "energy": 68,
+          "upgradeCost": {
+            "adamantite": 510000,
+            "titanium": 115000
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 523,
+          "upgradeTime": 627000,
+          "commandCenter": 13,
+          "energy": 88,
+          "upgradeCost": {
+            "adamantite": 1020000,
+            "titanium": 172000
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": 575,
+          "upgradeTime": 690000,
+          "commandCenter": 14,
+          "energy": 115,
+          "upgradeCost": {
+            "adamantite": 2040000,
+            "titanium": 258000
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": 632,
+          "upgradeTime": 759000,
+          "commandCenter": 15,
+          "energy": 150,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 385000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "electronic": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "resource",
+      "position": 5,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 2
+        },
+        {
+          "count": 2,
+          "commandCenter": 4
+        },
+        {
+          "count": 3,
+          "commandCenter": 7
+        },
+        {
+          "count": 4,
+          "commandCenter": 10
+        },
+        {
+          "count": 5,
+          "commandCenter": 13
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "upgradeCost": {
+            "adamantite": 300
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "secret-message",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 8
+              }
+            },
+            {
+              "num": 2,
+              "mission": "correct-sentence",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 8
+              }
+            },
+            {
+              "num": 3,
+              "mission": "long-repeat",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 8
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 40
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "median",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 16
+              }
+            },
+            {
+              "num": 2,
+              "mission": "right-to-left",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 16
+              }
+            },
+            {
+              "num": 3,
+              "mission": "house-password",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 16
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 80
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "digit-stack",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 32
+              }
+            },
+            {
+              "num": 2,
+              "mission": "reverse-roman-numerals",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 32
+              }
+            },
+            {
+              "num": 3,
+              "mission": "building-base",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 32
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 160
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "upgradeCost": {
+            "adamantite": 6400
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "count-consecutive-summers",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 64
+              }
+            },
+            {
+              "num": 2,
+              "mission": "safe-code",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 64
+              }
+            },
+            {
+              "num": 3,
+              "mission": "remove-accents",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 64
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 320
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "upgradeCost": {
+            "adamantite": 12800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "stair-steps",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 96
+              }
+            },
+            {
+              "num": 2,
+              "mission": "wild-dogs",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 96
+              }
+            },
+            {
+              "num": 3,
+              "mission": "the-stone-wall",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 96
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 480
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "upgradeCost": {
+            "adamantite": 19200
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "long-repeat-inside",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 124.80000000000001
+              }
+            },
+            {
+              "num": 3,
+              "mission": "humpty-dumpty",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 124.80000000000001
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 624
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "upgradeCost": {
+            "adamantite": 38400,
+            "titanium": 12800
+          },
+          "missions": [
+            {
+              "num": 1,
+              "mission": "keys-and-locks",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 149.76
+              }
+            },
+            {
+              "num": 3,
+              "mission": "ground-for-the-house",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 149.76
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 748.8
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 576,
+          "upgradeTime": 173000,
+          "commandCenter": 9,
+          "upgradeCost": {
+            "adamantite": 76800,
+            "titanium": 30600
+          },
+          "missions": [
+            {
+              "num": 3,
+              "mission": "short-string-conversion",
+              "codeXp": 5,
+              "codeLevel": 1,
+              "display": {
+                "generateEnergy": 179.712
+              }
+            }
+          ],
+          "display": {
+            "generateEnergy": 898.56
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 346000,
+          "commandCenter": 10,
+          "upgradeCost": {
+            "adamantite": 154000,
+            "titanium": 61200
+          },
+          "display": {
+            "generateEnergy": 1078.272
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 864,
+          "upgradeTime": 518000,
+          "commandCenter": 11,
+          "upgradeCost": {
+            "adamantite": 255000,
+            "titanium": 91800
+          },
+          "display": {
+            "generateEnergy": 1293.9263999999998
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 475,
+          "upgradeTime": 570000,
+          "commandCenter": 12,
+          "upgradeCost": {
+            "adamantite": 510000,
+            "titanium": 138000
+          },
+          "display": {
+            "generateEnergy": 1682.10432
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "upgradeCost": {
+            "adamantite": 1020000,
+            "titanium": 206000
+          },
+          "display": {
+            "generateEnergy": 2186.735616
+          }
+        },
+        {
+          "level": 13,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "upgradeCost": {
+            "adamantite": 2040000,
+            "titanium": 309000
+          },
+          "display": {
+            "generateEnergy": 2842.7563008
+          }
+        },
+        {
+          "level": 14,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 616000
+          },
+          "display": {
+            "generateEnergy": 3411.30756096
+          }
+        }
+      ]
+    },
+    "craftPad": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "support",
+      "position": 1,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 3
+        },
+        {
+          "count": 3,
+          "commandCenter": 5
+        },
+        {
+          "count": 4,
+          "commandCenter": 12
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 6,
+          "upgradeCost": {
+            "adamantite": 250
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 1800,
+          "commandCenter": 2,
+          "energy": 8,
+          "upgradeCost": {
+            "adamantite": 500
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 6300,
+          "commandCenter": 3,
+          "energy": 12,
+          "upgradeCost": {
+            "adamantite": 1000
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 12600,
+          "commandCenter": 4,
+          "energy": 18,
+          "upgradeCost": {
+            "adamantite": 2000
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 25200,
+          "commandCenter": 5,
+          "energy": 28,
+          "upgradeCost": {
+            "adamantite": 4000
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 50400,
+          "commandCenter": 6,
+          "energy": 42,
+          "upgradeCost": {
+            "adamantite": 8000
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 101000,
+          "commandCenter": 7,
+          "energy": 64,
+          "upgradeCost": {
+            "adamantite": 16000
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 202000,
+          "commandCenter": 8,
+          "energy": 96,
+          "upgradeCost": {
+            "adamantite": 32000,
+            "titanium": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 403000,
+          "commandCenter": 9,
+          "energy": 124,
+          "upgradeCost": {
+            "adamantite": 64000,
+            "titanium": 25500
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 576000,
+          "commandCenter": 10,
+          "energy": 162,
+          "upgradeCost": {
+            "adamantite": 128000,
+            "titanium": 51000
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 691000,
+          "commandCenter": 11,
+          "energy": 210,
+          "upgradeCost": {
+            "adamantite": 255000,
+            "titanium": 76500
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 760000,
+          "commandCenter": 12,
+          "energy": 272,
+          "upgradeCost": {
+            "adamantite": 510000,
+            "titanium": 115000
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 836000,
+          "commandCenter": 13,
+          "energy": 354,
+          "upgradeCost": {
+            "adamantite": 1020000,
+            "titanium": 172000
+          },
+          "display": {}
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 920000,
+          "commandCenter": 14,
+          "energy": 460,
+          "upgradeCost": {
+            "adamantite": 2040000,
+            "titanium": 258000
+          },
+          "display": {}
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 1010000,
+          "commandCenter": 15,
+          "energy": 598,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 385000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "laboratory": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "support",
+      "position": 6,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 5
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 72,
+          "upgradeTime": 28800,
+          "commandCenter": 5,
+          "energy": 42,
+          "botMax": 3,
+          "botImprove": {
+            "research": 20
+          },
+          "upgradeCost": {
+            "adamantite": 16000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 3,
+            "rocketBot": 0,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 72,
+          "upgradeTime": 57600,
+          "commandCenter": 6,
+          "energy": 63,
+          "botMax": 4,
+          "botImprove": {
+            "research": 20
+          },
+          "upgradeCost": {
+            "adamantite": 25600
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 5,
+            "rocketBot": 0,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 144,
+          "upgradeTime": 115000,
+          "commandCenter": 7,
+          "energy": 96,
+          "botMax": 5,
+          "botImprove": {
+            "research": 18
+          },
+          "upgradeCost": {
+            "adamantite": 51200
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 7,
+            "rocketBot": 0,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 288,
+          "upgradeTime": 202000,
+          "commandCenter": 8,
+          "energy": 144,
+          "botMax": 6,
+          "botImprove": {
+            "research": 18
+          },
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 20500
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 9,
+            "rocketBot": 3,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 576,
+          "upgradeTime": 403000,
+          "commandCenter": 9,
+          "energy": 186,
+          "botMax": 7,
+          "botImprove": {
+            "research": 18
+          },
+          "upgradeCost": {
+            "adamantite": 205000,
+            "titanium": 40800
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 11,
+            "rocketBot": 5,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 576,
+          "upgradeTime": 576000,
+          "commandCenter": 10,
+          "energy": 243,
+          "botMax": 8,
+          "botImprove": {
+            "research": 18
+          },
+          "upgradeCost": {
+            "adamantite": 410000,
+            "titanium": 81600
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 13,
+            "rocketBot": 7,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 864,
+          "upgradeTime": 691000,
+          "commandCenter": 11,
+          "energy": 315,
+          "botMax": 9,
+          "botImprove": {
+            "research": 18
+          },
+          "upgradeCost": {
+            "adamantite": 612000,
+            "titanium": 122000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 15,
+            "rocketBot": 9,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 475,
+          "upgradeTime": 760000,
+          "commandCenter": 12,
+          "energy": 408,
+          "botMax": 10,
+          "botImprove": {
+            "research": 17
+          },
+          "upgradeCost": {
+            "adamantite": 1220000,
+            "titanium": 138000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 17,
+            "rocketBot": 11,
+            "heavyBot": 0
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 523,
+          "upgradeTime": 836000,
+          "commandCenter": 13,
+          "energy": 531,
+          "botMax": 11,
+          "botImprove": {
+            "research": 17
+          },
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 206000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 19,
+            "rocketBot": 13,
+            "heavyBot": 3
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 575,
+          "upgradeTime": 920000,
+          "commandCenter": 14,
+          "energy": 690,
+          "botMax": 12,
+          "botImprove": {
+            "research": 17
+          },
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 309000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 21,
+            "rocketBot": 15,
+            "heavyBot": 5
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 632,
+          "upgradeTime": 1010000,
+          "commandCenter": 15,
+          "energy": 897,
+          "botMax": 13,
+          "botImprove": {
+            "research": 17
+          },
+          "upgradeCost": {
+            "adamantite": 4890000,
+            "titanium": 462000
+          },
+          "display": {},
+          "research": {
+            "infantryBot": 23,
+            "rocketBot": 17,
+            "heavyBot": 7
+          }
+        }
+      ]
+    },
+    "bots": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "support",
+      "position": 2,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 3
+        },
+        {
+          "count": 2,
+          "commandCenter": 5
+        },
+        {
+          "count": 3,
+          "commandCenter": 9
+        },
+        {
+          "count": 4,
+          "commandCenter": 13
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 9,
+          "botSpace": 3,
+          "upgradeCost": {
+            "adamantite": 1600
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 14,
+          "botSpace": 5,
+          "upgradeCost": {
+            "adamantite": 3200
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 21,
+          "botSpace": 7,
+          "upgradeCost": {
+            "adamantite": 6400
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 32,
+          "botSpace": 9,
+          "upgradeCost": {
+            "adamantite": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 48,
+          "botSpace": 11,
+          "upgradeCost": {
+            "adamantite": 19200
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 72,
+          "botSpace": 13,
+          "upgradeCost": {
+            "adamantite": 38400,
+            "titanium": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 576,
+          "upgradeTime": 173000,
+          "commandCenter": 9,
+          "energy": 93,
+          "botSpace": 15,
+          "upgradeCost": {
+            "adamantite": 76800,
+            "titanium": 30600
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 576,
+          "upgradeTime": 346000,
+          "commandCenter": 10,
+          "energy": 122,
+          "botSpace": 17,
+          "upgradeCost": {
+            "adamantite": 154000,
+            "titanium": 61200
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": 864,
+          "upgradeTime": 518000,
+          "commandCenter": 11,
+          "energy": 158,
+          "botSpace": 18,
+          "upgradeCost": {
+            "adamantite": 255000,
+            "titanium": 91800
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": 475,
+          "upgradeTime": 570000,
+          "commandCenter": 12,
+          "energy": 204,
+          "botSpace": 19,
+          "upgradeCost": {
+            "adamantite": 510000,
+            "titanium": 138000
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 266,
+          "botSpace": 20,
+          "upgradeCost": {
+            "adamantite": 1020000,
+            "titanium": 206000
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 345,
+          "botSpace": 21,
+          "upgradeCost": {
+            "adamantite": 2040000,
+            "titanium": 309000
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 448,
+          "botSpace": 22,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 616000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "radar": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "support",
+      "position": 4,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 4
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 36,
+          "upgradeTime": 10800,
+          "commandCenter": 4,
+          "energy": 18,
+          "upgradeCost": {
+            "adamantite": 8000
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 72,
+          "upgradeTime": 21600,
+          "commandCenter": 5,
+          "energy": 28,
+          "upgradeCost": {
+            "adamantite": 16000
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 72,
+          "upgradeTime": 28800,
+          "commandCenter": 6,
+          "energy": 42,
+          "upgradeCost": {
+            "adamantite": 25600
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 144,
+          "upgradeTime": 57600,
+          "commandCenter": 7,
+          "energy": 64,
+          "upgradeCost": {
+            "adamantite": 51200
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 288,
+          "upgradeTime": 115000,
+          "commandCenter": 8,
+          "energy": 96,
+          "upgradeCost": {
+            "adamantite": 102000,
+            "titanium": 20500
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 9,
+          "energy": 124,
+          "upgradeCost": {
+            "adamantite": 205000,
+            "titanium": 40800
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 576,
+          "upgradeTime": 461000,
+          "commandCenter": 10,
+          "energy": 162,
+          "upgradeCost": {
+            "adamantite": 410000,
+            "titanium": 81600
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 864,
+          "upgradeTime": 691000,
+          "commandCenter": 11,
+          "energy": 210,
+          "upgradeCost": {
+            "adamantite": 612000,
+            "titanium": 122000
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": 475,
+          "upgradeTime": 760000,
+          "commandCenter": 12,
+          "energy": 272,
+          "upgradeCost": {
+            "adamantite": 1220000,
+            "titanium": 184000
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": 523,
+          "upgradeTime": 836000,
+          "commandCenter": 13,
+          "energy": 354,
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 275000
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": 575,
+          "upgradeTime": 920000,
+          "commandCenter": 14,
+          "energy": 460,
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 412000
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": 632,
+          "upgradeTime": 1010000,
+          "commandCenter": 15,
+          "energy": 598,
+          "upgradeCost": {
+            "adamantite": 4890000,
+            "titanium": 616000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "garbage": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "support",
+      "position": 5,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 4
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 36,
+          "upgradeTime": 18000,
+          "commandCenter": 4,
+          "energy": 18,
+          "botMax": 2,
+          "botImprove": {
+            "decExpeditionTime": 30
+          },
+          "upgradeCost": {
+            "adamantite": 9600
+          },
+          "display": {
+            "short.lvl1": 50,
+            "short.lvl2": 0,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 25,
+            "long.lvl3": 0
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 1600
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 8000
+            }
+          }
+        },
+        {
+          "level": 2,
+          "xpGain": 72,
+          "upgradeTime": 36000,
+          "commandCenter": 5,
+          "energy": 28,
+          "botMax": 3,
+          "botImprove": {
+            "decExpeditionTime": 30
+          },
+          "upgradeCost": {
+            "adamantite": 19200
+          },
+          "display": {
+            "short.lvl1": 55,
+            "short.lvl2": 0,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 30,
+            "long.lvl3": 0
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 3200
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 16000
+            }
+          }
+        },
+        {
+          "level": 3,
+          "xpGain": 72,
+          "upgradeTime": 57600,
+          "commandCenter": 6,
+          "energy": 42,
+          "botMax": 4,
+          "botImprove": {
+            "decExpeditionTime": 30
+          },
+          "upgradeCost": {
+            "adamantite": 32000
+          },
+          "display": {
+            "short.lvl1": 60,
+            "short.lvl2": 0,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 35,
+            "long.lvl3": 5
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 6400
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 32000
+            }
+          }
+        },
+        {
+          "level": 4,
+          "xpGain": 144,
+          "upgradeTime": 115000,
+          "commandCenter": 7,
+          "energy": 64,
+          "botMax": 5,
+          "botImprove": {
+            "decExpeditionTime": 30
+          },
+          "upgradeCost": {
+            "adamantite": 64000
+          },
+          "display": {
+            "short.lvl1": 65,
+            "short.lvl2": 5,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 40,
+            "long.lvl3": 7
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 12800
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 64000
+            }
+          }
+        },
+        {
+          "level": 5,
+          "xpGain": 288,
+          "upgradeTime": 230000,
+          "commandCenter": 8,
+          "energy": 96,
+          "botMax": 6,
+          "botImprove": {
+            "decExpeditionTime": 25
+          },
+          "upgradeCost": {
+            "adamantite": 128000,
+            "titanium": 20500
+          },
+          "display": {
+            "short.lvl1": 70,
+            "short.lvl2": 7,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 44,
+            "long.lvl3": 10
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 25600
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 128000
+            }
+          }
+        },
+        {
+          "level": 6,
+          "xpGain": 576,
+          "upgradeTime": 461000,
+          "commandCenter": 9,
+          "energy": 124,
+          "botMax": 7,
+          "botImprove": {
+            "decExpeditionTime": 25
+          },
+          "upgradeCost": {
+            "adamantite": 256000,
+            "titanium": 40800
+          },
+          "display": {
+            "short.lvl1": 70,
+            "short.lvl2": 10,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 49,
+            "long.lvl3": 12
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 51200
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 256000
+            }
+          }
+        },
+        {
+          "level": 7,
+          "xpGain": 576,
+          "upgradeTime": 922000,
+          "commandCenter": 10,
+          "energy": 162,
+          "botMax": 8,
+          "botImprove": {
+            "decExpeditionTime": 25
+          },
+          "upgradeCost": {
+            "adamantite": 410000,
+            "titanium": 81600
+          },
+          "display": {
+            "short.lvl1": 75,
+            "short.lvl2": 12,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 54,
+            "long.lvl3": 15
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 102000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 512000
+            }
+          }
+        },
+        {
+          "level": 8,
+          "xpGain": 864,
+          "upgradeTime": 1040000,
+          "commandCenter": 11,
+          "energy": 210,
+          "botMax": 9,
+          "botImprove": {
+            "decExpeditionTime": 25
+          },
+          "upgradeCost": {
+            "adamantite": 816000,
+            "titanium": 122000
+          },
+          "display": {
+            "short.lvl1": 80,
+            "short.lvl2": 15,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 60,
+            "long.lvl3": 17
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 204000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 1020000
+            }
+          }
+        },
+        {
+          "level": 9,
+          "xpGain": 475,
+          "upgradeTime": 1140000,
+          "commandCenter": 12,
+          "energy": 272,
+          "botMax": 10,
+          "botImprove": {
+            "decExpeditionTime": 20
+          },
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 184000
+          },
+          "display": {
+            "short.lvl1": 85,
+            "short.lvl2": 17,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 65,
+            "long.lvl3": 20
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 306000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 2040000
+            }
+          }
+        },
+        {
+          "level": 10,
+          "xpGain": 523,
+          "upgradeTime": 1250000,
+          "commandCenter": 13,
+          "energy": 354,
+          "botMax": 11,
+          "botImprove": {
+            "decExpeditionTime": 20
+          },
+          "upgradeCost": {
+            "adamantite": 2450000,
+            "titanium": 275000
+          },
+          "display": {
+            "short.lvl1": 90,
+            "short.lvl2": 20,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 70,
+            "long.lvl3": 22
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 612000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 4080000
+            }
+          }
+        },
+        {
+          "level": 11,
+          "xpGain": 575,
+          "upgradeTime": 1380000,
+          "commandCenter": 14,
+          "energy": 460,
+          "botMax": 12,
+          "botImprove": {
+            "decExpeditionTime": 20
+          },
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 412000
+          },
+          "display": {
+            "short.lvl1": 95,
+            "short.lvl2": 22,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 75,
+            "long.lvl3": 24
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 1220000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 8160000
+            }
+          }
+        },
+        {
+          "level": 12,
+          "xpGain": 632,
+          "upgradeTime": 1010000,
+          "commandCenter": 15,
+          "energy": 598,
+          "botMax": 13,
+          "botImprove": {
+            "decExpeditionTime": 20
+          },
+          "upgradeCost": {
+            "adamantite": 6520000,
+            "titanium": 616000
+          },
+          "display": {
+            "short.lvl1": 100,
+            "short.lvl2": 24,
+            "short.lvl3": 0,
+            "long.lvl1": 100,
+            "long.lvl2": 80,
+            "long.lvl3": 27
+          },
+          "shortExpedition": {
+            "time": 18000,
+            "price": {
+              "crystalite": 2440000
+            }
+          },
+          "longExpedition": {
+            "time": 72000,
+            "price": {
+              "crystalite": 16300000
+            }
+          }
+        }
+      ]
+    },
+    "flagman": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "support",
+      "position": 7,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 9
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 9,
+          "energy": 124,
+          "upgradeCost": {
+            "adamantite": 384000,
+            "titanium": 61200
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 576,
+          "upgradeTime": 461000,
+          "commandCenter": 10,
+          "energy": 162,
+          "upgradeCost": {
+            "adamantite": 768000,
+            "titanium": 122000
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 864,
+          "upgradeTime": 691000,
+          "commandCenter": 11,
+          "energy": 210,
+          "upgradeCost": {
+            "adamantite": 816000,
+            "titanium": 184000
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 475,
+          "upgradeTime": 760000,
+          "commandCenter": 12,
+          "energy": 272,
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 275000
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 523,
+          "upgradeTime": 836000,
+          "commandCenter": 13,
+          "energy": 354,
+          "upgradeCost": {
+            "adamantite": 1630000,
+            "titanium": 413000
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 575,
+          "upgradeTime": 690000,
+          "commandCenter": 14,
+          "energy": 460,
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 618000
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 632,
+          "upgradeTime": 759000,
+          "commandCenter": 15,
+          "energy": 598,
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 924000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "sentryGun": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "defense",
+      "position": 1,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        },
+        {
+          "count": 2,
+          "commandCenter": 2
+        },
+        {
+          "count": 3,
+          "commandCenter": 4
+        },
+        {
+          "count": 4,
+          "commandCenter": 6
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 2,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "energy": 3,
+          "upgradeCost": {
+            "adamantite": 150
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 9,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "energy": 4,
+          "upgradeCost": {
+            "adamantite": 300
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 18,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "energy": 6,
+          "upgradeCost": {
+            "adamantite": 600
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 36,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "energy": 9,
+          "upgradeCost": {
+            "adamantite": 1200
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 72,
+          "upgradeTime": 7200,
+          "commandCenter": 5,
+          "energy": 14,
+          "upgradeCost": {
+            "adamantite": 2400
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 72,
+          "upgradeTime": 14400,
+          "commandCenter": 6,
+          "energy": 21,
+          "upgradeCost": {
+            "adamantite": 4800
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 144,
+          "upgradeTime": 28800,
+          "commandCenter": 7,
+          "energy": 32,
+          "upgradeCost": {
+            "adamantite": 9600
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 48,
+          "upgradeCost": {
+            "adamantite": 19200,
+            "titanium": 7680
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 62,
+          "upgradeCost": {
+            "adamantite": 38400,
+            "titanium": 15300
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 81,
+          "upgradeCost": {
+            "adamantite": 76800,
+            "titanium": 30600
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 105,
+          "upgradeCost": {
+            "adamantite": 153000,
+            "titanium": 45900
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 136,
+          "upgradeCost": {
+            "adamantite": 306000,
+            "titanium": 68800
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 177,
+          "upgradeCost": {
+            "adamantite": 612000,
+            "titanium": 103000
+          },
+          "display": {}
+        },
+        {
+          "level": 14,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 230,
+          "upgradeCost": {
+            "adamantite": 1220000,
+            "titanium": 154000
+          },
+          "display": {}
+        },
+        {
+          "level": 15,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 299,
+          "upgradeCost": {
+            "adamantite": 2440000,
+            "titanium": 231000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "machineGun": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "defense",
+      "position": 2,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 8
+        },
+        {
+          "count": 2,
+          "commandCenter": 10
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 288,
+          "upgradeTime": 57600,
+          "commandCenter": 8,
+          "energy": 72,
+          "upgradeCost": {
+            "adamantite": 32000,
+            "titanium": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 576,
+          "upgradeTime": 115000,
+          "commandCenter": 9,
+          "energy": 93,
+          "upgradeCost": {
+            "adamantite": 64000,
+            "titanium": 25500
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 576,
+          "upgradeTime": 230000,
+          "commandCenter": 10,
+          "energy": 122,
+          "upgradeCost": {
+            "adamantite": 128000,
+            "titanium": 51000
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 864,
+          "upgradeTime": 346000,
+          "commandCenter": 11,
+          "energy": 158,
+          "upgradeCost": {
+            "adamantite": 255000,
+            "titanium": 76500
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 475,
+          "upgradeTime": 380000,
+          "commandCenter": 12,
+          "energy": 204,
+          "upgradeCost": {
+            "adamantite": 306000,
+            "titanium": 68800
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 266,
+          "upgradeCost": {
+            "adamantite": 612000,
+            "titanium": 103000
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 345,
+          "upgradeCost": {
+            "adamantite": 1220000,
+            "titanium": 154000
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 448,
+          "upgradeCost": {
+            "adamantite": 2440000,
+            "titanium": 231000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "mine": {
+      "size": {
+        "x": 1,
+        "y": 1
+      },
+      "category": "defense",
+      "position": 3,
+      "counts": [
+        {
+          "count": 2,
+          "commandCenter": 2
+        },
+        {
+          "count": 4,
+          "commandCenter": 3
+        },
+        {
+          "count": 6,
+          "commandCenter": 4
+        },
+        {
+          "count": 8,
+          "commandCenter": 5
+        },
+        {
+          "count": 10,
+          "commandCenter": 6
+        },
+        {
+          "count": 11,
+          "commandCenter": 7
+        },
+        {
+          "count": 12,
+          "commandCenter": 8
+        },
+        {
+          "count": 13,
+          "commandCenter": 9
+        },
+        {
+          "count": 14,
+          "commandCenter": 10
+        },
+        {
+          "count": 15,
+          "commandCenter": 11
+        },
+        {
+          "count": 16,
+          "commandCenter": 12
+        },
+        {
+          "count": 17,
+          "commandCenter": 13
+        },
+        {
+          "count": 18,
+          "commandCenter": 14
+        },
+        {
+          "count": 19,
+          "commandCenter": 15
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 0,
+          "upgradeTime": 0,
+          "commandCenter": 2,
+          "energy": 0,
+          "upgradeCost": {
+            "adamantite": 1000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "defPlatform": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "defense",
+      "position": 4,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 9
+        },
+        {
+          "count": 2,
+          "commandCenter": 11
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 576,
+          "upgradeTime": 173000,
+          "commandCenter": 9,
+          "energy": 12,
+          "upgradeCost": {
+            "adamantite": 76800,
+            "titanium": 30600
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 576,
+          "upgradeTime": 346000,
+          "commandCenter": 10,
+          "energy": 16,
+          "upgradeCost": {
+            "adamantite": 154000,
+            "titanium": 61200
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": 864,
+          "upgradeTime": 518000,
+          "commandCenter": 11,
+          "energy": 21,
+          "upgradeCost": {
+            "adamantite": 306000,
+            "titanium": 91800
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": 475,
+          "upgradeTime": 570000,
+          "commandCenter": 12,
+          "energy": 27,
+          "upgradeCost": {
+            "adamantite": 612000,
+            "titanium": 138000
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": 523,
+          "upgradeTime": 418000,
+          "commandCenter": 13,
+          "energy": 35,
+          "upgradeCost": {
+            "adamantite": 1220000,
+            "titanium": 206000
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 46,
+          "upgradeCost": {
+            "adamantite": 2450000,
+            "titanium": 309000
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 60,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 616000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "rocketGun": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "defense",
+      "position": 5,
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 14
+        }
+      ],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": 575,
+          "upgradeTime": 460000,
+          "commandCenter": 14,
+          "energy": 690,
+          "upgradeCost": {
+            "adamantite": 3260000,
+            "titanium": 309000
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": 632,
+          "upgradeTime": 506000,
+          "commandCenter": 15,
+          "energy": 897,
+          "upgradeCost": {
+            "adamantite": 4080000,
+            "titanium": 616000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "weather": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 6
+        }
+      ],
+      "stats": []
+    },
+    "goldenCat": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "coin": 5000
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 1
+    },
+    "rocketStone": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "adamantite": 10000
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 2
+    },
+    "scarecrow": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "adamantite": 150000
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 3
+    },
+    "ufo": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "coin": 250
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 4
+    },
+    "zeus": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "coin": 1000
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 5
+    },
+    "dragonBones": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {
+            "adamantite": 250000
+          },
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ],
+      "category": "decor",
+      "position": 6
+    },
+    "flagStock": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "counts": [
+        {
+          "count": 1,
+          "commandCenter": 1
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "hitpoints": 100
+          },
+          "level": 1,
+          "requiredPlayerLevel": 1,
+          "upgradeCost": {},
+          "upgradeTime": 0,
+          "xpGain": 0
+        }
+      ]
+    }
+  },
+  "levels": [
+    {
+      "level": 0,
+      "exp": 0,
+      "rewards": {}
+    },
+    {
+      "level": 1,
+      "exp": 15,
+      "rewards": {
+        "coin": 1,
+        "crystalite": 100,
+        "adamantite": 200
+      }
+    },
+    {
+      "level": 2,
+      "exp": 30,
+      "rewards": {
+        "coin": 2,
+        "crystalite": 200,
+        "adamantite": 400
+      }
+    },
+    {
+      "level": 3,
+      "exp": 60,
+      "rewards": {
+        "coin": 3,
+        "crystalite": 300,
+        "adamantite": 600
+      }
+    },
+    {
+      "level": 4,
+      "exp": 90,
+      "rewards": {
+        "coin": 4,
+        "crystalite": 400,
+        "adamantite": 800
+      }
+    },
+    {
+      "level": 5,
+      "exp": 135,
+      "rewards": {
+        "coin": 5,
+        "crystalite": 500,
+        "adamantite": 1000
+      }
+    },
+    {
+      "level": 6,
+      "exp": 202,
+      "rewards": {
+        "coin": 6,
+        "crystalite": 600,
+        "adamantite": 1200
+      }
+    },
+    {
+      "level": 7,
+      "exp": 304,
+      "rewards": {
+        "coin": 7,
+        "crystalite": 700,
+        "adamantite": 1400
+      }
+    },
+    {
+      "level": 8,
+      "exp": 456,
+      "rewards": {
+        "coin": 8,
+        "crystalite": 800,
+        "adamantite": 1600
+      }
+    },
+    {
+      "level": 9,
+      "exp": 592,
+      "rewards": {
+        "coin": 9,
+        "crystalite": 900,
+        "adamantite": 1800
+      }
+    },
+    {
+      "level": 10,
+      "exp": 770,
+      "rewards": {
+        "coin": 10,
+        "crystalite": 1000,
+        "adamantite": 2000
+      }
+    },
+    {
+      "level": 11,
+      "exp": 1001,
+      "rewards": {
+        "coin": 11,
+        "crystalite": 1100,
+        "adamantite": 2200
+      }
+    },
+    {
+      "level": 12,
+      "exp": 1301,
+      "rewards": {
+        "coin": 12,
+        "crystalite": 1200,
+        "adamantite": 2400
+      }
+    },
+    {
+      "level": 13,
+      "exp": 1692,
+      "rewards": {
+        "coin": 13,
+        "crystalite": 1300,
+        "adamantite": 2600
+      }
+    },
+    {
+      "level": 14,
+      "exp": 2199,
+      "rewards": {
+        "coin": 14,
+        "crystalite": 1400,
+        "adamantite": 2800
+      }
+    },
+    {
+      "level": 15,
+      "exp": 2639,
+      "rewards": {
+        "coin": 15,
+        "crystalite": 1500,
+        "adamantite": 3000
+      }
+    },
+    {
+      "level": 16,
+      "exp": 3167,
+      "rewards": {
+        "coin": 16,
+        "crystalite": 1600,
+        "adamantite": 3200
+      }
+    },
+    {
+      "level": 17,
+      "exp": 3800,
+      "rewards": {
+        "coin": 17,
+        "crystalite": 1700,
+        "adamantite": 3400
+      }
+    },
+    {
+      "level": 18,
+      "exp": 4560,
+      "rewards": {
+        "coin": 18,
+        "crystalite": 1800,
+        "adamantite": 3600
+      }
+    },
+    {
+      "level": 19,
+      "exp": 5472,
+      "rewards": {
+        "coin": 19,
+        "crystalite": 1900,
+        "adamantite": 3800
+      }
+    },
+    {
+      "level": 20,
+      "exp": 6567,
+      "rewards": {
+        "coin": 20,
+        "crystalite": 2000,
+        "adamantite": 4000
+      }
+    },
+    {
+      "level": 21,
+      "exp": 7224,
+      "rewards": {
+        "coin": 21,
+        "crystalite": 2100,
+        "adamantite": 4200
+      }
+    },
+    {
+      "level": 22,
+      "exp": 7946,
+      "rewards": {
+        "coin": 22,
+        "crystalite": 2200,
+        "adamantite": 4400
+      }
+    },
+    {
+      "level": 23,
+      "exp": 8740,
+      "rewards": {
+        "coin": 23,
+        "crystalite": 2300,
+        "adamantite": 4600
+      }
+    },
+    {
+      "level": 24,
+      "exp": 9614,
+      "rewards": {
+        "coin": 24,
+        "crystalite": 2400,
+        "adamantite": 4800
+      }
+    },
+    {
+      "level": 25,
+      "exp": 10576,
+      "rewards": {
+        "coin": 25,
+        "crystalite": 2500,
+        "adamantite": 5000
+      }
+    },
+    {
+      "level": 26,
+      "exp": 11634,
+      "rewards": {
+        "coin": 26,
+        "crystalite": 2600,
+        "adamantite": 5200
+      }
+    },
+    {
+      "level": 27,
+      "exp": 12797,
+      "rewards": {
+        "coin": 27,
+        "crystalite": 2700,
+        "adamantite": 5400
+      }
+    },
+    {
+      "level": 28,
+      "exp": 14077,
+      "rewards": {
+        "coin": 28,
+        "crystalite": 2800,
+        "adamantite": 5600
+      }
+    },
+    {
+      "level": 29,
+      "exp": 15484,
+      "rewards": {
+        "coin": 29,
+        "crystalite": 2900,
+        "adamantite": 5800
+      }
+    },
+    {
+      "level": 30,
+      "exp": 17033,
+      "rewards": {
+        "coin": 30,
+        "crystalite": 3000,
+        "adamantite": 6000
+      }
+    },
+    {
+      "level": 31,
+      "exp": 18736,
+      "rewards": {
+        "coin": 31,
+        "crystalite": 3100,
+        "adamantite": 6200
+      }
+    },
+    {
+      "level": 32,
+      "exp": 20609,
+      "rewards": {
+        "coin": 32,
+        "crystalite": 3200,
+        "adamantite": 6400
+      }
+    },
+    {
+      "level": 33,
+      "exp": 22670,
+      "rewards": {
+        "coin": 33,
+        "crystalite": 3300,
+        "adamantite": 6600
+      }
+    }
+  ],
+  "codeLevels": [
+    {
+      "level": 0,
+      "exp": 0,
+      "rewards": {}
+    },
+    {
+      "level": 1,
+      "exp": 10,
+      "rewards": {
+        "coin": 1,
+        "crystalite": 100,
+        "adamantite": 200
+      }
+    },
+    {
+      "level": 2,
+      "exp": 30,
+      "rewards": {
+        "coin": 2,
+        "crystalite": 200,
+        "adamantite": 400
+      }
+    },
+    {
+      "level": 3,
+      "exp": 60,
+      "rewards": {
+        "coin": 3,
+        "crystalite": 300,
+        "adamantite": 600
+      }
+    },
+    {
+      "level": 4,
+      "exp": 150,
+      "rewards": {
+        "coin": 4,
+        "crystalite": 400,
+        "adamantite": 800
+      }
+    },
+    {
+      "level": 5,
+      "exp": 300,
+      "rewards": {
+        "coin": 5,
+        "crystalite": 500,
+        "adamantite": 1000
+      }
+    },
+    {
+      "level": 6,
+      "exp": 380,
+      "rewards": {
+        "coin": 6,
+        "crystalite": 600,
+        "adamantite": 1200
+      }
+    },
+    {
+      "level": 7,
+      "exp": 500,
+      "rewards": {
+        "coin": 7,
+        "crystalite": 700,
+        "adamantite": 1400
+      }
+    }
+  ],
+  "units": {
+    "infantryBot": {
+      "stats": [
+        {
+          "level": 1,
+          "cards": 2,
+          "price": {
+            "crystalite": 500
+          },
+          "upTime": 600
+        },
+        {
+          "level": 2,
+          "cards": 3,
+          "price": {
+            "crystalite": 1000
+          },
+          "upTime": 1200
+        },
+        {
+          "level": 3,
+          "cards": 4,
+          "price": {
+            "crystalite": 1500
+          },
+          "upTime": 1800
+        },
+        {
+          "level": 4,
+          "cards": 5,
+          "price": {
+            "crystalite": 2000
+          },
+          "upTime": 2400
+        },
+        {
+          "level": 5,
+          "cards": 6,
+          "price": {
+            "crystalite": 2500
+          },
+          "upTime": 3000
+        },
+        {
+          "level": 6,
+          "cards": 7,
+          "price": {
+            "crystalite": 3000
+          },
+          "upTime": 3600
+        },
+        {
+          "level": 7,
+          "cards": 8,
+          "price": {
+            "crystalite": 3500
+          },
+          "upTime": 4200
+        },
+        {
+          "level": 8,
+          "cards": 9,
+          "price": {
+            "crystalite": 4000
+          },
+          "upTime": 4800
+        },
+        {
+          "level": 9,
+          "cards": 10,
+          "price": {
+            "crystalite": 4500
+          },
+          "upTime": 5400
+        },
+        {
+          "level": 10,
+          "cards": 11,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 6000
+        },
+        {
+          "level": 11,
+          "cards": 12,
+          "price": {
+            "crystalite": 5500
+          },
+          "upTime": 6600
+        },
+        {
+          "level": 12,
+          "cards": 13,
+          "price": {
+            "crystalite": 6000
+          },
+          "upTime": 7200
+        },
+        {
+          "level": 13,
+          "cards": 14,
+          "price": {
+            "crystalite": 6500
+          },
+          "upTime": 7800
+        },
+        {
+          "level": 14,
+          "cards": 15,
+          "price": {
+            "crystalite": 7000
+          },
+          "upTime": 8400
+        },
+        {
+          "level": 15,
+          "cards": 16,
+          "price": {
+            "crystalite": 7500
+          },
+          "upTime": 9000
+        },
+        {
+          "level": 16,
+          "cards": 17,
+          "price": {
+            "crystalite": 8000
+          },
+          "upTime": 9600
+        },
+        {
+          "level": 17,
+          "cards": 18,
+          "price": {
+            "crystalite": 8500
+          },
+          "upTime": 10200
+        },
+        {
+          "level": 18,
+          "cards": 19,
+          "price": {
+            "crystalite": 9000
+          },
+          "upTime": 10800
+        },
+        {
+          "level": 19,
+          "cards": 20,
+          "price": {
+            "crystalite": 9500
+          },
+          "upTime": 11400
+        },
+        {
+          "level": 20,
+          "cards": 21,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 12000
+        },
+        {
+          "level": 21,
+          "cards": 22,
+          "price": {
+            "crystalite": 10500
+          },
+          "upTime": 12600
+        },
+        {
+          "level": 22,
+          "cards": 23,
+          "price": {
+            "crystalite": 11000
+          },
+          "upTime": 13200
+        },
+        {
+          "level": 23,
+          "cards": 24,
+          "price": {
+            "crystalite": 11500
+          },
+          "upTime": 13800
+        },
+        {
+          "level": 24,
+          "cards": 25,
+          "price": {
+            "crystalite": 12000
+          },
+          "upTime": 14400
+        },
+        {
+          "level": 25,
+          "cards": 26,
+          "price": {
+            "crystalite": 12500
+          },
+          "upTime": 15000
+        },
+        {
+          "level": 26,
+          "cards": 27,
+          "price": {
+            "crystalite": 13000
+          },
+          "upTime": 15600
+        },
+        {
+          "level": 27,
+          "cards": 28,
+          "price": {
+            "crystalite": 13500
+          },
+          "upTime": 16200
+        }
+      ]
+    },
+    "rocketBot": {
+      "stats": [
+        {
+          "level": 1,
+          "cards": 2,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 600
+        },
+        {
+          "level": 2,
+          "cards": 3,
+          "price": {
+            "crystalite": 12000
+          },
+          "upTime": 1200
+        },
+        {
+          "level": 3,
+          "cards": 4,
+          "price": {
+            "crystalite": 14000
+          },
+          "upTime": 1800
+        },
+        {
+          "level": 4,
+          "cards": 5,
+          "price": {
+            "crystalite": 16000
+          },
+          "upTime": 2400
+        },
+        {
+          "level": 5,
+          "cards": 6,
+          "price": {
+            "crystalite": 18000
+          },
+          "upTime": 3000
+        },
+        {
+          "level": 6,
+          "cards": 7,
+          "price": {
+            "crystalite": 20000
+          },
+          "upTime": 3600
+        },
+        {
+          "level": 7,
+          "cards": 8,
+          "price": {
+            "crystalite": 22000
+          },
+          "upTime": 4200
+        },
+        {
+          "level": 8,
+          "cards": 9,
+          "price": {
+            "crystalite": 24000
+          },
+          "upTime": 4800
+        },
+        {
+          "level": 9,
+          "cards": 10,
+          "price": {
+            "crystalite": 26000
+          },
+          "upTime": 5400
+        },
+        {
+          "level": 10,
+          "cards": 11,
+          "price": {
+            "crystalite": 28000
+          },
+          "upTime": 6000
+        },
+        {
+          "level": 11,
+          "cards": 12,
+          "price": {
+            "crystalite": 30000
+          },
+          "upTime": 6600
+        },
+        {
+          "level": 12,
+          "cards": 13,
+          "price": {
+            "crystalite": 32000
+          },
+          "upTime": 7200
+        },
+        {
+          "level": 13,
+          "cards": 14,
+          "price": {
+            "crystalite": 34000
+          },
+          "upTime": 7800
+        },
+        {
+          "level": 14,
+          "cards": 15,
+          "price": {
+            "crystalite": 36000
+          },
+          "upTime": 8400
+        },
+        {
+          "level": 15,
+          "cards": 16,
+          "price": {
+            "crystalite": 38000
+          },
+          "upTime": 9000
+        },
+        {
+          "level": 16,
+          "cards": 17,
+          "price": {
+            "crystalite": 40000
+          },
+          "upTime": 9600
+        },
+        {
+          "level": 17,
+          "cards": 18,
+          "price": {
+            "crystalite": 42000
+          },
+          "upTime": 10200
+        }
+      ]
+    },
+    "heavyBot": {
+      "stats": [
+        {
+          "level": 1,
+          "cards": 2,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 600
+        },
+        {
+          "level": 2,
+          "cards": 3,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 1200
+        },
+        {
+          "level": 3,
+          "cards": 4,
+          "price": {
+            "crystalite": 15000
+          },
+          "upTime": 1800
+        },
+        {
+          "level": 4,
+          "cards": 5,
+          "price": {
+            "crystalite": 20000
+          },
+          "upTime": 2400
+        },
+        {
+          "level": 5,
+          "cards": 6,
+          "price": {
+            "crystalite": 25000
+          },
+          "upTime": 3000
+        },
+        {
+          "level": 6,
+          "cards": 7,
+          "price": {
+            "crystalite": 30000
+          },
+          "upTime": 3600
+        },
+        {
+          "level": 7,
+          "cards": 8,
+          "price": {
+            "crystalite": 35000
+          },
+          "upTime": 4200
+        }
+      ]
+    }
+  },
+  "quests": {
+    "collectedCrystaliteL1": {
+      "parameter": "collectedCrystalite",
+      "amount": 32000,
+      "translate": "collectedCrystalite",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "coin": 5
+      },
+      "pos": 0
+    },
+    "collectedAdamantiteL1": {
+      "parameter": "collectedAdamantite",
+      "amount": 32000,
+      "translate": "collectedAdamantite",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "coin": 5
+      },
+      "pos": 1
+    },
+    "totalBuildingsL1": {
+      "parameter": "buildingsTotal",
+      "amount": 10,
+      "translate": "totalBuildings",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 2
+    },
+    "collectedCrystaliteL2": {
+      "parameter": "collectedCrystalite",
+      "amount": 1020000,
+      "translate": "collectedCrystalite",
+      "lvl": 2,
+      "parent": "collectedCrystaliteL1",
+      "rewards": {
+        "coin": 10
+      },
+      "pos": 3
+    },
+    "collectedAdamantiteL2": {
+      "parameter": "collectedAdamantite",
+      "amount": 1840000,
+      "translate": "collectedAdamantite",
+      "lvl": 2,
+      "parent": "collectedAdamantiteL1",
+      "rewards": {
+        "coin": 10
+      },
+      "pos": 4
+    },
+    "totalBuildingsL2": {
+      "parameter": "buildingsTotal",
+      "amount": 20,
+      "translate": "totalBuildings",
+      "lvl": 2,
+      "parent": "totalBuildingsL1",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 5
+    },
+    "totalBuildingsL3": {
+      "parameter": "buildingsTotal",
+      "amount": 50,
+      "translate": "totalBuildings",
+      "lvl": 3,
+      "parent": "totalBuildingsL2",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 6
+    },
+    "commandCenterL1": {
+      "parameter": "commandCenterLevel",
+      "amount": 3,
+      "translate": "commandCenter",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 7
+    },
+    "commandCenterL2": {
+      "parameter": "commandCenterLevel",
+      "amount": 6,
+      "translate": "commandCenter",
+      "lvl": 2,
+      "parent": "commandCenterL1",
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 8
+    },
+    "commandCenterL3": {
+      "parameter": "commandCenterLevel",
+      "amount": 9,
+      "translate": "commandCenter",
+      "lvl": 3,
+      "parent": "commandCenterL2",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 9
+    },
+    "commandCenterL4": {
+      "parameter": "commandCenterLevel",
+      "amount": 12,
+      "translate": "commandCenter",
+      "lvl": 4,
+      "parent": "commandCenterL3",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 10
+    },
+    "commandCenterL5": {
+      "parameter": "commandCenterLevel",
+      "amount": 15,
+      "translate": "commandCenter",
+      "lvl": 5,
+      "parent": "commandCenterL3",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 11
+    },
+    "collectedTitaniumL1": {
+      "parameter": "collectedTitanium",
+      "amount": 369000,
+      "translate": "collectedTitanium",
+      "lvl": 1,
+      "parent": "commandCenterL2",
+      "rewards": {
+        "coin": 10
+      },
+      "pos": 12
+    },
+    "collectedTitaniumL2": {
+      "parameter": "collectedTitanium",
+      "amount": 8560000,
+      "translate": "collectedTitanium",
+      "lvl": 2,
+      "parent": "collectTitaniumL1",
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 13
+    },
+    "collectedTitaniumL3": {
+      "parameter": "collectedTitanium",
+      "amount": 18800000,
+      "translate": "collectedTitanium",
+      "lvl": 3,
+      "parent": "collectTitaniumL2",
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 14
+    },
+    "collectedCrystaliteL3": {
+      "parameter": "collectedCrystalite",
+      "amount": 36200000,
+      "translate": "collectedCrystalite",
+      "lvl": 2,
+      "parent": "collectedCrystaliteL2",
+      "rewards": {
+        "coin": 30
+      },
+      "pos": 15
+    },
+    "collectedAdamantiteL3": {
+      "parameter": "collectedAdamantite",
+      "amount": 70600000,
+      "translate": "collectedAdamantite",
+      "lvl": 2,
+      "parent": "collectedAdamantiteL2",
+      "rewards": {
+        "coin": 30
+      },
+      "pos": 16
+    },
+    "storageCrystaliteL1": {
+      "parameter": "storageCrystalite",
+      "amount": 6910,
+      "translate": "storageCrystalite",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "crystalite": 3460
+      },
+      "pos": 17
+    },
+    "storageCrystaliteL2": {
+      "parameter": "storageCrystalite",
+      "amount": 697000,
+      "translate": "storageCrystalite",
+      "lvl": 2,
+      "parent": "storageCrystaliteL1",
+      "rewards": {
+        "crystalite": 348000
+      },
+      "pos": 18
+    },
+    "storageCrystaliteL3": {
+      "parameter": "storageCrystalite",
+      "amount": 3810000,
+      "translate": "storageCrystalite",
+      "lvl": 3,
+      "parent": "storageCrystaliteL2",
+      "rewards": {
+        "crystalite": 1900000
+      },
+      "pos": 19
+    },
+    "storageAdamantiteL1": {
+      "parameter": "storageAdamantite",
+      "amount": 13800,
+      "translate": "storageAdamantite",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "adamantite": 8280
+      },
+      "pos": 20
+    },
+    "storageAdamantiteL2": {
+      "parameter": "storageAdamantite",
+      "amount": 1250000,
+      "translate": "storageAdamantite",
+      "lvl": 2,
+      "parent": "storageAdamantiteL1",
+      "rewards": {
+        "adamantite": 750000
+      },
+      "pos": 21
+    },
+    "storageAdamantiteL3": {
+      "parameter": "storageAdamantite",
+      "amount": 4930000,
+      "translate": "storageAdamantite",
+      "lvl": 3,
+      "parent": "storageAdamantiteL2",
+      "rewards": {
+        "adamantite": 2960000
+      },
+      "pos": 22
+    },
+    "storageTitaniumL1": {
+      "parameter": "storageTitanium",
+      "amount": 99900,
+      "translate": "storageTitanium",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "titanium": 50000
+      },
+      "pos": 23
+    },
+    "storageTitaniumL2": {
+      "parameter": "storageTitanium",
+      "amount": 1250000,
+      "translate": "storageTitanium",
+      "lvl": 2,
+      "parent": "storageTitaniumL1",
+      "rewards": {
+        "titanium": 625000
+      },
+      "pos": 24
+    },
+    "storageTitaniumL3": {
+      "parameter": "storageTitanium",
+      "amount": 2740000,
+      "translate": "storageTitanium",
+      "lvl": 3,
+      "parent": "storageTitaniumL2",
+      "rewards": {
+        "titanium": 1370000
+      },
+      "pos": 25
+    },
+    "totalBotsL1": {
+      "parameter": "totalBots",
+      "amount": 6,
+      "translate": "totalBots",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "coin": 5
+      },
+      "pos": 26
+    },
+    "totalBotsL2": {
+      "parameter": "totalBots",
+      "amount": 53,
+      "translate": "totalBots",
+      "lvl": 2,
+      "parent": "totalBotsL2",
+      "rewards": {
+        "coin": 25
+      },
+      "pos": 27
+    },
+    "totalBotsL3": {
+      "parameter": "totalBots",
+      "amount": 86,
+      "translate": "totalBots",
+      "lvl": 3,
+      "parent": "totalBotsL3",
+      "rewards": {
+        "coin": 50
+      },
+      "pos": 28
+    },
+    "totalGenEnergyL1": {
+      "parameter": "totalGenEnergy",
+      "amount": 64,
+      "translate": "totalGenEnergy",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 29
+    },
+    "totalGenEnergyL2": {
+      "parameter": "totalGenEnergy",
+      "amount": 768,
+      "translate": "totalGenEnergy",
+      "lvl": 2,
+      "parent": "totalGenEnergyL1",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 30
+    },
+    "totalGenEnergyL3": {
+      "parameter": "totalGenEnergy",
+      "amount": 3450,
+      "translate": "totalGenEnergy",
+      "lvl": 3,
+      "parent": "totalGenEnergyL2",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 31
+    },
+    "laboratoryL1": {
+      "parameter": "laboratoryLevel",
+      "amount": 1,
+      "translate": "laboratory",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 32
+    },
+    "laboratoryL2": {
+      "parameter": "laboratoryLevel",
+      "amount": 4,
+      "translate": "laboratory",
+      "lvl": 2,
+      "parent": "laboratoryL1",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 33
+    },
+    "laboratoryL3": {
+      "parameter": "laboratoryLevel",
+      "amount": 10,
+      "translate": "laboratory",
+      "lvl": 3,
+      "parent": "laboratoryL2",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 34
+    },
+    "totalMinesL1": {
+      "parameter": "totalMines",
+      "amount": 4,
+      "translate": "totalMines",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "coin": 5
+      },
+      "pos": 35
+    },
+    "totalMinesL2": {
+      "parameter": "totalMines",
+      "amount": 10,
+      "translate": "totalMines",
+      "lvl": 2,
+      "parent": "totalMinesL1",
+      "rewards": {
+        "coin": 20
+      },
+      "pos": 36
+    },
+    "totalMinesL3": {
+      "parameter": "totalMines",
+      "amount": 18,
+      "translate": "totalMines",
+      "lvl": 3,
+      "parent": "totalMinesL2",
+      "rewards": {
+        "coin": 50
+      },
+      "pos": 37
+    },
+    "totalDefL1": {
+      "parameter": "totalDef",
+      "amount": 2,
+      "translate": "totalDef",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 38
+    },
+    "totalDefL2": {
+      "parameter": "totalDef",
+      "amount": 7,
+      "translate": "totalDef",
+      "lvl": 2,
+      "parent": "totalDefL1",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 39
+    },
+    "totalDefL3": {
+      "parameter": "totalDef",
+      "amount": 9,
+      "translate": "totalDef",
+      "lvl": 3,
+      "parent": "totalDefL2",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 40
+    },
+    "solvedMissionsL1": {
+      "parameter": "solvedMissions",
+      "amount": 1,
+      "translate": "solvedMissions",
+      "lvl": 1,
+      "parent": null,
+      "rewards": {
+        "coin": 5
+      },
+      "pos": 41
+    },
+    "solvedMissionsL2": {
+      "parameter": "solvedMissions",
+      "amount": 5,
+      "translate": "solvedMissions",
+      "lvl": 2,
+      "parent": "solvedMissionsL1",
+      "rewards": {
+        "coin": 10
+      },
+      "pos": 42
+    },
+    "solvedMissionsL3": {
+      "parameter": "solvedMissions",
+      "amount": 15,
+      "translate": "solvedMissions",
+      "lvl": 3,
+      "parent": "solvedMissionsL2",
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 43
+    },
+    "solvedMissionsL4": {
+      "parameter": "solvedMissions",
+      "amount": 30,
+      "translate": "solvedMissions",
+      "lvl": 4,
+      "parent": "solvedMissionsL3",
+      "rewards": {
+        "chest_1": 1
+      },
+      "pos": 44
+    },
+    "solvedMissionsL5": {
+      "parameter": "solvedMissions",
+      "amount": 50,
+      "translate": "solvedMissions",
+      "lvl": 5,
+      "parent": "solvedMissionsL4",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 45
+    },
+    "solvedMissionsL6": {
+      "parameter": "solvedMissions",
+      "amount": 100,
+      "translate": "solvedMissions",
+      "lvl": 6,
+      "parent": "solvedMissionsL5",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 46
+    },
+    "solvedMissionsL7": {
+      "parameter": "solvedMissions",
+      "amount": 150,
+      "translate": "solvedMissions",
+      "lvl": 7,
+      "parent": "solvedMissionsL6",
+      "rewards": {
+        "chest_2": 1
+      },
+      "pos": 47
+    },
+    "solvedMissionsL8": {
+      "parameter": "solvedMissions",
+      "amount": 200,
+      "translate": "solvedMissions",
+      "lvl": 8,
+      "parent": "solvedMissionsL7",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 48
+    },
+    "solvedMissionsL9": {
+      "parameter": "solvedMissions",
+      "amount": 250,
+      "translate": "solvedMissions",
+      "lvl": 9,
+      "parent": "solvedMissionsL8",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 49
+    },
+    "solvedMissionsL10": {
+      "parameter": "solvedMissions",
+      "amount": 300,
+      "translate": "solvedMissions",
+      "lvl": 10,
+      "parent": "solvedMissionsL9",
+      "rewards": {
+        "chest_3": 1
+      },
+      "pos": 50
+    }
+  },
+  "coins": {
+    "time": [
+      {
+        "time": 3600,
+        "coin": 20
+      },
+      {
+        "time": 7200,
+        "coin": 30
+      },
+      {
+        "time": 10800,
+        "coin": 41
+      },
+      {
+        "time": 14400,
+        "coin": 51
+      },
+      {
+        "time": 21600,
+        "coin": 72
+      },
+      {
+        "time": 28800,
+        "coin": 93
+      },
+      {
+        "time": 43200,
+        "coin": 135
+      },
+      {
+        "time": 86400,
+        "coin": 260
+      },
+      {
+        "time": 172800,
+        "coin": 383
+      },
+      {
+        "time": 259200,
+        "coin": 507
+      },
+      {
+        "time": 345600,
+        "coin": 630
+      },
+      {
+        "time": 432000,
+        "coin": 753
+      },
+      {
+        "time": 518400,
+        "coin": 877
+      },
+      {
+        "time": 604800,
+        "coin": 1000
+      }
+    ],
+    "resource": [
+      {
+        "resource": 20000,
+        "coin": 36
+      },
+      {
+        "resource": 50000,
+        "coin": 69
+      },
+      {
+        "resource": 100000,
+        "coin": 125
+      },
+      {
+        "resource": 250000,
+        "coin": 204
+      },
+      {
+        "resource": 500000,
+        "coin": 336
+      },
+      {
+        "resource": 750000,
+        "coin": 468
+      },
+      {
+        "resource": 1000000,
+        "coin": 600
+      },
+      {
+        "resource": 2000000,
+        "coin": 867
+      },
+      {
+        "resource": 3000000,
+        "coin": 1133
+      },
+      {
+        "resource": 5000000,
+        "coin": 1667
+      }
+    ]
+  }
+}
