@@ -4817,7 +4817,12 @@
           "upgradeCost": {
             "adamantite": 150
           },
-          "display": {}
+          "display": {
+            "hit_points": 1000,
+            "damage_per_shot": 50,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 2,
@@ -4828,7 +4833,12 @@
           "upgradeCost": {
             "adamantite": 300
           },
-          "display": {}
+          "display": {
+            "hit_points": 1100,
+            "damage_per_shot": 55,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 3,
@@ -4839,7 +4849,12 @@
           "upgradeCost": {
             "adamantite": 600
           },
-          "display": {}
+          "display": {
+            "hit_points": 1210,
+            "damage_per_shot": 61,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 4,
@@ -4850,7 +4865,12 @@
           "upgradeCost": {
             "adamantite": 1200
           },
-          "display": {}
+          "display": {
+            "hit_points": 1330,
+            "damage_per_shot": 67,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 5,
@@ -4861,7 +4881,12 @@
           "upgradeCost": {
             "adamantite": 2400
           },
-          "display": {}
+          "display": {
+            "hit_points": 1460,
+            "damage_per_shot": 74,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 6,
@@ -4872,7 +4897,12 @@
           "upgradeCost": {
             "adamantite": 4800
           },
-          "display": {}
+          "display": {
+            "hit_points": 1610,
+            "damage_per_shot": 81,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 7,
@@ -4883,7 +4913,12 @@
           "upgradeCost": {
             "adamantite": 9600
           },
-          "display": {}
+          "display": {
+            "hit_points": 1770,
+            "damage_per_shot": 89,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 8,
@@ -4895,7 +4930,12 @@
             "adamantite": 19200,
             "titanium": 7680
           },
-          "display": {}
+          "display": {
+            "hit_points": 1950,
+            "damage_per_shot": 98,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 9,
@@ -4907,7 +4947,12 @@
             "adamantite": 38400,
             "titanium": 15300
           },
-          "display": {}
+          "display": {
+            "hit_points": 2140,
+            "damage_per_shot": 108,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 10,
@@ -4919,7 +4964,12 @@
             "adamantite": 76800,
             "titanium": 30600
           },
-          "display": {}
+          "display": {
+            "hit_points": 2350,
+            "damage_per_shot": 119,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 11,
@@ -4931,7 +4981,12 @@
             "adamantite": 153000,
             "titanium": 45900
           },
-          "display": {}
+          "display": {
+            "hit_points": 2580,
+            "damage_per_shot": 131,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 12,
@@ -4943,7 +4998,12 @@
             "adamantite": 306000,
             "titanium": 68800
           },
-          "display": {}
+          "display": {
+            "hit_points": 2840,
+            "damage_per_shot": 144,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 13,
@@ -4955,7 +5015,12 @@
             "adamantite": 612000,
             "titanium": 103000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3120,
+            "damage_per_shot": 158,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 14,
@@ -4967,7 +5032,12 @@
             "adamantite": 1220000,
             "titanium": 154000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3430,
+            "damage_per_shot": 174,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         },
         {
           "level": 15,
@@ -4979,7 +5049,12 @@
             "adamantite": 2440000,
             "titanium": 231000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3770,
+            "damage_per_shot": 191,
+            "firing_range": 12,
+            "rate_of_fire": 0.7
+          }
         }
       ]
     },
@@ -5011,7 +5086,12 @@
             "adamantite": 32000,
             "titanium": 12800
           },
-          "display": {}
+          "display": {
+            "hit_points": 2340,
+            "damage_per_shot": 20,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 2,
@@ -5023,7 +5103,12 @@
             "adamantite": 64000,
             "titanium": 25500
           },
-          "display": {}
+          "display": {
+            "hit_points": 2570,
+            "damage_per_shot": 22,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 3,
@@ -5035,7 +5120,12 @@
             "adamantite": 128000,
             "titanium": 51000
           },
-          "display": {}
+          "display": {
+            "hit_points": 2820,
+            "damage_per_shot": 24,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 4,
@@ -5047,7 +5137,12 @@
             "adamantite": 255000,
             "titanium": 76500
           },
-          "display": {}
+          "display": {
+            "hit_points": 3100,
+            "damage_per_shot": 26,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 5,
@@ -5059,7 +5154,12 @@
             "adamantite": 306000,
             "titanium": 68800
           },
-          "display": {}
+          "display": {
+            "hit_points": 3410,
+            "damage_per_shot": 29,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 6,
@@ -5071,7 +5171,12 @@
             "adamantite": 612000,
             "titanium": 103000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3740,
+            "damage_per_shot": 32,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 7,
@@ -5083,7 +5188,12 @@
             "adamantite": 1220000,
             "titanium": 154000
           },
-          "display": {}
+          "display": {
+            "hit_points": 4120,
+            "damage_per_shot": 35,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         },
         {
           "level": 8,
@@ -5095,7 +5205,12 @@
             "adamantite": 2440000,
             "titanium": 231000
           },
-          "display": {}
+          "display": {
+            "hit_points": 4520,
+            "damage_per_shot": 38,
+            "firing_range": 5,
+            "rate_of_fire": 10
+          }
         }
       ]
     },
@@ -5306,7 +5421,11 @@
             "adamantite": 3260000,
             "titanium": 309000
           },
-          "display": {}
+          "display": {
+            "hit_points": 6860,
+            "firing_range": 10,
+            "rate_of_fire": 0.4
+          }
         },
         {
           "level": 2,
@@ -5318,7 +5437,11 @@
             "adamantite": 4080000,
             "titanium": 616000
           },
-          "display": {}
+          "display": {
+            "hit_points": 7540,
+            "firing_range": 10,
+            "rate_of_fire": 0.4
+          }
         }
       ]
     },
@@ -5908,218 +6031,380 @@
         {
           "level": 1,
           "cards": 2,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 500
           },
-          "upTime": 600
+          "upTime": 600,
+          "hit_points": 120,
+          "damage_per_shot": 50,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 2,
           "cards": 3,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 1000
           },
-          "upTime": 1200
+          "upTime": 1200,
+          "hit_points": 132,
+          "damage_per_shot": 55,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 3,
           "cards": 4,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 1500
           },
-          "upTime": 1800
+          "upTime": 1800,
+          "hit_points": 145,
+          "damage_per_shot": 61,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 4,
           "cards": 5,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 2000
           },
-          "upTime": 2400
+          "upTime": 2400,
+          "hit_points": 160,
+          "damage_per_shot": 67,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 5,
           "cards": 6,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 2500
           },
-          "upTime": 3000
+          "upTime": 3000,
+          "hit_points": 176,
+          "damage_per_shot": 74,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 6,
           "cards": 7,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 3000
           },
-          "upTime": 3600
+          "upTime": 3600,
+          "hit_points": 194,
+          "damage_per_shot": 81,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 7,
           "cards": 8,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 3500
           },
-          "upTime": 4200
+          "upTime": 4200,
+          "hit_points": 213,
+          "damage_per_shot": 89,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 8,
           "cards": 9,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 4000
           },
-          "upTime": 4800
+          "upTime": 4800,
+          "hit_points": 234,
+          "damage_per_shot": 98,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 9,
           "cards": 10,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 4500
           },
-          "upTime": 5400
+          "upTime": 5400,
+          "hit_points": 257,
+          "damage_per_shot": 108,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 10,
           "cards": 11,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 5000
           },
-          "upTime": 6000
+          "upTime": 6000,
+          "hit_points": 283,
+          "damage_per_shot": 119,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 11,
           "cards": 12,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 5500
           },
-          "upTime": 6600
+          "upTime": 6600,
+          "hit_points": 311,
+          "damage_per_shot": 131,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 12,
           "cards": 13,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 6000
           },
-          "upTime": 7200
+          "upTime": 7200,
+          "hit_points": 342,
+          "damage_per_shot": 144,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 13,
           "cards": 14,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 6500
           },
-          "upTime": 7800
+          "upTime": 7800,
+          "hit_points": 376,
+          "damage_per_shot": 158,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 14,
           "cards": 15,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 7000
           },
-          "upTime": 8400
+          "upTime": 8400,
+          "hit_points": 414,
+          "damage_per_shot": 174,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 15,
           "cards": 16,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 7500
           },
-          "upTime": 9000
+          "upTime": 9000,
+          "hit_points": 455,
+          "damage_per_shot": 191,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 16,
           "cards": 17,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 8000
           },
-          "upTime": 9600
+          "upTime": 9600,
+          "hit_points": 501,
+          "damage_per_shot": 210,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 17,
           "cards": 18,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 8500
           },
-          "upTime": 10200
+          "upTime": 10200,
+          "hit_points": 551,
+          "damage_per_shot": 231,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 18,
           "cards": 19,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 9000
           },
-          "upTime": 10800
+          "upTime": 10800,
+          "hit_points": 606,
+          "damage_per_shot": 254,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 19,
           "cards": 20,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 9500
           },
-          "upTime": 11400
+          "upTime": 11400,
+          "hit_points": 667,
+          "damage_per_shot": 279,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 20,
           "cards": 21,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
-          "upTime": 12000
+          "upTime": 12000,
+          "hit_points": 734,
+          "damage_per_shot": 307,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 21,
           "cards": 22,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 10500
           },
-          "upTime": 12600
+          "upTime": 12600,
+          "hit_points": 807,
+          "damage_per_shot": 338,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 22,
           "cards": 23,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 11000
           },
-          "upTime": 13200
+          "upTime": 13200,
+          "hit_points": 888,
+          "damage_per_shot": 372,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 23,
           "cards": 24,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 11500
           },
-          "upTime": 13800
+          "upTime": 13800,
+          "hit_points": 977,
+          "damage_per_shot": 409,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 24,
           "cards": 25,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 12000
           },
-          "upTime": 14400
+          "upTime": 14400,
+          "hit_points": 1080,
+          "damage_per_shot": 450,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 25,
           "cards": 26,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 12500
           },
-          "upTime": 15000
+          "upTime": 15000,
+          "hit_points": 1190,
+          "damage_per_shot": 495,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 26,
           "cards": 27,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 13000
           },
-          "upTime": 15600
+          "upTime": 15600,
+          "hit_points": 1310,
+          "damage_per_shot": 544,
+          "firing_range": 4,
+          "rate_of_fire": 1
         },
         {
           "level": 27,
           "cards": 28,
+          "speed": 5,
+          "k": 1.1,
           "price": {
             "crystalite": 13500
           },
-          "upTime": 16200
+          "upTime": 16200,
+          "hit_points": 1440,
+          "damage_per_shot": 598,
+          "firing_range": 4,
+          "rate_of_fire": 1
         }
       ]
     },
@@ -6128,138 +6413,240 @@
         {
           "level": 1,
           "cards": 2,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
-          "upTime": 600
+          "upTime": 600,
+          "hit_points": 50,
+          "damage_per_shot": 150,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 2,
           "cards": 3,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 12000
           },
-          "upTime": 1200
+          "upTime": 1200,
+          "hit_points": 55,
+          "damage_per_shot": 165,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 3,
           "cards": 4,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 14000
           },
-          "upTime": 1800
+          "upTime": 1800,
+          "hit_points": 61,
+          "damage_per_shot": 182,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 4,
           "cards": 5,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 16000
           },
-          "upTime": 2400
+          "upTime": 2400,
+          "hit_points": 67,
+          "damage_per_shot": 200,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 5,
           "cards": 6,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 18000
           },
-          "upTime": 3000
+          "upTime": 3000,
+          "hit_points": 74,
+          "damage_per_shot": 220,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 6,
           "cards": 7,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 20000
           },
-          "upTime": 3600
+          "upTime": 3600,
+          "hit_points": 81,
+          "damage_per_shot": 242,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 7,
           "cards": 8,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 22000
           },
-          "upTime": 4200
+          "upTime": 4200,
+          "hit_points": 89,
+          "damage_per_shot": 266,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 8,
           "cards": 9,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 24000
           },
-          "upTime": 4800
+          "upTime": 4800,
+          "hit_points": 98,
+          "damage_per_shot": 293,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 9,
           "cards": 10,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 26000
           },
-          "upTime": 5400
+          "upTime": 5400,
+          "hit_points": 108,
+          "damage_per_shot": 322,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 10,
           "cards": 11,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 28000
           },
-          "upTime": 6000
+          "upTime": 6000,
+          "hit_points": 119,
+          "damage_per_shot": 354,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 11,
           "cards": 12,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 30000
           },
-          "upTime": 6600
+          "upTime": 6600,
+          "hit_points": 131,
+          "damage_per_shot": 389,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 12,
           "cards": 13,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 32000
           },
-          "upTime": 7200
+          "upTime": 7200,
+          "hit_points": 144,
+          "damage_per_shot": 428,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 13,
           "cards": 14,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 34000
           },
-          "upTime": 7800
+          "upTime": 7800,
+          "hit_points": 158,
+          "damage_per_shot": 471,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 14,
           "cards": 15,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 36000
           },
-          "upTime": 8400
+          "upTime": 8400,
+          "hit_points": 174,
+          "damage_per_shot": 518,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 15,
           "cards": 16,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 38000
           },
-          "upTime": 9000
+          "upTime": 9000,
+          "hit_points": 191,
+          "damage_per_shot": 570,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 16,
           "cards": 17,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 40000
           },
-          "upTime": 9600
+          "upTime": 9600,
+          "hit_points": 210,
+          "damage_per_shot": 627,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         },
         {
           "level": 17,
           "cards": 18,
+          "speed": 4,
+          "k": 1.1,
           "price": {
             "crystalite": 42000
           },
-          "upTime": 10200
+          "upTime": 10200,
+          "hit_points": 231,
+          "damage_per_shot": 690,
+          "firing_range": 8,
+          "rate_of_fire": 0.5
         }
       ]
     },
@@ -6268,58 +6655,100 @@
         {
           "level": 1,
           "cards": 2,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 5000
           },
-          "upTime": 600
+          "upTime": 600,
+          "hit_points": 1000,
+          "damage_per_shot": 10,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 2,
           "cards": 3,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
-          "upTime": 1200
+          "upTime": 1200,
+          "hit_points": 1100,
+          "damage_per_shot": 11,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 3,
           "cards": 4,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 15000
           },
-          "upTime": 1800
+          "upTime": 1800,
+          "hit_points": 1210,
+          "damage_per_shot": 12,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 4,
           "cards": 5,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 20000
           },
-          "upTime": 2400
+          "upTime": 2400,
+          "hit_points": 1330,
+          "damage_per_shot": 13,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 5,
           "cards": 6,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 25000
           },
-          "upTime": 3000
+          "upTime": 3000,
+          "hit_points": 1460,
+          "damage_per_shot": 14,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 6,
           "cards": 7,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 30000
           },
-          "upTime": 3600
+          "upTime": 3600,
+          "hit_points": 1610,
+          "damage_per_shot": 15,
+          "firing_range": 3,
+          "rate_of_fire": 10
         },
         {
           "level": 7,
           "cards": 8,
+          "speed": 3,
+          "k": 1.1,
           "price": {
             "crystalite": 35000
           },
-          "upTime": 4200
+          "upTime": 4200,
+          "hit_points": 1770,
+          "damage_per_shot": 16,
+          "firing_range": 3,
+          "rate_of_fire": 10
         }
       ]
     }
