@@ -24,7 +24,8 @@
             "crystaliteCapacity": 960,
             "adamantiteCapacity": 960,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 2000
           }
         },
         {
@@ -46,7 +47,8 @@
             "crystaliteCapacity": 1920,
             "adamantiteCapacity": 1920,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 2200
           }
         },
         {
@@ -72,7 +74,8 @@
             "crystaliteCapacity": 3840,
             "adamantiteCapacity": 3840,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 2420
           }
         },
         {
@@ -98,7 +101,8 @@
             "crystaliteCapacity": 7680,
             "adamantiteCapacity": 7680,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 2660
           }
         },
         {
@@ -124,7 +128,8 @@
             "crystaliteCapacity": 15400,
             "adamantiteCapacity": 15400,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 2920
           }
         },
         {
@@ -150,7 +155,8 @@
             "crystaliteCapacity": 30700,
             "adamantiteCapacity": 30700,
             "titaniumCapacity": 0,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 3220
           }
         },
         {
@@ -176,7 +182,8 @@
             "crystaliteCapacity": 38400,
             "adamantiteCapacity": 38400,
             "titaniumCapacity": 30800,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 3540
           }
         },
         {
@@ -203,7 +210,8 @@
             "crystaliteCapacity": 69000,
             "adamantiteCapacity": 69000,
             "titaniumCapacity": 55500,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 3900
           }
         },
         {
@@ -230,7 +238,8 @@
             "crystaliteCapacity": 124000,
             "adamantiteCapacity": 124000,
             "titaniumCapacity": 99500,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 4280
           }
         },
         {
@@ -257,7 +266,8 @@
             "crystaliteCapacity": 224000,
             "adamantiteCapacity": 224000,
             "titaniumCapacity": 178000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 4700
           }
         },
         {
@@ -284,7 +294,8 @@
             "crystaliteCapacity": 402000,
             "adamantiteCapacity": 402000,
             "titaniumCapacity": 321000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 5160
           }
         },
         {
@@ -311,7 +322,8 @@
             "crystaliteCapacity": 520000,
             "adamantiteCapacity": 520000,
             "titaniumCapacity": 417000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 5680
           }
         },
         {
@@ -338,7 +350,8 @@
             "crystaliteCapacity": 680000,
             "adamantiteCapacity": 680000,
             "titaniumCapacity": 545000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 6240
           }
         },
         {
@@ -365,7 +378,8 @@
             "crystaliteCapacity": 880000,
             "adamantiteCapacity": 880000,
             "titaniumCapacity": 705000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 6860
           }
         },
         {
@@ -392,7 +406,8 @@
             "crystaliteCapacity": 1140000,
             "adamantiteCapacity": 1140000,
             "titaniumCapacity": 915000,
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 7540
           }
         }
       ]
@@ -458,7 +473,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 1200
+            "crystaliteCapacity": 1200,
+            "hit_points": 500
           }
         },
         {
@@ -500,7 +516,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 2400
+            "crystaliteCapacity": 2400,
+            "hit_points": 550
           }
         },
         {
@@ -542,7 +559,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 4800
+            "crystaliteCapacity": 4800,
+            "hit_points": 605
           }
         },
         {
@@ -584,7 +602,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 9600
+            "crystaliteCapacity": 9600,
+            "hit_points": 665
           }
         },
         {
@@ -626,7 +645,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 19200
+            "crystaliteCapacity": 19200,
+            "hit_points": 730
           }
         },
         {
@@ -668,7 +688,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 38400
+            "crystaliteCapacity": 38400,
+            "hit_points": 805
           }
         },
         {
@@ -710,7 +731,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 76800
+            "crystaliteCapacity": 76800,
+            "hit_points": 885
           }
         },
         {
@@ -753,7 +775,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 138000
+            "crystaliteCapacity": 138000,
+            "hit_points": 975
           }
         },
         {
@@ -796,7 +819,8 @@
             }
           ],
           "display": {
-            "crystaliteCapacity": 249000
+            "crystaliteCapacity": 249000,
+            "hit_points": 1070
           }
         },
         {
@@ -810,7 +834,8 @@
             "titanium": 20400
           },
           "display": {
-            "crystaliteCapacity": 447000
+            "crystaliteCapacity": 447000,
+            "hit_points": 1180
           }
         },
         {
@@ -824,7 +849,8 @@
             "titanium": 30600
           },
           "display": {
-            "crystaliteCapacity": 804000
+            "crystaliteCapacity": 804000,
+            "hit_points": 1290
           }
         },
         {
@@ -838,7 +864,8 @@
             "titanium": 45900
           },
           "display": {
-            "crystaliteCapacity": 1040000
+            "crystaliteCapacity": 1040000,
+            "hit_points": 1420
           }
         },
         {
@@ -852,7 +879,8 @@
             "titanium": 68800
           },
           "display": {
-            "crystaliteCapacity": 1360000
+            "crystaliteCapacity": 1360000,
+            "hit_points": 1560
           }
         },
         {
@@ -866,7 +894,8 @@
             "titanium": 103000
           },
           "display": {
-            "crystaliteCapacity": 1760000
+            "crystaliteCapacity": 1760000,
+            "hit_points": 1720
           }
         },
         {
@@ -880,7 +909,8 @@
             "titanium": 154000
           },
           "display": {
-            "crystaliteCapacity": 2290000
+            "crystaliteCapacity": 2290000,
+            "hit_points": 1880
           }
         }
       ]
@@ -960,7 +990,8 @@
           ],
           "display": {
             "crystaliteProduction": 100,
-            "crystaliteProductionCapacity": 400
+            "crystaliteProductionCapacity": 400,
+            "hit_points": 500
           }
         },
         {
@@ -1012,7 +1043,8 @@
           ],
           "display": {
             "crystaliteProduction": 200,
-            "crystaliteProductionCapacity": 800
+            "crystaliteProductionCapacity": 800,
+            "hit_points": 550
           }
         },
         {
@@ -1068,7 +1100,8 @@
           ],
           "display": {
             "crystaliteProduction": 400,
-            "crystaliteProductionCapacity": 1600
+            "crystaliteProductionCapacity": 1600,
+            "hit_points": 605
           }
         },
         {
@@ -1124,7 +1157,8 @@
           ],
           "display": {
             "crystaliteProduction": 800,
-            "crystaliteProductionCapacity": 3200
+            "crystaliteProductionCapacity": 3200,
+            "hit_points": 665
           }
         },
         {
@@ -1180,7 +1214,8 @@
           ],
           "display": {
             "crystaliteProduction": 1200,
-            "crystaliteProductionCapacity": 6400
+            "crystaliteProductionCapacity": 6400,
+            "hit_points": 730
           }
         },
         {
@@ -1227,7 +1262,8 @@
           ],
           "display": {
             "crystaliteProduction": 1800,
-            "crystaliteProductionCapacity": 12800
+            "crystaliteProductionCapacity": 12800,
+            "hit_points": 805
           }
         },
         {
@@ -1274,7 +1310,8 @@
           ],
           "display": {
             "crystaliteProduction": 2700,
-            "crystaliteProductionCapacity": 25600
+            "crystaliteProductionCapacity": 25600,
+            "hit_points": 885
           }
         },
         {
@@ -1322,7 +1359,8 @@
           ],
           "display": {
             "crystaliteProduction": 3240,
-            "crystaliteProductionCapacity": 46100
+            "crystaliteProductionCapacity": 46100,
+            "hit_points": 975
           }
         },
         {
@@ -1370,7 +1408,8 @@
           ],
           "display": {
             "crystaliteProduction": 3890,
-            "crystaliteProductionCapacity": 83000
+            "crystaliteProductionCapacity": 83000,
+            "hit_points": 1070
           }
         },
         {
@@ -1389,7 +1428,8 @@
           },
           "display": {
             "crystaliteProduction": 4670,
-            "crystaliteProductionCapacity": 149000
+            "crystaliteProductionCapacity": 149000,
+            "hit_points": 1180
           }
         },
         {
@@ -1408,7 +1448,8 @@
           },
           "display": {
             "crystaliteProduction": 5600,
-            "crystaliteProductionCapacity": 268000
+            "crystaliteProductionCapacity": 268000,
+            "hit_points": 1290
           }
         },
         {
@@ -1427,7 +1468,8 @@
           },
           "display": {
             "crystaliteProduction": 6720,
-            "crystaliteProductionCapacity": 348000
+            "crystaliteProductionCapacity": 348000,
+            "hit_points": 1420
           }
         },
         {
@@ -1446,7 +1488,8 @@
           },
           "display": {
             "crystaliteProduction": 8060,
-            "crystaliteProductionCapacity": 452000
+            "crystaliteProductionCapacity": 452000,
+            "hit_points": 1560
           }
         },
         {
@@ -1465,7 +1508,8 @@
           },
           "display": {
             "crystaliteProduction": 9670,
-            "crystaliteProductionCapacity": 588000
+            "crystaliteProductionCapacity": 588000,
+            "hit_points": 1720
           }
         },
         {
@@ -1484,7 +1528,8 @@
           },
           "display": {
             "crystaliteProduction": 11600,
-            "crystaliteProductionCapacity": 764000
+            "crystaliteProductionCapacity": 764000,
+            "hit_points": 1880
           }
         }
       ]
@@ -1541,7 +1586,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 1200
+            "adamantiteCapacity": 1200,
+            "hit_points": 500
           }
         },
         {
@@ -1574,7 +1620,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 2400
+            "adamantiteCapacity": 2400,
+            "hit_points": 550
           }
         },
         {
@@ -1607,7 +1654,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 4800
+            "adamantiteCapacity": 4800,
+            "hit_points": 605
           }
         },
         {
@@ -1640,7 +1688,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 9600
+            "adamantiteCapacity": 9600,
+            "hit_points": 665
           }
         },
         {
@@ -1673,7 +1722,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 19200
+            "adamantiteCapacity": 19200,
+            "hit_points": 730
           }
         },
         {
@@ -1706,7 +1756,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 38400
+            "adamantiteCapacity": 38400,
+            "hit_points": 805
           }
         },
         {
@@ -1739,7 +1790,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 76800
+            "adamantiteCapacity": 76800,
+            "hit_points": 885
           }
         },
         {
@@ -1764,7 +1816,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 138000
+            "adamantiteCapacity": 138000,
+            "hit_points": 975
           }
         },
         {
@@ -1789,7 +1842,8 @@
             }
           ],
           "display": {
-            "adamantiteCapacity": 249000
+            "adamantiteCapacity": 249000,
+            "hit_points": 1070
           }
         },
         {
@@ -1803,7 +1857,8 @@
             "titanium": 20400
           },
           "display": {
-            "adamantiteCapacity": 447000
+            "adamantiteCapacity": 447000,
+            "hit_points": 1180
           }
         },
         {
@@ -1817,7 +1872,8 @@
             "titanium": 30600
           },
           "display": {
-            "adamantiteCapacity": 804000
+            "adamantiteCapacity": 804000,
+            "hit_points": 1290
           }
         },
         {
@@ -1831,7 +1887,8 @@
             "titanium": 45900
           },
           "display": {
-            "adamantiteCapacity": 1040000
+            "adamantiteCapacity": 1040000,
+            "hit_points": 1420
           }
         },
         {
@@ -1845,7 +1902,8 @@
             "titanium": 68800
           },
           "display": {
-            "adamantiteCapacity": 1360000
+            "adamantiteCapacity": 1360000,
+            "hit_points": 1560
           }
         },
         {
@@ -1859,7 +1917,8 @@
             "titanium": 103000
           },
           "display": {
-            "adamantiteCapacity": 1760000
+            "adamantiteCapacity": 1760000,
+            "hit_points": 1720
           }
         },
         {
@@ -1873,7 +1932,8 @@
             "titanium": 154000
           },
           "display": {
-            "adamantiteCapacity": 2290000
+            "adamantiteCapacity": 2290000,
+            "hit_points": 1880
           }
         }
       ]
@@ -1953,7 +2013,8 @@
           ],
           "display": {
             "adamantiteProduction": 100,
-            "adamantiteProductionCapacity": 400
+            "adamantiteProductionCapacity": 400,
+            "hit_points": 500
           }
         },
         {
@@ -2005,7 +2066,8 @@
           ],
           "display": {
             "adamantiteProduction": 200,
-            "adamantiteProductionCapacity": 800
+            "adamantiteProductionCapacity": 800,
+            "hit_points": 550
           }
         },
         {
@@ -2061,7 +2123,8 @@
           ],
           "display": {
             "adamantiteProduction": 400,
-            "adamantiteProductionCapacity": 1600
+            "adamantiteProductionCapacity": 1600,
+            "hit_points": 605
           }
         },
         {
@@ -2117,7 +2180,8 @@
           ],
           "display": {
             "adamantiteProduction": 800,
-            "adamantiteProductionCapacity": 3200
+            "adamantiteProductionCapacity": 3200,
+            "hit_points": 665
           }
         },
         {
@@ -2173,7 +2237,8 @@
           ],
           "display": {
             "adamantiteProduction": 1200,
-            "adamantiteProductionCapacity": 6400
+            "adamantiteProductionCapacity": 6400,
+            "hit_points": 730
           }
         },
         {
@@ -2229,7 +2294,8 @@
           ],
           "display": {
             "adamantiteProduction": 1800,
-            "adamantiteProductionCapacity": 12800
+            "adamantiteProductionCapacity": 12800,
+            "hit_points": 805
           }
         },
         {
@@ -2285,7 +2351,8 @@
           ],
           "display": {
             "adamantiteProduction": 2700,
-            "adamantiteProductionCapacity": 25600
+            "adamantiteProductionCapacity": 25600,
+            "hit_points": 885
           }
         },
         {
@@ -2333,7 +2400,8 @@
           ],
           "display": {
             "adamantiteProduction": 3240,
-            "adamantiteProductionCapacity": 46100
+            "adamantiteProductionCapacity": 46100,
+            "hit_points": 975
           }
         },
         {
@@ -2372,7 +2440,8 @@
           ],
           "display": {
             "adamantiteProduction": 3890,
-            "adamantiteProductionCapacity": 83000
+            "adamantiteProductionCapacity": 83000,
+            "hit_points": 1070
           }
         },
         {
@@ -2391,7 +2460,8 @@
           },
           "display": {
             "adamantiteProduction": 4670,
-            "adamantiteProductionCapacity": 149000
+            "adamantiteProductionCapacity": 149000,
+            "hit_points": 1180
           }
         },
         {
@@ -2410,7 +2480,8 @@
           },
           "display": {
             "adamantiteProduction": 5600,
-            "adamantiteProductionCapacity": 268000
+            "adamantiteProductionCapacity": 268000,
+            "hit_points": 1290
           }
         },
         {
@@ -2429,7 +2500,8 @@
           },
           "display": {
             "adamantiteProduction": 6720,
-            "adamantiteProductionCapacity": 348000
+            "adamantiteProductionCapacity": 348000,
+            "hit_points": 1420
           }
         },
         {
@@ -2448,7 +2520,8 @@
           },
           "display": {
             "adamantiteProduction": 8060,
-            "adamantiteProductionCapacity": 452000
+            "adamantiteProductionCapacity": 452000,
+            "hit_points": 1560
           }
         },
         {
@@ -2467,7 +2540,8 @@
           },
           "display": {
             "adamantiteProduction": 9670,
-            "adamantiteProductionCapacity": 588000
+            "adamantiteProductionCapacity": 588000,
+            "hit_points": 1720
           }
         },
         {
@@ -2486,7 +2560,8 @@
           },
           "display": {
             "adamantiteProduction": 11600,
-            "adamantiteProductionCapacity": 764000
+            "adamantiteProductionCapacity": 764000,
+            "hit_points": 1880
           }
         }
       ]
@@ -2530,7 +2605,8 @@
             }
           ],
           "display": {
-            "titaniumCapacity": 61500
+            "titaniumCapacity": 61500,
+            "hit_points": 885
           }
         },
         {
@@ -2555,7 +2631,8 @@
             }
           ],
           "display": {
-            "titaniumCapacity": 111000
+            "titaniumCapacity": 111000,
+            "hit_points": 975
           }
         },
         {
@@ -2580,7 +2657,8 @@
             }
           ],
           "display": {
-            "titaniumCapacity": 199000
+            "titaniumCapacity": 199000,
+            "hit_points": 1070
           }
         },
         {
@@ -2594,7 +2672,8 @@
             "titanium": 20400
           },
           "display": {
-            "titaniumCapacity": 357000
+            "titaniumCapacity": 357000,
+            "hit_points": 1180
           }
         },
         {
@@ -2608,7 +2687,8 @@
             "titanium": 30600
           },
           "display": {
-            "titaniumCapacity": 642000
+            "titaniumCapacity": 642000,
+            "hit_points": 1290
           }
         },
         {
@@ -2622,7 +2702,8 @@
             "titanium": 45900
           },
           "display": {
-            "titaniumCapacity": 834000
+            "titaniumCapacity": 834000,
+            "hit_points": 1420
           }
         },
         {
@@ -2636,7 +2717,8 @@
             "titanium": 68800
           },
           "display": {
-            "titaniumCapacity": 1090000
+            "titaniumCapacity": 1090000,
+            "hit_points": 1560
           }
         },
         {
@@ -2650,7 +2732,8 @@
             "titanium": 103000
           },
           "display": {
-            "titaniumCapacity": 1410000
+            "titaniumCapacity": 1410000,
+            "hit_points": 1720
           }
         },
         {
@@ -2664,7 +2747,8 @@
             "titanium": 154000
           },
           "display": {
-            "titaniumCapacity": 1830000
+            "titaniumCapacity": 1830000,
+            "hit_points": 1880
           }
         }
       ]
@@ -2722,7 +2806,8 @@
           ],
           "display": {
             "titaniumProduction": 2160,
-            "titaniumProductionCapacity": 20500
+            "titaniumProductionCapacity": 20500,
+            "hit_points": 885
           }
         },
         {
@@ -2761,7 +2846,8 @@
           ],
           "display": {
             "titaniumProduction": 2590,
-            "titaniumProductionCapacity": 36900
+            "titaniumProductionCapacity": 36900,
+            "hit_points": 975
           }
         },
         {
@@ -2800,7 +2886,8 @@
           ],
           "display": {
             "titaniumProduction": 3110,
-            "titaniumProductionCapacity": 66400
+            "titaniumProductionCapacity": 66400,
+            "hit_points": 1070
           }
         },
         {
@@ -2819,7 +2906,8 @@
           },
           "display": {
             "titaniumProduction": 3740,
-            "titaniumProductionCapacity": 119000
+            "titaniumProductionCapacity": 119000,
+            "hit_points": 1180
           }
         },
         {
@@ -2838,7 +2926,8 @@
           },
           "display": {
             "titaniumProduction": 4480,
-            "titaniumProductionCapacity": 214000
+            "titaniumProductionCapacity": 214000,
+            "hit_points": 1290
           }
         },
         {
@@ -2857,7 +2946,8 @@
           },
           "display": {
             "titaniumProduction": 5380,
-            "titaniumProductionCapacity": 278000
+            "titaniumProductionCapacity": 278000,
+            "hit_points": 1420
           }
         },
         {
@@ -2876,7 +2966,8 @@
           },
           "display": {
             "titaniumProduction": 6450,
-            "titaniumProductionCapacity": 362000
+            "titaniumProductionCapacity": 362000,
+            "hit_points": 1560
           }
         },
         {
@@ -2895,7 +2986,8 @@
           },
           "display": {
             "titaniumProduction": 7740,
-            "titaniumProductionCapacity": 470000
+            "titaniumProductionCapacity": 470000,
+            "hit_points": 1720
           }
         },
         {
@@ -2914,7 +3006,8 @@
           },
           "display": {
             "titaniumProduction": 9280,
-            "titaniumProductionCapacity": 611000
+            "titaniumProductionCapacity": 611000,
+            "hit_points": 1880
           }
         }
       ]
@@ -2942,7 +3035,9 @@
           "upgradeCost": {
             "adamantite": 8000
           },
-          "display": {}
+          "display": {
+            "hit_points": 805
+          }
         },
         {
           "level": 2,
@@ -2953,7 +3048,9 @@
           "upgradeCost": {
             "adamantite": 16000
           },
-          "display": {}
+          "display": {
+            "hit_points": 885
+          }
         },
         {
           "level": 3,
@@ -2965,7 +3062,9 @@
             "adamantite": 32000,
             "titanium": 12800
           },
-          "display": {}
+          "display": {
+            "hit_points": 975
+          }
         },
         {
           "level": 4,
@@ -2977,7 +3076,9 @@
             "adamantite": 64000,
             "titanium": 25500
           },
-          "display": {}
+          "display": {
+            "hit_points": 1070
+          }
         },
         {
           "level": 5,
@@ -2989,7 +3090,9 @@
             "adamantite": 128000,
             "titanium": 51000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1180
+          }
         },
         {
           "level": 6,
@@ -3001,7 +3104,9 @@
             "adamantite": 255000,
             "titanium": 76500
           },
-          "display": {}
+          "display": {
+            "hit_points": 1290
+          }
         },
         {
           "level": 7,
@@ -3013,7 +3118,9 @@
             "adamantite": 510000,
             "titanium": 115000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1420
+          }
         },
         {
           "level": 8,
@@ -3025,7 +3132,9 @@
             "adamantite": 1020000,
             "titanium": 172000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1560
+          }
         },
         {
           "level": 9,
@@ -3037,7 +3146,9 @@
             "adamantite": 2040000,
             "titanium": 258000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1720
+          }
         },
         {
           "level": 10,
@@ -3049,7 +3160,9 @@
             "adamantite": 4080000,
             "titanium": 385000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1880
+          }
         }
       ]
     },
@@ -3121,7 +3234,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 40
+            "generateEnergy": 40,
+            "hit_points": 550
           }
         },
         {
@@ -3162,7 +3276,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 80
+            "generateEnergy": 80,
+            "hit_points": 605
           }
         },
         {
@@ -3203,7 +3318,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 160
+            "generateEnergy": 160,
+            "hit_points": 665
           }
         },
         {
@@ -3244,7 +3360,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 320
+            "generateEnergy": 320,
+            "hit_points": 730
           }
         },
         {
@@ -3285,7 +3402,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 480
+            "generateEnergy": 480,
+            "hit_points": 805
           }
         },
         {
@@ -3317,7 +3435,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 624
+            "generateEnergy": 624,
+            "hit_points": 885
           }
         },
         {
@@ -3350,7 +3469,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 748.8
+            "generateEnergy": 748.8,
+            "hit_points": 975
           }
         },
         {
@@ -3374,7 +3494,8 @@
             }
           ],
           "display": {
-            "generateEnergy": 898.56
+            "generateEnergy": 898.56,
+            "hit_points": 1070
           }
         },
         {
@@ -3387,7 +3508,8 @@
             "titanium": 61200
           },
           "display": {
-            "generateEnergy": 1078.272
+            "generateEnergy": 1078.272,
+            "hit_points": 1180
           }
         },
         {
@@ -3400,7 +3522,8 @@
             "titanium": 91800
           },
           "display": {
-            "generateEnergy": 1293.9263999999998
+            "generateEnergy": 1293.9263999999998,
+            "hit_points": 1290
           }
         },
         {
@@ -3413,7 +3536,8 @@
             "titanium": 138000
           },
           "display": {
-            "generateEnergy": 1682.10432
+            "generateEnergy": 1682.10432,
+            "hit_points": 1420
           }
         },
         {
@@ -3426,7 +3550,8 @@
             "titanium": 206000
           },
           "display": {
-            "generateEnergy": 2186.735616
+            "generateEnergy": 2186.735616,
+            "hit_points": 1560
           }
         },
         {
@@ -3439,7 +3564,8 @@
             "titanium": 309000
           },
           "display": {
-            "generateEnergy": 2842.7563008
+            "generateEnergy": 2842.7563008,
+            "hit_points": 1720
           }
         },
         {
@@ -3452,7 +3578,8 @@
             "titanium": 616000
           },
           "display": {
-            "generateEnergy": 3411.30756096
+            "generateEnergy": 3411.30756096,
+            "hit_points": 1880
           }
         }
       ]
@@ -3492,7 +3619,9 @@
           "upgradeCost": {
             "adamantite": 250
           },
-          "display": {}
+          "display": {
+            "hit_points": 500
+          }
         },
         {
           "level": 2,
@@ -3503,7 +3632,9 @@
           "upgradeCost": {
             "adamantite": 500
           },
-          "display": {}
+          "display": {
+            "hit_points": 550
+          }
         },
         {
           "level": 3,
@@ -3514,7 +3645,9 @@
           "upgradeCost": {
             "adamantite": 1000
           },
-          "display": {}
+          "display": {
+            "hit_points": 605
+          }
         },
         {
           "level": 4,
@@ -3525,7 +3658,9 @@
           "upgradeCost": {
             "adamantite": 2000
           },
-          "display": {}
+          "display": {
+            "hit_points": 665
+          }
         },
         {
           "level": 5,
@@ -3536,7 +3671,9 @@
           "upgradeCost": {
             "adamantite": 4000
           },
-          "display": {}
+          "display": {
+            "hit_points": 730
+          }
         },
         {
           "level": 6,
@@ -3547,7 +3684,9 @@
           "upgradeCost": {
             "adamantite": 8000
           },
-          "display": {}
+          "display": {
+            "hit_points": 805
+          }
         },
         {
           "level": 7,
@@ -3558,7 +3697,9 @@
           "upgradeCost": {
             "adamantite": 16000
           },
-          "display": {}
+          "display": {
+            "hit_points": 885
+          }
         },
         {
           "level": 8,
@@ -3570,7 +3711,9 @@
             "adamantite": 32000,
             "titanium": 12800
           },
-          "display": {}
+          "display": {
+            "hit_points": 975
+          }
         },
         {
           "level": 9,
@@ -3582,7 +3725,9 @@
             "adamantite": 64000,
             "titanium": 25500
           },
-          "display": {}
+          "display": {
+            "hit_points": 1070
+          }
         },
         {
           "level": 10,
@@ -3594,7 +3739,9 @@
             "adamantite": 128000,
             "titanium": 51000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1180
+          }
         },
         {
           "level": 11,
@@ -3606,7 +3753,9 @@
             "adamantite": 255000,
             "titanium": 76500
           },
-          "display": {}
+          "display": {
+            "hit_points": 1290
+          }
         },
         {
           "level": 12,
@@ -3618,7 +3767,9 @@
             "adamantite": 510000,
             "titanium": 115000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1420
+          }
         },
         {
           "level": 13,
@@ -3630,7 +3781,9 @@
             "adamantite": 1020000,
             "titanium": 172000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1560
+          }
         },
         {
           "level": 14,
@@ -3642,7 +3795,9 @@
             "adamantite": 2040000,
             "titanium": 258000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1720
+          }
         },
         {
           "level": 15,
@@ -3654,7 +3809,9 @@
             "adamantite": 4080000,
             "titanium": 385000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1880
+          }
         }
       ]
     },
@@ -3685,7 +3842,9 @@
           "upgradeCost": {
             "adamantite": 16000
           },
-          "display": {},
+          "display": {
+            "hit_points": 730
+          },
           "research": {
             "infantryBot": 3,
             "rocketBot": 0,
@@ -3705,7 +3864,9 @@
           "upgradeCost": {
             "adamantite": 25600
           },
-          "display": {},
+          "display": {
+            "hit_points": 805
+          },
           "research": {
             "infantryBot": 5,
             "rocketBot": 0,
@@ -3725,7 +3886,9 @@
           "upgradeCost": {
             "adamantite": 51200
           },
-          "display": {},
+          "display": {
+            "hit_points": 885
+          },
           "research": {
             "infantryBot": 7,
             "rocketBot": 0,
@@ -3746,7 +3909,9 @@
             "adamantite": 102000,
             "titanium": 20500
           },
-          "display": {},
+          "display": {
+            "hit_points": 975
+          },
           "research": {
             "infantryBot": 9,
             "rocketBot": 3,
@@ -3767,7 +3932,9 @@
             "adamantite": 205000,
             "titanium": 40800
           },
-          "display": {},
+          "display": {
+            "hit_points": 1070
+          },
           "research": {
             "infantryBot": 11,
             "rocketBot": 5,
@@ -3788,7 +3955,9 @@
             "adamantite": 410000,
             "titanium": 81600
           },
-          "display": {},
+          "display": {
+            "hit_points": 1180
+          },
           "research": {
             "infantryBot": 13,
             "rocketBot": 7,
@@ -3809,7 +3978,9 @@
             "adamantite": 612000,
             "titanium": 122000
           },
-          "display": {},
+          "display": {
+            "hit_points": 1290
+          },
           "research": {
             "infantryBot": 15,
             "rocketBot": 9,
@@ -3830,7 +4001,9 @@
             "adamantite": 1220000,
             "titanium": 138000
           },
-          "display": {},
+          "display": {
+            "hit_points": 1420
+          },
           "research": {
             "infantryBot": 17,
             "rocketBot": 11,
@@ -3851,7 +4024,9 @@
             "adamantite": 1630000,
             "titanium": 206000
           },
-          "display": {},
+          "display": {
+            "hit_points": 1560
+          },
           "research": {
             "infantryBot": 19,
             "rocketBot": 13,
@@ -3872,7 +4047,9 @@
             "adamantite": 3260000,
             "titanium": 309000
           },
-          "display": {},
+          "display": {
+            "hit_points": 1720
+          },
           "research": {
             "infantryBot": 21,
             "rocketBot": 15,
@@ -3893,7 +4070,9 @@
             "adamantite": 4890000,
             "titanium": 462000
           },
-          "display": {},
+          "display": {
+            "hit_points": 1880
+          },
           "research": {
             "infantryBot": 23,
             "rocketBot": 17,
@@ -3938,7 +4117,9 @@
           "upgradeCost": {
             "adamantite": 1600
           },
-          "display": {}
+          "display": {
+            "hit_points": 605
+          }
         },
         {
           "level": 2,
@@ -3950,7 +4131,9 @@
           "upgradeCost": {
             "adamantite": 3200
           },
-          "display": {}
+          "display": {
+            "hit_points": 665
+          }
         },
         {
           "level": 3,
@@ -3962,7 +4145,9 @@
           "upgradeCost": {
             "adamantite": 6400
           },
-          "display": {}
+          "display": {
+            "hit_points": 730
+          }
         },
         {
           "level": 4,
@@ -3974,7 +4159,9 @@
           "upgradeCost": {
             "adamantite": 12800
           },
-          "display": {}
+          "display": {
+            "hit_points": 805
+          }
         },
         {
           "level": 5,
@@ -3986,7 +4173,9 @@
           "upgradeCost": {
             "adamantite": 19200
           },
-          "display": {}
+          "display": {
+            "hit_points": 885
+          }
         },
         {
           "level": 6,
@@ -3999,7 +4188,9 @@
             "adamantite": 38400,
             "titanium": 12800
           },
-          "display": {}
+          "display": {
+            "hit_points": 975
+          }
         },
         {
           "level": 7,
@@ -4012,7 +4203,9 @@
             "adamantite": 76800,
             "titanium": 30600
           },
-          "display": {}
+          "display": {
+            "hit_points": 1070
+          }
         },
         {
           "level": 8,
@@ -4025,7 +4218,9 @@
             "adamantite": 154000,
             "titanium": 61200
           },
-          "display": {}
+          "display": {
+            "hit_points": 1180
+          }
         },
         {
           "level": 9,
@@ -4038,7 +4233,9 @@
             "adamantite": 255000,
             "titanium": 91800
           },
-          "display": {}
+          "display": {
+            "hit_points": 1290
+          }
         },
         {
           "level": 10,
@@ -4051,7 +4248,9 @@
             "adamantite": 510000,
             "titanium": 138000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1420
+          }
         },
         {
           "level": 11,
@@ -4064,7 +4263,9 @@
             "adamantite": 1020000,
             "titanium": 206000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1560
+          }
         },
         {
           "level": 12,
@@ -4077,7 +4278,9 @@
             "adamantite": 2040000,
             "titanium": 309000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1720
+          }
         },
         {
           "level": 13,
@@ -4090,7 +4293,9 @@
             "adamantite": 4080000,
             "titanium": 616000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1880
+          }
         }
       ]
     },
@@ -4117,7 +4322,9 @@
           "upgradeCost": {
             "adamantite": 8000
           },
-          "display": {}
+          "display": {
+            "hit_points": 665
+          }
         },
         {
           "level": 2,
@@ -4128,7 +4335,9 @@
           "upgradeCost": {
             "adamantite": 16000
           },
-          "display": {}
+          "display": {
+            "hit_points": 730
+          }
         },
         {
           "level": 3,
@@ -4139,7 +4348,9 @@
           "upgradeCost": {
             "adamantite": 25600
           },
-          "display": {}
+          "display": {
+            "hit_points": 805
+          }
         },
         {
           "level": 4,
@@ -4150,7 +4361,9 @@
           "upgradeCost": {
             "adamantite": 51200
           },
-          "display": {}
+          "display": {
+            "hit_points": 885
+          }
         },
         {
           "level": 5,
@@ -4162,7 +4375,9 @@
             "adamantite": 102000,
             "titanium": 20500
           },
-          "display": {}
+          "display": {
+            "hit_points": 975
+          }
         },
         {
           "level": 6,
@@ -4174,7 +4389,9 @@
             "adamantite": 205000,
             "titanium": 40800
           },
-          "display": {}
+          "display": {
+            "hit_points": 1070
+          }
         },
         {
           "level": 7,
@@ -4186,7 +4403,9 @@
             "adamantite": 410000,
             "titanium": 81600
           },
-          "display": {}
+          "display": {
+            "hit_points": 1180
+          }
         },
         {
           "level": 8,
@@ -4198,7 +4417,9 @@
             "adamantite": 612000,
             "titanium": 122000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1290
+          }
         },
         {
           "level": 9,
@@ -4210,7 +4431,9 @@
             "adamantite": 1220000,
             "titanium": 184000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1420
+          }
         },
         {
           "level": 10,
@@ -4222,7 +4445,9 @@
             "adamantite": 1630000,
             "titanium": 275000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1560
+          }
         },
         {
           "level": 11,
@@ -4234,7 +4459,9 @@
             "adamantite": 3260000,
             "titanium": 412000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1720
+          }
         },
         {
           "level": 12,
@@ -4246,7 +4473,9 @@
             "adamantite": 4890000,
             "titanium": 616000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1880
+          }
         }
       ]
     },
@@ -4278,6 +4507,7 @@
             "adamantite": 9600
           },
           "display": {
+            "hit_points": 665,
             "short.lvl1": 50,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4312,6 +4542,7 @@
             "adamantite": 19200
           },
           "display": {
+            "hit_points": 730,
             "short.lvl1": 55,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4346,6 +4577,7 @@
             "adamantite": 32000
           },
           "display": {
+            "hit_points": 805,
             "short.lvl1": 60,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4380,6 +4612,7 @@
             "adamantite": 64000
           },
           "display": {
+            "hit_points": 885,
             "short.lvl1": 65,
             "short.lvl2": 5,
             "short.lvl3": 0,
@@ -4415,6 +4648,7 @@
             "titanium": 20500
           },
           "display": {
+            "hit_points": 975,
             "short.lvl1": 70,
             "short.lvl2": 7,
             "short.lvl3": 0,
@@ -4450,6 +4684,7 @@
             "titanium": 40800
           },
           "display": {
+            "hit_points": 1070,
             "short.lvl1": 70,
             "short.lvl2": 10,
             "short.lvl3": 0,
@@ -4485,6 +4720,7 @@
             "titanium": 81600
           },
           "display": {
+            "hit_points": 1180,
             "short.lvl1": 75,
             "short.lvl2": 12,
             "short.lvl3": 0,
@@ -4520,6 +4756,7 @@
             "titanium": 122000
           },
           "display": {
+            "hit_points": 1290,
             "short.lvl1": 80,
             "short.lvl2": 15,
             "short.lvl3": 0,
@@ -4555,6 +4792,7 @@
             "titanium": 184000
           },
           "display": {
+            "hit_points": 1420,
             "short.lvl1": 85,
             "short.lvl2": 17,
             "short.lvl3": 0,
@@ -4590,6 +4828,7 @@
             "titanium": 275000
           },
           "display": {
+            "hit_points": 1560,
             "short.lvl1": 90,
             "short.lvl2": 20,
             "short.lvl3": 0,
@@ -4625,6 +4864,7 @@
             "titanium": 412000
           },
           "display": {
+            "hit_points": 1720,
             "short.lvl1": 95,
             "short.lvl2": 22,
             "short.lvl3": 0,
@@ -4660,6 +4900,7 @@
             "titanium": 616000
           },
           "display": {
+            "hit_points": 1880,
             "short.lvl1": 100,
             "short.lvl2": 24,
             "short.lvl3": 0,
@@ -4706,7 +4947,9 @@
             "adamantite": 384000,
             "titanium": 61200
           },
-          "display": {}
+          "display": {
+            "hit_points": 1070
+          }
         },
         {
           "level": 2,
@@ -4718,7 +4961,9 @@
             "adamantite": 768000,
             "titanium": 122000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1180
+          }
         },
         {
           "level": 3,
@@ -4730,7 +4975,9 @@
             "adamantite": 816000,
             "titanium": 184000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1290
+          }
         },
         {
           "level": 4,
@@ -4742,7 +4989,9 @@
             "adamantite": 1630000,
             "titanium": 275000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1420
+          }
         },
         {
           "level": 5,
@@ -4754,7 +5003,9 @@
             "adamantite": 1630000,
             "titanium": 413000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1560
+          }
         },
         {
           "level": 6,
@@ -4766,7 +5017,9 @@
             "adamantite": 3260000,
             "titanium": 618000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1720
+          }
         },
         {
           "level": 7,
@@ -4778,7 +5031,9 @@
             "adamantite": 3260000,
             "titanium": 924000
           },
-          "display": {}
+          "display": {
+            "hit_points": 1880
+          }
         }
       ]
     },
@@ -5321,7 +5576,9 @@
             "adamantite": 76800,
             "titanium": 30600
           },
-          "display": {}
+          "display": {
+            "hit_points": 2140
+          }
         },
         {
           "level": 2,
@@ -5333,7 +5590,9 @@
             "adamantite": 154000,
             "titanium": 61200
           },
-          "display": {}
+          "display": {
+            "hit_points": 2350
+          }
         },
         {
           "level": 3,
@@ -5345,7 +5604,9 @@
             "adamantite": 306000,
             "titanium": 91800
           },
-          "display": {}
+          "display": {
+            "hit_points": 2580
+          }
         },
         {
           "level": 4,
@@ -5357,7 +5618,9 @@
             "adamantite": 612000,
             "titanium": 138000
           },
-          "display": {}
+          "display": {
+            "hit_points": 2840
+          }
         },
         {
           "level": 5,
@@ -5369,7 +5632,9 @@
             "adamantite": 1220000,
             "titanium": 206000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3120
+          }
         },
         {
           "level": 6,
@@ -5381,7 +5646,9 @@
             "adamantite": 2450000,
             "titanium": 309000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3430
+          }
         },
         {
           "level": 7,
@@ -5393,7 +5660,9 @@
             "adamantite": 4080000,
             "titanium": 616000
           },
-          "display": {}
+          "display": {
+            "hit_points": 3770
+          }
         }
       ]
     },
