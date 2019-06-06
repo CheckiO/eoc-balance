@@ -6032,7 +6032,6 @@
           "level": 1,
           "cards": 2,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 500
           },
@@ -6046,7 +6045,6 @@
           "level": 2,
           "cards": 3,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 1000
           },
@@ -6060,7 +6058,6 @@
           "level": 3,
           "cards": 4,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 1500
           },
@@ -6074,7 +6071,6 @@
           "level": 4,
           "cards": 5,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 2000
           },
@@ -6088,7 +6084,6 @@
           "level": 5,
           "cards": 6,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 2500
           },
@@ -6102,7 +6097,6 @@
           "level": 6,
           "cards": 7,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 3000
           },
@@ -6116,7 +6110,6 @@
           "level": 7,
           "cards": 8,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 3500
           },
@@ -6130,7 +6123,6 @@
           "level": 8,
           "cards": 9,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 4000
           },
@@ -6144,7 +6136,6 @@
           "level": 9,
           "cards": 10,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 4500
           },
@@ -6158,7 +6149,6 @@
           "level": 10,
           "cards": 11,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 5000
           },
@@ -6172,7 +6162,6 @@
           "level": 11,
           "cards": 12,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 5500
           },
@@ -6186,7 +6175,6 @@
           "level": 12,
           "cards": 13,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 6000
           },
@@ -6200,7 +6188,6 @@
           "level": 13,
           "cards": 14,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 6500
           },
@@ -6214,7 +6201,6 @@
           "level": 14,
           "cards": 15,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 7000
           },
@@ -6228,7 +6214,6 @@
           "level": 15,
           "cards": 16,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 7500
           },
@@ -6242,7 +6227,6 @@
           "level": 16,
           "cards": 17,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 8000
           },
@@ -6256,7 +6240,6 @@
           "level": 17,
           "cards": 18,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 8500
           },
@@ -6270,7 +6253,6 @@
           "level": 18,
           "cards": 19,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 9000
           },
@@ -6284,7 +6266,6 @@
           "level": 19,
           "cards": 20,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 9500
           },
@@ -6298,7 +6279,6 @@
           "level": 20,
           "cards": 21,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
@@ -6312,7 +6292,6 @@
           "level": 21,
           "cards": 22,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 10500
           },
@@ -6326,7 +6305,6 @@
           "level": 22,
           "cards": 23,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 11000
           },
@@ -6340,7 +6318,6 @@
           "level": 23,
           "cards": 24,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 11500
           },
@@ -6354,7 +6331,6 @@
           "level": 24,
           "cards": 25,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 12000
           },
@@ -6368,7 +6344,6 @@
           "level": 25,
           "cards": 26,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 12500
           },
@@ -6382,7 +6357,6 @@
           "level": 26,
           "cards": 27,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 13000
           },
@@ -6396,7 +6370,6 @@
           "level": 27,
           "cards": 28,
           "speed": 5,
-          "k": 1.1,
           "price": {
             "crystalite": 13500
           },
@@ -6414,7 +6387,6 @@
           "level": 1,
           "cards": 2,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
@@ -6428,7 +6400,6 @@
           "level": 2,
           "cards": 3,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 12000
           },
@@ -6442,7 +6413,6 @@
           "level": 3,
           "cards": 4,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 14000
           },
@@ -6456,7 +6426,6 @@
           "level": 4,
           "cards": 5,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 16000
           },
@@ -6470,7 +6439,6 @@
           "level": 5,
           "cards": 6,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 18000
           },
@@ -6484,7 +6452,6 @@
           "level": 6,
           "cards": 7,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 20000
           },
@@ -6498,7 +6465,6 @@
           "level": 7,
           "cards": 8,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 22000
           },
@@ -6512,7 +6478,6 @@
           "level": 8,
           "cards": 9,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 24000
           },
@@ -6526,7 +6491,6 @@
           "level": 9,
           "cards": 10,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 26000
           },
@@ -6540,7 +6504,6 @@
           "level": 10,
           "cards": 11,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 28000
           },
@@ -6554,7 +6517,6 @@
           "level": 11,
           "cards": 12,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 30000
           },
@@ -6568,7 +6530,6 @@
           "level": 12,
           "cards": 13,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 32000
           },
@@ -6582,7 +6543,6 @@
           "level": 13,
           "cards": 14,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 34000
           },
@@ -6596,7 +6556,6 @@
           "level": 14,
           "cards": 15,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 36000
           },
@@ -6610,7 +6569,6 @@
           "level": 15,
           "cards": 16,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 38000
           },
@@ -6624,7 +6582,6 @@
           "level": 16,
           "cards": 17,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 40000
           },
@@ -6638,7 +6595,6 @@
           "level": 17,
           "cards": 18,
           "speed": 4,
-          "k": 1.1,
           "price": {
             "crystalite": 42000
           },
@@ -6656,7 +6612,6 @@
           "level": 1,
           "cards": 2,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 5000
           },
@@ -6670,7 +6625,6 @@
           "level": 2,
           "cards": 3,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 10000
           },
@@ -6684,7 +6638,6 @@
           "level": 3,
           "cards": 4,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 15000
           },
@@ -6698,7 +6651,6 @@
           "level": 4,
           "cards": 5,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 20000
           },
@@ -6712,7 +6664,6 @@
           "level": 5,
           "cards": 6,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 25000
           },
@@ -6726,7 +6677,6 @@
           "level": 6,
           "cards": 7,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 30000
           },
@@ -6740,7 +6690,6 @@
           "level": 7,
           "cards": 8,
           "speed": 3,
-          "k": 1.1,
           "price": {
             "crystalite": 35000
           },

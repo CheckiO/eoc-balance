@@ -540,6 +540,7 @@ for name, unit in labs.items():
         raw['damage_per_shot'] = raw.pop('damagepershot')
         raw['firing_range'] = raw.pop('firerange')
         raw['rate_of_fire'] = raw.pop('rateoffire')
+        raw.pop('k')
         stats.append(raw)
 
 
