@@ -88,55 +88,55 @@ private_config = {
 result = {
     'commandCenter':{
         'size': {'x': 4, 'y': 4},
-        'rule': 'center'
+        'role': 'center'
     },
     'crystaliteSilo':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 1,
-        'rule': 'building'
+        'role': 'building'
     },
     'crystaliteFarm':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 2,
-        'rule': 'building'
+        'role': 'building'
     },
     'adamantiteStorage':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 3,
-        'rule': 'building'
+        'role': 'building'
     },
     'adamantiteMine':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 4,
-        'rule': 'building'
+        'role': 'building'
     },
     'titaniumStorage':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 6,
-        'rule': 'building'
+        'role': 'building'
     },
     'titaniumLab':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 7,
-        'rule': 'building'
+        'role': 'building'
     },
     'vault':{
         'size': {'x': 3, 'y': 3},
         'category': 'resource',
         'position': 5,
-        'rule': 'building'
+        'role': 'building'
     },
     'electronic':{
         'size': {'x': 2, 'y': 2},
         'category': 'resource',
         'position': 5,
-        'rule': 'building'
+        'role': 'building'
     },
     # 'collector':{
     #     'size': {'x': 3, 'y': 3},
@@ -147,49 +147,49 @@ result = {
         'size': {'x': 2, 'y': 2},
         'category': 'support',
         'position': 1,
-        'rule': 'building'
+        'role': 'building'
     },
     'laboratory':{
         'size': {'x': 3, 'y': 3},
         'category': 'support',
         'position': 6,
-        'rule': 'building'
+        'role': 'building'
     },
     'bots':{
         'size': {'x': 2, 'y': 2},
         'category': 'support',
         'position': 2,
-        'rule': 'building'
+        'role': 'building'
     },
     'radar':{
         'size': {'x': 3, 'y': 3},
         'category': 'support',
         'position': 4,
-        'rule': 'building'
+        'role': 'building'
     },
     'garbage':{
         'size': {'x': 3, 'y': 3},
         'category': 'support',
         'position': 5,
-        'rule': 'building'
+        'role': 'building'
     },
     'flagman':{
         'size': {'x': 2, 'y': 2},
         'category': 'support',
         'position': 7,
-        'rule': 'building'
+        'role': 'building'
     },
     'sentryGun':{
         'size': {'x': 3, 'y': 3},
         'category': 'defense',
         'position': 1,
-        'rule': 'tower'
+        'role': 'tower'
     },
     'machineGun':{
         'size': {'x': 2, 'y': 2},
         'category': 'defense',
         'position': 2,
-        'rule': 'tower'
+        'role': 'tower'
     },
     'mine':{
         'size': {'x': 1, 'y': 1},
@@ -200,17 +200,17 @@ result = {
         'size': {'x': 2, 'y': 2},
         'category': 'defense',
         'position': 4,
-        'rule': 'tower'
+        'role': 'tower'
     },
     'rocketGun':{
         'size': {'x': 2, 'y': 2},
         'category': 'defense',
         'position': 5,
-        'rule': 'tower'
+        'role': 'tower'
     },
     'weather':{
         'size': {'x': 3, 'y': 3},
-        'rule': 'building'
+        'role': 'building'
     },
     'goldenCat':{'size': {'x': 2, 'y': 2},
         'counts': [{

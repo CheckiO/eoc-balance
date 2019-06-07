@@ -5,7 +5,7 @@
         "x": 4,
         "y": 4
       },
-      "rule": "center",
+      "role": "center",
       "counts": [],
       "stats": [
         {
@@ -420,7 +420,7 @@
       },
       "category": "resource",
       "position": 1,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -924,7 +924,7 @@
       },
       "category": "resource",
       "position": 2,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -1544,7 +1544,7 @@
       },
       "category": "resource",
       "position": 3,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -1949,7 +1949,7 @@
       },
       "category": "resource",
       "position": 4,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -2578,7 +2578,7 @@
       },
       "category": "resource",
       "position": 6,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -2766,7 +2766,7 @@
       },
       "category": "resource",
       "position": 7,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -3026,7 +3026,7 @@
       },
       "category": "resource",
       "position": 5,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -3181,7 +3181,7 @@
       },
       "category": "resource",
       "position": 5,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -3600,7 +3600,7 @@
       },
       "category": "support",
       "position": 1,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -3832,7 +3832,7 @@
       },
       "category": "support",
       "position": 6,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -4099,7 +4099,7 @@
       },
       "category": "support",
       "position": 2,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -4318,7 +4318,7 @@
       },
       "category": "support",
       "position": 4,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -4499,7 +4499,7 @@
       },
       "category": "support",
       "position": 5,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -4944,7 +4944,7 @@
       },
       "category": "support",
       "position": 7,
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
@@ -5059,7 +5059,7 @@
       },
       "category": "defense",
       "position": 1,
-      "rule": "tower",
+      "role": "tower",
       "counts": [
         {
           "count": 1,
@@ -5336,7 +5336,7 @@
       },
       "category": "defense",
       "position": 2,
-      "rule": "tower",
+      "role": "tower",
       "counts": [
         {
           "count": 1,
@@ -5572,7 +5572,7 @@
       },
       "category": "defense",
       "position": 4,
-      "rule": "tower",
+      "role": "tower",
       "counts": [
         {
           "count": 1,
@@ -5691,7 +5691,7 @@
       },
       "category": "defense",
       "position": 5,
-      "rule": "tower",
+      "role": "tower",
       "counts": [
         {
           "count": 1,
@@ -5738,7 +5738,7 @@
         "x": 3,
         "y": 3
       },
-      "rule": "building",
+      "role": "building",
       "counts": [
         {
           "count": 1,
