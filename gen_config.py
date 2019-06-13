@@ -460,12 +460,22 @@ for b_type, b_data in data.items():
                 display['firing_range'] = lvl_data['firerange']
             if 'rateoffire' in lvl_data:
                 display['rate_of_fire'] = lvl_data['rateoffire']
+            if 'chargesize' in lvl_data:
+                display['charge_size'] = lvl_data['chargesize']
+            if 'a_rocket' in lvl_data:
+                display['has_rocket'] = lvl_data['a_rocket']
+                display['has_heal'] = lvl_data['a_heal']
+                display['has_power'] = lvl_data['a_power']
 
             if b_type == 'laboratory':
                 new_stat['research'] = {
+                    'mine': lvl_data['max.mine'],
                     'infantryBot': lvl_data['max.infantrybot'],
                     'rocketBot': lvl_data['max.rocketbot'],
                     'heavyBot': lvl_data['max.heavybot'],
+                    'actionRocket': lvl_data['max.a_rocket'],
+                    'actionHeal': lvl_data['max.a_heal'],
+                    'actionPower': lvl_data['max.a_power'],
                 }
             
             if b_type == 'garbage':
@@ -537,7 +547,8 @@ game_config['codeLevels'] = [{
 labs = {
     'infantryBot': {},
     'rocketBot': {},
-    'heavyBot': {}
+    'heavyBot': {},
+    'mine': {}
 }
 game_config['units'] = labs
 
@@ -556,12 +567,35 @@ for name, unit in labs.items():
         }
         raw['upTime'] = raw.pop('uptime')
 
-        raw['hit_points'] = raw.pop('hitpoints')
-        raw['damage_per_shot'] = raw.pop('damagepershot')
-        raw['firing_range'] = raw.pop('firerange')
-        raw['rate_of_fire'] = raw.pop('rateoffire')
-        raw.pop('k')
+        raw['hit_points'] = raw.pop('hitpoints', 0)
+        raw['damage_per_shot'] = raw.pop('damagepershot', 0)
+        raw['firing_range'] = raw.pop('firerange', 0)
+        raw['rate_of_fire'] = raw.pop('rateoffire', 0)
+        raw.pop('k', None)
         stats.append(raw)
+
+flag = {
+    'rocket': {},
+    'heal': {},
+    'power': {}
+}
+game_config['flagman'] = flag
+
+flag_data = {}
+scan_data(flag, flag_data, ('Flagman',), (3, 16))
+
+for name, unit in flag.items():
+    stats = []
+    unit['stats'] = stats
+    for raw in flag_data[name]:
+        if not raw['level']:
+            continue
+        raw['price'] = {
+            'crystalite': raw.pop('crystalite')
+        }
+        raw['upTime'] = raw.pop('uptime')
+        stats.append(raw)
+
 
 
 ws = wb['Quests']

@@ -3857,9 +3857,13 @@
             "hit_points": 730
           },
           "research": {
+            "mine": 3,
             "infantryBot": 3,
             "rocketBot": 0,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 0,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3879,9 +3883,13 @@
             "hit_points": 805
           },
           "research": {
+            "mine": 5,
             "infantryBot": 5,
             "rocketBot": 0,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 0,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3901,9 +3909,13 @@
             "hit_points": 885
           },
           "research": {
+            "mine": 7,
             "infantryBot": 7,
             "rocketBot": 0,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 0,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3924,9 +3936,13 @@
             "hit_points": 975
           },
           "research": {
+            "mine": 9,
             "infantryBot": 9,
             "rocketBot": 3,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 0,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3947,9 +3963,13 @@
             "hit_points": 1070
           },
           "research": {
+            "mine": 11,
             "infantryBot": 11,
             "rocketBot": 5,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 2,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3970,9 +3990,13 @@
             "hit_points": 1180
           },
           "research": {
+            "mine": 13,
             "infantryBot": 13,
             "rocketBot": 7,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 4,
+            "actionHeal": 0,
+            "actionPower": 0
           }
         },
         {
@@ -3993,9 +4017,13 @@
             "hit_points": 1290
           },
           "research": {
+            "mine": 15,
             "infantryBot": 15,
             "rocketBot": 9,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 6,
+            "actionHeal": 2,
+            "actionPower": 0
           }
         },
         {
@@ -4016,9 +4044,13 @@
             "hit_points": 1420
           },
           "research": {
+            "mine": 17,
             "infantryBot": 17,
             "rocketBot": 11,
-            "heavyBot": 0
+            "heavyBot": 0,
+            "actionRocket": 8,
+            "actionHeal": 4,
+            "actionPower": 0
           }
         },
         {
@@ -4039,9 +4071,13 @@
             "hit_points": 1560
           },
           "research": {
+            "mine": 19,
             "infantryBot": 19,
             "rocketBot": 13,
-            "heavyBot": 3
+            "heavyBot": 3,
+            "actionRocket": 10,
+            "actionHeal": 6,
+            "actionPower": 2
           }
         },
         {
@@ -4062,9 +4098,13 @@
             "hit_points": 1720
           },
           "research": {
+            "mine": 21,
             "infantryBot": 21,
             "rocketBot": 15,
-            "heavyBot": 5
+            "heavyBot": 5,
+            "actionRocket": 12,
+            "actionHeal": 8,
+            "actionPower": 4
           }
         },
         {
@@ -4085,9 +4125,13 @@
             "hit_points": 1880
           },
           "research": {
+            "mine": 23,
             "infantryBot": 23,
             "rocketBot": 17,
-            "heavyBot": 7
+            "heavyBot": 7,
+            "actionRocket": 14,
+            "actionHeal": 10,
+            "actionPower": 6
           }
         }
       ]
@@ -4963,7 +5007,11 @@
             "titanium": 61200
           },
           "display": {
-            "hit_points": 1070
+            "hit_points": 1070,
+            "charge_size": 20,
+            "has_rocket": 1,
+            "has_heal": 0,
+            "has_power": 0
           }
         },
         {
@@ -4977,7 +5025,11 @@
             "titanium": 122000
           },
           "display": {
-            "hit_points": 1180
+            "hit_points": 1180,
+            "charge_size": 25,
+            "has_rocket": 1,
+            "has_heal": 0,
+            "has_power": 0
           }
         },
         {
@@ -4991,7 +5043,11 @@
             "titanium": 184000
           },
           "display": {
-            "hit_points": 1290
+            "hit_points": 1290,
+            "charge_size": 30,
+            "has_rocket": 1,
+            "has_heal": 1,
+            "has_power": 0
           }
         },
         {
@@ -5005,7 +5061,11 @@
             "titanium": 275000
           },
           "display": {
-            "hit_points": 1420
+            "hit_points": 1420,
+            "charge_size": 35,
+            "has_rocket": 1,
+            "has_heal": 1,
+            "has_power": 0
           }
         },
         {
@@ -5019,7 +5079,11 @@
             "titanium": 413000
           },
           "display": {
-            "hit_points": 1560
+            "hit_points": 1560,
+            "charge_size": 40,
+            "has_rocket": 1,
+            "has_heal": 1,
+            "has_power": 1
           }
         },
         {
@@ -5033,7 +5097,11 @@
             "titanium": 618000
           },
           "display": {
-            "hit_points": 1720
+            "hit_points": 1720,
+            "charge_size": 45,
+            "has_rocket": 1,
+            "has_heal": 1,
+            "has_power": 1
           }
         },
         {
@@ -5047,7 +5115,11 @@
             "titanium": 924000
           },
           "display": {
-            "hit_points": 1880
+            "hit_points": 1880,
+            "charge_size": 50,
+            "has_rocket": 1,
+            "has_heal": 1,
+            "has_power": 1
           }
         }
       ]
@@ -6987,6 +7059,765 @@
           "damage_per_shot": 16,
           "firing_range": 3,
           "rate_of_fire": 10
+        }
+      ]
+    },
+    "mine": {
+      "stats": [
+        {
+          "level": 1,
+          "cards": 2,
+          "damage": 80,
+          "price": {
+            "crystalite": 500
+          },
+          "upTime": 600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 2,
+          "cards": 3,
+          "damage": 96,
+          "price": {
+            "crystalite": 1000
+          },
+          "upTime": 1200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 3,
+          "cards": 4,
+          "damage": 115,
+          "price": {
+            "crystalite": 1500
+          },
+          "upTime": 1800,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 4,
+          "cards": 5,
+          "damage": 138,
+          "price": {
+            "crystalite": 2000
+          },
+          "upTime": 2400,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 5,
+          "cards": 6,
+          "damage": 166,
+          "price": {
+            "crystalite": 2500
+          },
+          "upTime": 3000,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 6,
+          "cards": 7,
+          "damage": 199,
+          "price": {
+            "crystalite": 3000
+          },
+          "upTime": 3600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 7,
+          "cards": 8,
+          "damage": 239,
+          "price": {
+            "crystalite": 3500
+          },
+          "upTime": 4200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 8,
+          "cards": 9,
+          "damage": 287,
+          "price": {
+            "crystalite": 4000
+          },
+          "upTime": 4800,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 9,
+          "cards": 10,
+          "damage": 344,
+          "price": {
+            "crystalite": 4500
+          },
+          "upTime": 5400,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 10,
+          "cards": 11,
+          "damage": 378,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 6000,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 11,
+          "cards": 12,
+          "damage": 416,
+          "price": {
+            "crystalite": 5500
+          },
+          "upTime": 6600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 12,
+          "cards": 13,
+          "damage": 458,
+          "price": {
+            "crystalite": 6000
+          },
+          "upTime": 7200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 13,
+          "cards": 14,
+          "damage": 504,
+          "price": {
+            "crystalite": 6500
+          },
+          "upTime": 7800,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 14,
+          "cards": 15,
+          "damage": 554,
+          "price": {
+            "crystalite": 7000
+          },
+          "upTime": 8400,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 15,
+          "cards": 16,
+          "damage": 609,
+          "price": {
+            "crystalite": 7500
+          },
+          "upTime": 9000,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 16,
+          "cards": 17,
+          "damage": 670,
+          "price": {
+            "crystalite": 8000
+          },
+          "upTime": 9600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 17,
+          "cards": 18,
+          "damage": 737,
+          "price": {
+            "crystalite": 8500
+          },
+          "upTime": 10200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 18,
+          "cards": 19,
+          "damage": 811,
+          "price": {
+            "crystalite": 9000
+          },
+          "upTime": 10800,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 19,
+          "cards": 20,
+          "damage": 892,
+          "price": {
+            "crystalite": 9500
+          },
+          "upTime": 11400,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 20,
+          "cards": 21,
+          "damage": 910,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 12000,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 21,
+          "cards": 22,
+          "damage": 928,
+          "price": {
+            "crystalite": 10500
+          },
+          "upTime": 12600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 22,
+          "cards": 23,
+          "damage": 947,
+          "price": {
+            "crystalite": 11000
+          },
+          "upTime": 13200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 23,
+          "cards": 24,
+          "damage": 966,
+          "price": {
+            "crystalite": 11500
+          },
+          "upTime": 13800,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 24,
+          "cards": 25,
+          "damage": 985,
+          "price": {
+            "crystalite": 12000
+          },
+          "upTime": 14400,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 25,
+          "cards": 26,
+          "damage": 1000,
+          "price": {
+            "crystalite": 12500
+          },
+          "upTime": 15000,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 26,
+          "cards": 27,
+          "damage": 1020,
+          "price": {
+            "crystalite": 13000
+          },
+          "upTime": 15600,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        },
+        {
+          "level": 27,
+          "cards": 28,
+          "damage": 1040,
+          "price": {
+            "crystalite": 13500
+          },
+          "upTime": 16200,
+          "hit_points": 0,
+          "damage_per_shot": 0,
+          "firing_range": 0.5,
+          "rate_of_fire": 0
+        }
+      ]
+    }
+  },
+  "flagman": {
+    "rocket": {
+      "stats": [
+        {
+          "center": 1,
+          "level": 1,
+          "cards": 2,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 400,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 600
+        },
+        {
+          "center": 2,
+          "level": 2,
+          "cards": 3,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 450,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 1200
+        },
+        {
+          "center": 3,
+          "level": 3,
+          "cards": 4,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 500,
+          "price": {
+            "crystalite": 15000
+          },
+          "upTime": 1800
+        },
+        {
+          "center": 4,
+          "level": 4,
+          "cards": 5,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 550,
+          "price": {
+            "crystalite": 20000
+          },
+          "upTime": 2400
+        },
+        {
+          "center": 5,
+          "level": 5,
+          "cards": 6,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 600,
+          "price": {
+            "crystalite": 25000
+          },
+          "upTime": 3000
+        },
+        {
+          "center": 6,
+          "level": 6,
+          "cards": 7,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 650,
+          "price": {
+            "crystalite": 30000
+          },
+          "upTime": 3600
+        },
+        {
+          "center": 7,
+          "level": 7,
+          "cards": 8,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 700,
+          "price": {
+            "crystalite": 35000
+          },
+          "upTime": 4200
+        },
+        {
+          "center": 8,
+          "level": 8,
+          "cards": 9,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 750,
+          "price": {
+            "crystalite": 40000
+          },
+          "upTime": 4800
+        },
+        {
+          "center": 9,
+          "level": 9,
+          "cards": 10,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 800,
+          "price": {
+            "crystalite": 45000
+          },
+          "upTime": 5400
+        },
+        {
+          "center": 10,
+          "level": 10,
+          "cards": 11,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 850,
+          "price": {
+            "crystalite": 50000
+          },
+          "upTime": 6000
+        },
+        {
+          "center": 11,
+          "level": 11,
+          "cards": 12,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 900,
+          "price": {
+            "crystalite": 55000
+          },
+          "upTime": 6600
+        },
+        {
+          "center": 12,
+          "level": 12,
+          "cards": 13,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 950,
+          "price": {
+            "crystalite": 60000
+          },
+          "upTime": 7200
+        },
+        {
+          "center": 13,
+          "level": 13,
+          "cards": 14,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 1000,
+          "price": {
+            "crystalite": 65000
+          },
+          "upTime": 7800
+        },
+        {
+          "center": 14,
+          "level": 14,
+          "cards": 15,
+          "charge": 7,
+          "timer": 0.5,
+          "radius": 5,
+          "damage": 1050,
+          "price": {
+            "crystalite": 70000
+          },
+          "upTime": 8400
+        }
+      ]
+    },
+    "heal": {
+      "stats": [
+        {
+          "center": 1,
+          "level": 1,
+          "cards": 2,
+          "charge": 10,
+          "radius": 2,
+          "time": 3,
+          "power": 100,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 600
+        },
+        {
+          "center": 2,
+          "level": 2,
+          "cards": 3,
+          "charge": 10,
+          "radius": 2,
+          "time": 3.5,
+          "power": 150,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 1200
+        },
+        {
+          "center": 3,
+          "level": 3,
+          "cards": 4,
+          "charge": 10,
+          "radius": 2,
+          "time": 4,
+          "power": 200,
+          "price": {
+            "crystalite": 15000
+          },
+          "upTime": 1800
+        },
+        {
+          "center": 4,
+          "level": 4,
+          "cards": 5,
+          "charge": 10,
+          "radius": 2,
+          "time": 4.5,
+          "power": 250,
+          "price": {
+            "crystalite": 20000
+          },
+          "upTime": 2400
+        },
+        {
+          "center": 5,
+          "level": 5,
+          "cards": 6,
+          "charge": 10,
+          "radius": 2,
+          "time": 5,
+          "power": 300,
+          "price": {
+            "crystalite": 25000
+          },
+          "upTime": 3000
+        },
+        {
+          "center": 6,
+          "level": 6,
+          "cards": 7,
+          "charge": 10,
+          "radius": 2,
+          "time": 5.5,
+          "power": 350,
+          "price": {
+            "crystalite": 30000
+          },
+          "upTime": 3600
+        },
+        {
+          "center": 7,
+          "level": 7,
+          "cards": 8,
+          "charge": 10,
+          "radius": 2,
+          "time": 6,
+          "power": 400,
+          "price": {
+            "crystalite": 35000
+          },
+          "upTime": 4200
+        },
+        {
+          "center": 8,
+          "level": 8,
+          "cards": 9,
+          "charge": 10,
+          "radius": 2,
+          "time": 6.5,
+          "power": 450,
+          "price": {
+            "crystalite": 40000
+          },
+          "upTime": 4800
+        },
+        {
+          "center": 9,
+          "level": 9,
+          "cards": 10,
+          "charge": 10,
+          "radius": 2,
+          "time": 7,
+          "power": 500,
+          "price": {
+            "crystalite": 45000
+          },
+          "upTime": 5400
+        },
+        {
+          "center": 10,
+          "level": 10,
+          "cards": 11,
+          "charge": 10,
+          "radius": 2,
+          "time": 7.5,
+          "power": 550,
+          "price": {
+            "crystalite": 50000
+          },
+          "upTime": 6000
+        }
+      ]
+    },
+    "power": {
+      "stats": [
+        {
+          "center": 1,
+          "level": 1,
+          "cards": 2,
+          "charge": 12,
+          "radius": 2,
+          "time": 3,
+          "power": 3,
+          "price": {
+            "crystalite": 5000
+          },
+          "upTime": 600
+        },
+        {
+          "center": 2,
+          "level": 2,
+          "cards": 3,
+          "charge": 12,
+          "radius": 2,
+          "time": 3.5,
+          "power": 3.5,
+          "price": {
+            "crystalite": 10000
+          },
+          "upTime": 1200
+        },
+        {
+          "center": 3,
+          "level": 3,
+          "cards": 4,
+          "charge": 12,
+          "radius": 2,
+          "time": 4,
+          "power": 4,
+          "price": {
+            "crystalite": 15000
+          },
+          "upTime": 1800
+        },
+        {
+          "center": 4,
+          "level": 4,
+          "cards": 5,
+          "charge": 12,
+          "radius": 2,
+          "time": 4.5,
+          "power": 4.5,
+          "price": {
+            "crystalite": 20000
+          },
+          "upTime": 2400
+        },
+        {
+          "center": 5,
+          "level": 5,
+          "cards": 6,
+          "charge": 12,
+          "radius": 2,
+          "time": 5,
+          "power": 5,
+          "price": {
+            "crystalite": 25000
+          },
+          "upTime": 3000
+        },
+        {
+          "center": 6,
+          "level": 6,
+          "cards": 7,
+          "charge": 12,
+          "radius": 2,
+          "time": 5.5,
+          "power": 5.5,
+          "price": {
+            "crystalite": 30000
+          },
+          "upTime": 3600
         }
       ]
     }
