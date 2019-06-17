@@ -666,6 +666,31 @@ for row in ws['E2': 'F11']:
         })
 
 
+ws = wb['Modules']
+modules = game_config['modules'] = {}
+cur_module = None
+for row in ws['A1':'C200']:
+    if row[0].value:
+        cur_module = {
+            'type': 'unit'
+        }
+        modules[row[0].value] = cur_module
+
+    if row[1].value:
+        cur_module[row[1].value] = row[2].value
+
+cur_module = None
+for row in ws['E1':'G200']:
+    if row[0].value:
+        cur_module = {
+            'type': 'tower'
+        }
+        modules[row[0].value] = cur_module
+
+    if row[1].value:
+        cur_module[row[1].value] = row[2].value
+
+
 if os.path.exists(BALANCE_JSON):
     with open(BALANCE_JSON, 'w') as fh:
         json.dump(game_config, fh, indent=2)

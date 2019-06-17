@@ -7067,351 +7067,324 @@
         {
           "level": 1,
           "cards": 2,
-          "damage": 80,
           "price": {
             "crystalite": 500
           },
           "upTime": 600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 80,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 2,
           "cards": 3,
-          "damage": 96,
           "price": {
             "crystalite": 1000
           },
           "upTime": 1200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 96,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 3,
           "cards": 4,
-          "damage": 115,
           "price": {
             "crystalite": 1500
           },
           "upTime": 1800,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 115,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 4,
           "cards": 5,
-          "damage": 138,
           "price": {
             "crystalite": 2000
           },
           "upTime": 2400,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 138,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 5,
           "cards": 6,
-          "damage": 166,
           "price": {
             "crystalite": 2500
           },
           "upTime": 3000,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 166,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 6,
           "cards": 7,
-          "damage": 199,
           "price": {
             "crystalite": 3000
           },
           "upTime": 3600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 199,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 7,
           "cards": 8,
-          "damage": 239,
           "price": {
             "crystalite": 3500
           },
           "upTime": 4200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 239,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 8,
           "cards": 9,
-          "damage": 287,
           "price": {
             "crystalite": 4000
           },
           "upTime": 4800,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 287,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 9,
           "cards": 10,
-          "damage": 344,
           "price": {
             "crystalite": 4500
           },
           "upTime": 5400,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 344,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 10,
           "cards": 11,
-          "damage": 378,
           "price": {
             "crystalite": 5000
           },
           "upTime": 6000,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 378,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 11,
           "cards": 12,
-          "damage": 416,
           "price": {
             "crystalite": 5500
           },
           "upTime": 6600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 416,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 12,
           "cards": 13,
-          "damage": 458,
           "price": {
             "crystalite": 6000
           },
           "upTime": 7200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 458,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 13,
           "cards": 14,
-          "damage": 504,
           "price": {
             "crystalite": 6500
           },
           "upTime": 7800,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 504,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 14,
           "cards": 15,
-          "damage": 554,
           "price": {
             "crystalite": 7000
           },
           "upTime": 8400,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 554,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 15,
           "cards": 16,
-          "damage": 609,
           "price": {
             "crystalite": 7500
           },
           "upTime": 9000,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 609,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 16,
           "cards": 17,
-          "damage": 670,
           "price": {
             "crystalite": 8000
           },
           "upTime": 9600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 670,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 17,
           "cards": 18,
-          "damage": 737,
           "price": {
             "crystalite": 8500
           },
           "upTime": 10200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 737,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 18,
           "cards": 19,
-          "damage": 811,
           "price": {
             "crystalite": 9000
           },
           "upTime": 10800,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 811,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 19,
           "cards": 20,
-          "damage": 892,
           "price": {
             "crystalite": 9500
           },
           "upTime": 11400,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 892,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 20,
           "cards": 21,
-          "damage": 910,
           "price": {
             "crystalite": 10000
           },
           "upTime": 12000,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 910,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 21,
           "cards": 22,
-          "damage": 928,
           "price": {
             "crystalite": 10500
           },
           "upTime": 12600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 928,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 22,
           "cards": 23,
-          "damage": 947,
           "price": {
             "crystalite": 11000
           },
           "upTime": 13200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 947,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 23,
           "cards": 24,
-          "damage": 966,
           "price": {
             "crystalite": 11500
           },
           "upTime": 13800,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 966,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 24,
           "cards": 25,
-          "damage": 985,
           "price": {
             "crystalite": 12000
           },
           "upTime": 14400,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 985,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 25,
           "cards": 26,
-          "damage": 1000,
           "price": {
             "crystalite": 12500
           },
           "upTime": 15000,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 1000,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 26,
           "cards": 27,
-          "damage": 1020,
           "price": {
             "crystalite": 13000
           },
           "upTime": 15600,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 1020,
           "firing_range": 0.5,
           "rate_of_fire": 0
         },
         {
           "level": 27,
           "cards": 28,
-          "damage": 1040,
           "price": {
             "crystalite": 13500
           },
           "upTime": 16200,
           "hit_points": 0,
-          "damage_per_shot": 0,
+          "damage_per_shot": 1040,
           "firing_range": 0.5,
           "rate_of_fire": 0
         }
@@ -8486,5 +8459,143 @@
         "coin": 1667
       }
     ]
+  },
+  "modules": {
+    "u.rateOfFire.lvl1": {
+      "type": "unit",
+      "rateOfFire.pr": 10,
+      "chance": "common"
+    },
+    "u.rateOfFire.lvl2": {
+      "type": "unit",
+      "rateOfFire.pr": 15,
+      "chance": "rare"
+    },
+    "speed.lvl1": {
+      "type": "unit",
+      "speed.pr": 10,
+      "chance": "common"
+    },
+    "speed.lvl2": {
+      "type": "unit",
+      "speed.pr": 15,
+      "chance": "rare"
+    },
+    "u.fireRange.lvl1": {
+      "type": "unit",
+      "fireRange.pr": 10,
+      "chance": "common",
+      "notFor": "rocketBot"
+    },
+    "u.fireRange.lvl2": {
+      "type": "unit",
+      "fireRange.pr": 15,
+      "chance": "rare",
+      "notFor": "rocketBot"
+    },
+    "u.damagePerShot.lvl1": {
+      "type": "unit",
+      "damagePerShot.pr": 10,
+      "chance": "common"
+    },
+    "u.damagePerShot.lvl2": {
+      "type": "unit",
+      "damagePerShot.pr": 15,
+      "chance": "rare"
+    },
+    "u.hitPoints.lvl1": {
+      "type": "unit",
+      "hitPoints.pr": 10,
+      "chance": "common"
+    },
+    "u.hitPoints.lvl2": {
+      "type": "unit",
+      "hitPoints.pr": 15,
+      "chance": "epic"
+    },
+    "groupProtect": {
+      "type": "unit",
+      "groupProtect": 1,
+      "chance": "legend"
+    },
+    "heavyProtect": {
+      "type": "unit",
+      "for": "heavyBot",
+      "heavyProtect": 1,
+      "chance": "epic"
+    },
+    "teleport": {
+      "type": "unit",
+      "teleport": 1,
+      "chance": "epic"
+    },
+    "extDeploy": {
+      "type": "unit",
+      "extDeploy": 1,
+      "coorDeploy": 1,
+      "chance": "rare"
+    },
+    "b.rateOfFire.lvl1": {
+      "type": "tower",
+      "rateOfFire.pr": 10,
+      "chance": "common"
+    },
+    "b.rateOfFire.lvl2": {
+      "type": "tower",
+      "rateOfFire.pr": 15,
+      "chance": "rare"
+    },
+    "b.fireRange.lvl1": {
+      "type": "tower",
+      "fireRange.pr": 10,
+      "chance": "common"
+    },
+    "b.fireRange.lvl2": {
+      "type": "tower",
+      "fireRange.pr": 15,
+      "chance": "rare"
+    },
+    "b.damagePerShot.lvl1": {
+      "type": "tower",
+      "damagePerShot.pr": 10,
+      "chance": "common"
+    },
+    "b.damagePerShot.lvl2": {
+      "type": "tower",
+      "damagePerShot.pr": 15,
+      "chance": "rare"
+    },
+    "b.hitPoints.lvl1": {
+      "type": "tower",
+      "hitPoints.pr": 10,
+      "chance": "rare"
+    },
+    "b.hitPoints.lvl2": {
+      "type": "tower",
+      "hitPoints.pr": 15,
+      "chance": 1
+    },
+    "shotThrough": {
+      "type": "tower",
+      "for": "sentryGub",
+      "shotThrough": 1,
+      "chance": "rare"
+    },
+    "freezing": {
+      "type": "tower",
+      "freezing": 1,
+      "chance": "epic"
+    },
+    "fasterRocket": {
+      "type": "tower",
+      "for": "rocketGun",
+      "fasterRocket": 1,
+      "chance": "epic"
+    },
+    "incCoverRange": {
+      "type": "tower",
+      "for": "machineGun",
+      "incCoverRange": "epic"
+    }
   }
 }
