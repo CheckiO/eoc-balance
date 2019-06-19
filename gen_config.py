@@ -467,15 +467,18 @@ for b_type, b_data in data.items():
                 display['has_heal'] = lvl_data['a_heal']
                 display['has_power'] = lvl_data['a_power']
 
+            if 'unitcapacity' in lvl_data:
+                display['unitCapacity'] = lvl_data['unitcapacity']
+
             if b_type == 'laboratory':
                 new_stat['research'] = {
                     'mine': lvl_data['max.mine'],
                     'infantryBot': lvl_data['max.infantrybot'],
                     'rocketBot': lvl_data['max.rocketbot'],
                     'heavyBot': lvl_data['max.heavybot'],
-                    'actionRocket': lvl_data['max.a_rocket'],
-                    'actionHeal': lvl_data['max.a_heal'],
-                    'actionPower': lvl_data['max.a_power'],
+                    'rocket': lvl_data['max.a_rocket'],
+                    'heal': lvl_data['max.a_heal'],
+                    'power': lvl_data['max.a_power'],
                 }
             
             if b_type == 'garbage':
@@ -571,6 +574,12 @@ for name, unit in labs.items():
         raw['damage_per_shot'] = raw.pop('damagepershot', 0)
         raw['firing_range'] = raw.pop('firerange', 0)
         raw['rate_of_fire'] = raw.pop('rateoffire', 0)
+
+        if 'hireprice' in raw:
+            raw['hirePrice'] = {
+                'crystalite': raw.pop('hireprice')
+            }
+            raw['hireTime'] = raw.pop('hiretime')
         raw.pop('k', None)
         stats.append(raw)
 
@@ -579,7 +588,6 @@ flag = {
     'heal': {},
     'power': {}
 }
-game_config['flagman'] = flag
 
 flag_data = {}
 scan_data(flag, flag_data, ('Flagman',), (3, 16))
@@ -596,6 +604,7 @@ for name, unit in flag.items():
         raw['upTime'] = raw.pop('uptime')
         stats.append(raw)
 
+labs.update(flag)
 
 
 ws = wb['Quests']

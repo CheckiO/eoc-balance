@@ -3630,7 +3630,8 @@
             "adamantite": 250
           },
           "display": {
-            "hit_points": 500
+            "hit_points": 500,
+            "unitCapacity": 6
           }
         },
         {
@@ -3643,7 +3644,8 @@
             "adamantite": 500
           },
           "display": {
-            "hit_points": 550
+            "hit_points": 550,
+            "unitCapacity": 9
           }
         },
         {
@@ -3656,7 +3658,8 @@
             "adamantite": 1000
           },
           "display": {
-            "hit_points": 605
+            "hit_points": 605,
+            "unitCapacity": 12
           }
         },
         {
@@ -3669,7 +3672,8 @@
             "adamantite": 2000
           },
           "display": {
-            "hit_points": 665
+            "hit_points": 665,
+            "unitCapacity": 15
           }
         },
         {
@@ -3682,7 +3686,8 @@
             "adamantite": 4000
           },
           "display": {
-            "hit_points": 730
+            "hit_points": 730,
+            "unitCapacity": 18
           }
         },
         {
@@ -3695,7 +3700,8 @@
             "adamantite": 8000
           },
           "display": {
-            "hit_points": 805
+            "hit_points": 805,
+            "unitCapacity": 20
           }
         },
         {
@@ -3708,7 +3714,8 @@
             "adamantite": 16000
           },
           "display": {
-            "hit_points": 885
+            "hit_points": 885,
+            "unitCapacity": 22
           }
         },
         {
@@ -3722,7 +3729,8 @@
             "titanium": 12800
           },
           "display": {
-            "hit_points": 975
+            "hit_points": 975,
+            "unitCapacity": 24
           }
         },
         {
@@ -3736,7 +3744,8 @@
             "titanium": 25500
           },
           "display": {
-            "hit_points": 1070
+            "hit_points": 1070,
+            "unitCapacity": 26
           }
         },
         {
@@ -3750,7 +3759,8 @@
             "titanium": 51000
           },
           "display": {
-            "hit_points": 1180
+            "hit_points": 1180,
+            "unitCapacity": 28
           }
         },
         {
@@ -3764,7 +3774,8 @@
             "titanium": 76500
           },
           "display": {
-            "hit_points": 1290
+            "hit_points": 1290,
+            "unitCapacity": 30
           }
         },
         {
@@ -3778,7 +3789,8 @@
             "titanium": 115000
           },
           "display": {
-            "hit_points": 1420
+            "hit_points": 1420,
+            "unitCapacity": 31
           }
         },
         {
@@ -3792,7 +3804,8 @@
             "titanium": 172000
           },
           "display": {
-            "hit_points": 1560
+            "hit_points": 1560,
+            "unitCapacity": 32
           }
         },
         {
@@ -3806,7 +3819,8 @@
             "titanium": 258000
           },
           "display": {
-            "hit_points": 1720
+            "hit_points": 1720,
+            "unitCapacity": 33
           }
         },
         {
@@ -3820,7 +3834,8 @@
             "titanium": 385000
           },
           "display": {
-            "hit_points": 1880
+            "hit_points": 1880,
+            "unitCapacity": 34
           }
         }
       ]
@@ -3861,9 +3876,9 @@
             "infantryBot": 3,
             "rocketBot": 0,
             "heavyBot": 0,
-            "actionRocket": 0,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 0,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -3887,9 +3902,9 @@
             "infantryBot": 5,
             "rocketBot": 0,
             "heavyBot": 0,
-            "actionRocket": 0,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 0,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -3913,9 +3928,9 @@
             "infantryBot": 7,
             "rocketBot": 0,
             "heavyBot": 0,
-            "actionRocket": 0,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 0,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -3940,9 +3955,9 @@
             "infantryBot": 9,
             "rocketBot": 3,
             "heavyBot": 0,
-            "actionRocket": 0,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 0,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -3967,9 +3982,9 @@
             "infantryBot": 11,
             "rocketBot": 5,
             "heavyBot": 0,
-            "actionRocket": 2,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 2,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -3994,9 +4009,9 @@
             "infantryBot": 13,
             "rocketBot": 7,
             "heavyBot": 0,
-            "actionRocket": 4,
-            "actionHeal": 0,
-            "actionPower": 0
+            "rocket": 4,
+            "heal": 0,
+            "power": 0
           }
         },
         {
@@ -4021,9 +4036,9 @@
             "infantryBot": 15,
             "rocketBot": 9,
             "heavyBot": 0,
-            "actionRocket": 6,
-            "actionHeal": 2,
-            "actionPower": 0
+            "rocket": 6,
+            "heal": 2,
+            "power": 0
           }
         },
         {
@@ -4048,9 +4063,9 @@
             "infantryBot": 17,
             "rocketBot": 11,
             "heavyBot": 0,
-            "actionRocket": 8,
-            "actionHeal": 4,
-            "actionPower": 0
+            "rocket": 8,
+            "heal": 4,
+            "power": 0
           }
         },
         {
@@ -4075,9 +4090,9 @@
             "infantryBot": 19,
             "rocketBot": 13,
             "heavyBot": 3,
-            "actionRocket": 10,
-            "actionHeal": 6,
-            "actionPower": 2
+            "rocket": 10,
+            "heal": 6,
+            "power": 2
           }
         },
         {
@@ -4102,9 +4117,9 @@
             "infantryBot": 21,
             "rocketBot": 15,
             "heavyBot": 5,
-            "actionRocket": 12,
-            "actionHeal": 8,
-            "actionPower": 4
+            "rocket": 12,
+            "heal": 8,
+            "power": 4
           }
         },
         {
@@ -4129,9 +4144,9 @@
             "infantryBot": 23,
             "rocketBot": 17,
             "heavyBot": 7,
-            "actionRocket": 14,
-            "actionHeal": 10,
-            "actionPower": 6
+            "rocket": 14,
+            "heal": 10,
+            "power": 6
           }
         }
       ]
@@ -6392,6 +6407,7 @@
         {
           "level": 1,
           "cards": 2,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 500
@@ -6400,11 +6416,16 @@
           "hit_points": 120,
           "damage_per_shot": 50,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 50
+          },
+          "hireTime": 30
         },
         {
           "level": 2,
           "cards": 3,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 1000
@@ -6413,11 +6434,16 @@
           "hit_points": 132,
           "damage_per_shot": 55,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 70
+          },
+          "hireTime": 40
         },
         {
           "level": 3,
           "cards": 4,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 1500
@@ -6426,11 +6452,16 @@
           "hit_points": 145,
           "damage_per_shot": 61,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 90
+          },
+          "hireTime": 50
         },
         {
           "level": 4,
           "cards": 5,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 2000
@@ -6439,11 +6470,16 @@
           "hit_points": 160,
           "damage_per_shot": 67,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 110
+          },
+          "hireTime": 60
         },
         {
           "level": 5,
           "cards": 6,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 2500
@@ -6452,11 +6488,16 @@
           "hit_points": 176,
           "damage_per_shot": 74,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 130
+          },
+          "hireTime": 70
         },
         {
           "level": 6,
           "cards": 7,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 3000
@@ -6465,11 +6506,16 @@
           "hit_points": 194,
           "damage_per_shot": 81,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 150
+          },
+          "hireTime": 80
         },
         {
           "level": 7,
           "cards": 8,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 3500
@@ -6478,11 +6524,16 @@
           "hit_points": 213,
           "damage_per_shot": 89,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 170
+          },
+          "hireTime": 90
         },
         {
           "level": 8,
           "cards": 9,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 4000
@@ -6491,11 +6542,16 @@
           "hit_points": 234,
           "damage_per_shot": 98,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 190
+          },
+          "hireTime": 100
         },
         {
           "level": 9,
           "cards": 10,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 4500
@@ -6504,11 +6560,16 @@
           "hit_points": 257,
           "damage_per_shot": 108,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 210
+          },
+          "hireTime": 110
         },
         {
           "level": 10,
           "cards": 11,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 5000
@@ -6517,11 +6578,16 @@
           "hit_points": 283,
           "damage_per_shot": 119,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 230
+          },
+          "hireTime": 120
         },
         {
           "level": 11,
           "cards": 12,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 5500
@@ -6530,11 +6596,16 @@
           "hit_points": 311,
           "damage_per_shot": 131,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 250
+          },
+          "hireTime": 130
         },
         {
           "level": 12,
           "cards": 13,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 6000
@@ -6543,11 +6614,16 @@
           "hit_points": 342,
           "damage_per_shot": 144,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 270
+          },
+          "hireTime": 140
         },
         {
           "level": 13,
           "cards": 14,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 6500
@@ -6556,11 +6632,16 @@
           "hit_points": 376,
           "damage_per_shot": 158,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 290
+          },
+          "hireTime": 150
         },
         {
           "level": 14,
           "cards": 15,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 7000
@@ -6569,11 +6650,16 @@
           "hit_points": 414,
           "damage_per_shot": 174,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 310
+          },
+          "hireTime": 160
         },
         {
           "level": 15,
           "cards": 16,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 7500
@@ -6582,11 +6668,16 @@
           "hit_points": 455,
           "damage_per_shot": 191,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 330
+          },
+          "hireTime": 170
         },
         {
           "level": 16,
           "cards": 17,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 8000
@@ -6595,11 +6686,16 @@
           "hit_points": 501,
           "damage_per_shot": 210,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 350
+          },
+          "hireTime": 180
         },
         {
           "level": 17,
           "cards": 18,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 8500
@@ -6608,11 +6704,16 @@
           "hit_points": 551,
           "damage_per_shot": 231,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 370
+          },
+          "hireTime": 190
         },
         {
           "level": 18,
           "cards": 19,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 9000
@@ -6621,11 +6722,16 @@
           "hit_points": 606,
           "damage_per_shot": 254,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 390
+          },
+          "hireTime": 200
         },
         {
           "level": 19,
           "cards": 20,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 9500
@@ -6634,11 +6740,16 @@
           "hit_points": 667,
           "damage_per_shot": 279,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 410
+          },
+          "hireTime": 210
         },
         {
           "level": 20,
           "cards": 21,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 10000
@@ -6647,11 +6758,16 @@
           "hit_points": 734,
           "damage_per_shot": 307,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 430
+          },
+          "hireTime": 220
         },
         {
           "level": 21,
           "cards": 22,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 10500
@@ -6660,11 +6776,16 @@
           "hit_points": 807,
           "damage_per_shot": 338,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 450
+          },
+          "hireTime": 230
         },
         {
           "level": 22,
           "cards": 23,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 11000
@@ -6673,11 +6794,16 @@
           "hit_points": 888,
           "damage_per_shot": 372,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 470
+          },
+          "hireTime": 240
         },
         {
           "level": 23,
           "cards": 24,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 11500
@@ -6686,11 +6812,16 @@
           "hit_points": 977,
           "damage_per_shot": 409,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 490
+          },
+          "hireTime": 250
         },
         {
           "level": 24,
           "cards": 25,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 12000
@@ -6699,11 +6830,16 @@
           "hit_points": 1080,
           "damage_per_shot": 450,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 510
+          },
+          "hireTime": 260
         },
         {
           "level": 25,
           "cards": 26,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 12500
@@ -6712,11 +6848,16 @@
           "hit_points": 1190,
           "damage_per_shot": 495,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 530
+          },
+          "hireTime": 270
         },
         {
           "level": 26,
           "cards": 27,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 13000
@@ -6725,11 +6866,16 @@
           "hit_points": 1310,
           "damage_per_shot": 544,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 550
+          },
+          "hireTime": 280
         },
         {
           "level": 27,
           "cards": 28,
+          "seats": 1,
           "speed": 5,
           "price": {
             "crystalite": 13500
@@ -6738,7 +6884,11 @@
           "hit_points": 1440,
           "damage_per_shot": 598,
           "firing_range": 4,
-          "rate_of_fire": 1
+          "rate_of_fire": 1,
+          "hirePrice": {
+            "crystalite": 570
+          },
+          "hireTime": 290
         }
       ]
     },
@@ -6747,6 +6897,7 @@
         {
           "level": 1,
           "cards": 2,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 10000
@@ -6755,11 +6906,16 @@
           "hit_points": 50,
           "damage_per_shot": 150,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 150
+          },
+          "hireTime": 120
         },
         {
           "level": 2,
           "cards": 3,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 12000
@@ -6768,11 +6924,16 @@
           "hit_points": 55,
           "damage_per_shot": 165,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 190
+          },
+          "hireTime": 150
         },
         {
           "level": 3,
           "cards": 4,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 14000
@@ -6781,11 +6942,16 @@
           "hit_points": 61,
           "damage_per_shot": 182,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 230
+          },
+          "hireTime": 180
         },
         {
           "level": 4,
           "cards": 5,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 16000
@@ -6794,11 +6960,16 @@
           "hit_points": 67,
           "damage_per_shot": 200,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 270
+          },
+          "hireTime": 210
         },
         {
           "level": 5,
           "cards": 6,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 18000
@@ -6807,11 +6978,16 @@
           "hit_points": 74,
           "damage_per_shot": 220,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 310
+          },
+          "hireTime": 240
         },
         {
           "level": 6,
           "cards": 7,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 20000
@@ -6820,11 +6996,16 @@
           "hit_points": 81,
           "damage_per_shot": 242,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 350
+          },
+          "hireTime": 270
         },
         {
           "level": 7,
           "cards": 8,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 22000
@@ -6833,11 +7014,16 @@
           "hit_points": 89,
           "damage_per_shot": 266,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 390
+          },
+          "hireTime": 300
         },
         {
           "level": 8,
           "cards": 9,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 24000
@@ -6846,11 +7032,16 @@
           "hit_points": 98,
           "damage_per_shot": 293,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 430
+          },
+          "hireTime": 330
         },
         {
           "level": 9,
           "cards": 10,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 26000
@@ -6859,11 +7050,16 @@
           "hit_points": 108,
           "damage_per_shot": 322,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 470
+          },
+          "hireTime": 360
         },
         {
           "level": 10,
           "cards": 11,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 28000
@@ -6872,11 +7068,16 @@
           "hit_points": 119,
           "damage_per_shot": 354,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 510
+          },
+          "hireTime": 390
         },
         {
           "level": 11,
           "cards": 12,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 30000
@@ -6885,11 +7086,16 @@
           "hit_points": 131,
           "damage_per_shot": 389,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 550
+          },
+          "hireTime": 420
         },
         {
           "level": 12,
           "cards": 13,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 32000
@@ -6898,11 +7104,16 @@
           "hit_points": 144,
           "damage_per_shot": 428,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 590
+          },
+          "hireTime": 450
         },
         {
           "level": 13,
           "cards": 14,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 34000
@@ -6911,11 +7122,16 @@
           "hit_points": 158,
           "damage_per_shot": 471,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 630
+          },
+          "hireTime": 480
         },
         {
           "level": 14,
           "cards": 15,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 36000
@@ -6924,11 +7140,16 @@
           "hit_points": 174,
           "damage_per_shot": 518,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 670
+          },
+          "hireTime": 510
         },
         {
           "level": 15,
           "cards": 16,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 38000
@@ -6937,11 +7158,16 @@
           "hit_points": 191,
           "damage_per_shot": 570,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 710
+          },
+          "hireTime": 540
         },
         {
           "level": 16,
           "cards": 17,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 40000
@@ -6950,11 +7176,16 @@
           "hit_points": 210,
           "damage_per_shot": 627,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 750
+          },
+          "hireTime": 570
         },
         {
           "level": 17,
           "cards": 18,
+          "seats": 2,
           "speed": 4,
           "price": {
             "crystalite": 42000
@@ -6963,7 +7194,11 @@
           "hit_points": 231,
           "damage_per_shot": 690,
           "firing_range": 8,
-          "rate_of_fire": 0.5
+          "rate_of_fire": 0.5,
+          "hirePrice": {
+            "crystalite": 790
+          },
+          "hireTime": 600
         }
       ]
     },
@@ -6972,6 +7207,7 @@
         {
           "level": 1,
           "cards": 2,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 5000
@@ -6980,11 +7216,16 @@
           "hit_points": 1000,
           "damage_per_shot": 10,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 500
+          },
+          "hireTime": 600
         },
         {
           "level": 2,
           "cards": 3,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 10000
@@ -6993,11 +7234,16 @@
           "hit_points": 1100,
           "damage_per_shot": 11,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 600
+          },
+          "hireTime": 700
         },
         {
           "level": 3,
           "cards": 4,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 15000
@@ -7006,11 +7252,16 @@
           "hit_points": 1210,
           "damage_per_shot": 12,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 700
+          },
+          "hireTime": 800
         },
         {
           "level": 4,
           "cards": 5,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 20000
@@ -7019,11 +7270,16 @@
           "hit_points": 1330,
           "damage_per_shot": 13,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 800
+          },
+          "hireTime": 900
         },
         {
           "level": 5,
           "cards": 6,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 25000
@@ -7032,11 +7288,16 @@
           "hit_points": 1460,
           "damage_per_shot": 14,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 900
+          },
+          "hireTime": 1000
         },
         {
           "level": 6,
           "cards": 7,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 30000
@@ -7045,11 +7306,16 @@
           "hit_points": 1610,
           "damage_per_shot": 15,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 1000
+          },
+          "hireTime": 1100
         },
         {
           "level": 7,
           "cards": 8,
+          "seats": 3,
           "speed": 3,
           "price": {
             "crystalite": 35000
@@ -7058,7 +7324,11 @@
           "hit_points": 1770,
           "damage_per_shot": 16,
           "firing_range": 3,
-          "rate_of_fire": 10
+          "rate_of_fire": 10,
+          "hirePrice": {
+            "crystalite": 1100
+          },
+          "hireTime": 1200
         }
       ]
     },
@@ -7389,9 +7659,7 @@
           "rate_of_fire": 0
         }
       ]
-    }
-  },
-  "flagman": {
+    },
     "rocket": {
       "stats": [
         {
