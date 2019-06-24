@@ -69,13 +69,13 @@ private_config = {
     },
     'chest': {
         'lvl1': {
-            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot']
+            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot', 'mine', 'rocket', 'heal', 'power', 'm.common', 'm.rare', 'm.epic', 'm.legend']
         },
         'lvl2': {
-            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot']
+            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot', 'mine', 'rocket', 'heal', 'power', 'm.common', 'm.rare', 'm.epic', 'm.legend']
         },
         'lvl3': {
-            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot']
+            'order': ['crystalite', 'adamantite', 'titanium', 'coin', 'bot', 'infantryBot', 'rocketBot', 'heavyBot', 'mine', 'rocket', 'heal', 'power', 'm.common', 'm.rare', 'm.epic', 'm.legend']
         }
     },
     'coded_chest': {
@@ -466,6 +466,9 @@ for b_type, b_data in data.items():
                 display['has_rocket'] = lvl_data['a_rocket']
                 display['has_heal'] = lvl_data['a_heal']
                 display['has_power'] = lvl_data['a_power']
+            
+            if 'slots' in lvl_data:
+                display['slots'] = lvl_data['slots']
 
             if 'unitcapacity' in lvl_data:
                 display['unitCapacity'] = lvl_data['unitcapacity']
@@ -634,7 +637,15 @@ PROPERTIES = (
     ('bot', 'bot'),
     ('infantrybot', 'infantryBot'),
     ('rocketbot', 'rocketBot'),
-    ('heavybot', 'heavyBot')
+    ('heavybot', 'heavyBot'),
+    ('mine', 'mine'),
+    ('rocket', 'rocket'),
+    ('heal', 'heal'),
+    ('power', 'power'),
+    ('m.common', 'm.common'),
+    ('m.rare', 'm.rare'),
+    ('m.epic', 'm.epic'),
+    ('m.legend', 'm.legend'),
 )
 
 for chest in CHEST_LEVELS:
@@ -643,10 +654,11 @@ for chest in CHEST_LEVELS:
     for lvl, chest_data in enumerate(private_data[chest], 1):
         lvl_config = chest_confing[lvl] = {}
         for prop_data, prop_conf in PROPERTIES:
+            pos = chest_data[prop_data + '.pos'] * 100
             lvl_config[prop_conf] = {
-                'posibility': int(chest_data[prop_data + '.pos'] * 100),
-                'min': chest_data[prop_data + '.min'],
-                'max': chest_data[prop_data + '.max']
+                'posibility': pos,
+                'min': pos and chest_data.get(prop_data + '.min', 1) or 0,
+                'max': pos and chest_data.get(prop_data + '.max', 1) or 0
             }
 
 

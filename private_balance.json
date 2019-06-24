@@ -59,17 +59,25 @@
         "bot",
         "infantryBot",
         "rocketBot",
-        "heavyBot"
+        "heavyBot",
+        "mine",
+        "rocket",
+        "heal",
+        "power",
+        "m.common",
+        "m.rare",
+        "m.epic",
+        "m.legend"
       ],
       "cc": {
         "1": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 200,
             "max": 1000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 200,
             "max": 1000
           },
@@ -79,7 +87,7 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
@@ -102,16 +110,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "2": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 400,
             "max": 2000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 800,
             "max": 4000
           },
@@ -121,7 +169,7 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
@@ -141,6 +189,46 @@
             "max": 0
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -148,12 +236,12 @@
         },
         "3": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 1600,
             "max": 8000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 40.0,
             "min": 1600,
             "max": 8000
           },
@@ -163,12 +251,12 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 3
           },
@@ -183,6 +271,46 @@
             "max": 0
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -190,12 +318,12 @@
         },
         "4": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 3200,
             "max": 16000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 3200,
             "max": 16000
           },
@@ -205,17 +333,17 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 5
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 3
           },
@@ -228,16 +356,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 2
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 2
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "5": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 7200,
             "max": 36000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 7200,
             "max": 36000
           },
@@ -247,17 +415,17 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 7
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 4
           },
@@ -270,16 +438,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 4
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "6": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 10800,
             "max": 54000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 10800,
             "max": 54000
           },
@@ -289,17 +497,17 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 9
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 5
           },
@@ -309,6 +517,46 @@
             "max": 0
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 6
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 6
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -316,41 +564,81 @@
         },
         "7": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 21600,
             "max": 108000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 16200,
             "max": 81000
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 4320,
             "max": 21600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 11
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 6
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 3
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 8
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -358,37 +646,37 @@
         },
         "8": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 25920,
             "max": 129600
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 25920,
             "max": 129600
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 5180,
             "max": 25900
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 13
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 7
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 5
           },
@@ -396,41 +684,81 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 10
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 10
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "9": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 31120,
             "max": 155600
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 31120,
             "max": 155600
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 12440,
             "max": 62200
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 15
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 8
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 7
           },
@@ -438,45 +766,125 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 12
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "10": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 37360,
             "max": 186800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 37360,
             "max": 186800
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 14960,
             "max": 74800
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 17
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 9
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 9
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 14
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 14
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 2
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -484,37 +892,37 @@
         },
         "11": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 44800,
             "max": 224000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 44800,
             "max": 224000
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 17920,
             "max": 89600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 18
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 10
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 11
           },
@@ -522,174 +930,374 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 16
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 16
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "12": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 53760,
             "max": 268800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 53760,
             "max": 268800
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 21520,
             "max": 107600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 19
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 11
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 13
           },
           "heavyBot": {
-            "posibility": 30,
+            "posibility": 5.0,
             "min": 1,
             "max": 3
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 18
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 18
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 6
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "13": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 64480,
             "max": 322400
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 64480,
             "max": 322400
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 25800,
             "max": 129000
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 20
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 12
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 15
           },
           "heavyBot": {
-            "posibility": 30,
+            "posibility": 5.0,
             "min": 1,
             "max": 9
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 20
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 20
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "14": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 77360,
             "max": 386800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 77360,
             "max": 386800
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 30960,
             "max": 154800
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 21
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 13
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 17
           },
           "heavyBot": {
-            "posibility": 30,
+            "posibility": 5.0,
             "min": 1,
             "max": 12
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 22
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 22
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 10
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "15": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 92800,
             "max": 464000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 40.0,
             "min": 92800,
             "max": 464000
           },
           "titanium": {
-            "posibility": 30,
+            "posibility": 30.0,
             "min": 37120,
             "max": 185600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 5,
             "max": 20
           },
           "bot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 22
           },
           "infantryBot": {
-            "posibility": 30,
+            "posibility": 15.0,
             "min": 1,
             "max": 14
           },
           "rocketBot": {
-            "posibility": 30,
+            "posibility": 10.0,
             "min": 1,
             "max": 19
           },
           "heavyBot": {
-            "posibility": 30,
+            "posibility": 5.0,
             "min": 1,
             "max": 15
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 24
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 24
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 16
+          },
+          "m.common": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         }
       }
@@ -703,17 +1311,25 @@
         "bot",
         "infantryBot",
         "rocketBot",
-        "heavyBot"
+        "heavyBot",
+        "mine",
+        "rocket",
+        "heal",
+        "power",
+        "m.common",
+        "m.rare",
+        "m.epic",
+        "m.legend"
       ],
       "cc": {
         "1": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 600,
             "max": 2000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 600,
             "max": 2000
           },
@@ -723,9 +1339,9 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
             "posibility": 0,
@@ -746,16 +1362,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "2": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 1200,
             "max": 4000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 2400,
             "max": 8000
           },
@@ -765,9 +1421,9 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
             "posibility": 0,
@@ -788,16 +1444,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "3": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 4800,
             "max": 16000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 30.0,
             "min": 4800,
             "max": 16000
           },
@@ -807,13 +1503,13 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 3,
             "max": 6
           },
           "infantryBot": {
@@ -830,16 +1526,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "4": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 9600,
             "max": 32000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 9600,
             "max": 32000
           },
@@ -849,17 +1585,181 @@
             "max": 0
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 3,
             "max": 10
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
+            "min": 1,
+            "max": 3
+          },
+          "rocketBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 2
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 2
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "5": {
+          "crystalite": {
+            "posibility": 30.0,
+            "min": 21600,
+            "max": 72000
+          },
+          "adamantite": {
+            "posibility": 30.0,
+            "min": 21600,
+            "max": 72000
+          },
+          "titanium": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "coin": {
+            "posibility": 20.0,
+            "min": 10,
+            "max": 50
+          },
+          "bot": {
+            "posibility": 15.0,
+            "min": 3,
+            "max": 14
+          },
+          "infantryBot": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "rocketBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 4
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "6": {
+          "crystalite": {
+            "posibility": 30.0,
+            "min": 32400,
+            "max": 108000
+          },
+          "adamantite": {
+            "posibility": 30.0,
+            "min": 32400,
+            "max": 108000
+          },
+          "titanium": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "coin": {
+            "posibility": 20.0,
+            "min": 10,
+            "max": 50
+          },
+          "bot": {
+            "posibility": 15.0,
+            "min": 3,
+            "max": 18
+          },
+          "infantryBot": {
+            "posibility": 15.0,
             "min": 1,
             "max": 5
           },
@@ -872,87 +1772,43 @@
             "posibility": 0,
             "min": 0,
             "max": 0
-          }
-        },
-        "5": {
-          "crystalite": {
-            "posibility": 50,
-            "min": 21600,
-            "max": 72000
           },
-          "adamantite": {
-            "posibility": 50,
-            "min": 21600,
-            "max": 72000
-          },
-          "titanium": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          },
-          "coin": {
-            "posibility": 50,
-            "min": 10,
-            "max": 40
-          },
-          "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 14
-          },
-          "infantryBot": {
-            "posibility": 35,
+          "mine": {
+            "posibility": 5.0,
             "min": 1,
             "max": 6
           },
-          "rocketBot": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          },
-          "heavyBot": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          }
-        },
-        "6": {
-          "crystalite": {
-            "posibility": 50,
-            "min": 32400,
-            "max": 108000
-          },
-          "adamantite": {
-            "posibility": 50,
-            "min": 32400,
-            "max": 108000
-          },
-          "titanium": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          },
-          "coin": {
-            "posibility": 50,
-            "min": 10,
-            "max": 40
-          },
-          "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 18
-          },
-          "infantryBot": {
-            "posibility": 35,
+          "rocket": {
+            "posibility": 15.0,
             "min": 1,
-            "max": 7
+            "max": 6
           },
-          "rocketBot": {
+          "heal": {
             "posibility": 0,
             "min": 0,
             "max": 0
           },
-          "heavyBot": {
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -960,41 +1816,81 @@
         },
         "7": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 64800,
             "max": 216000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 48600,
             "max": 162000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 8640,
             "max": 43200
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 22
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
+            "min": 1,
+            "max": 6
+          },
+          "rocketBot": {
+            "posibility": 10.0,
+            "min": 1,
+            "max": 3
+          },
+          "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
             "min": 1,
             "max": 8
           },
-          "rocketBot": {
-            "posibility": 35,
+          "rocket": {
+            "posibility": 15.0,
             "min": 1,
-            "max": 4
+            "max": 8
           },
-          "heavyBot": {
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1002,41 +1898,81 @@
         },
         "8": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 77760,
             "max": 259200
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 77760,
             "max": 259200
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 10360,
             "max": 51800
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 26
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
-            "max": 9
+            "max": 7
           },
           "rocketBot": {
-            "posibility": 35,
+            "posibility": 10.0,
             "min": 1,
-            "max": 6
+            "max": 5
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 10
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 10
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1044,41 +1980,81 @@
         },
         "9": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 93360,
             "max": 311200
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 93360,
             "max": 311200
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 24880,
             "max": 124400
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 30
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 1,
-            "max": 10
-          },
-          "rocketBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
             "max": 8
           },
+          "rocketBot": {
+            "posibility": 10.0,
+            "min": 1,
+            "max": 7
+          },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 12
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1086,41 +2062,81 @@
         },
         "10": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 112080,
             "max": 373600
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 112080,
             "max": 373600
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 29920,
             "max": 149600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 34
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
-            "max": 11
+            "max": 9
           },
           "rocketBot": {
-            "posibility": 35,
+            "posibility": 10.0,
             "min": 1,
-            "max": 10
+            "max": 9
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 14
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 14
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 2
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1128,41 +2144,81 @@
         },
         "11": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 134400,
             "max": 448000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 134400,
             "max": 448000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 35840,
             "max": 179200
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 36
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
-            "max": 12
+            "max": 10
           },
           "rocketBot": {
-            "posibility": 35,
+            "posibility": 10.0,
             "min": 1,
-            "max": 12
+            "max": 11
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 16
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 16
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1170,170 +2226,330 @@
         },
         "12": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 161280,
             "max": 537600
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 161280,
             "max": 537600
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 43040,
             "max": 215200
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 5,
             "max": 38
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
+            "min": 1,
+            "max": 11
+          },
+          "rocketBot": {
+            "posibility": 10.0,
             "min": 1,
             "max": 13
           },
-          "rocketBot": {
-            "posibility": 35,
-            "min": 1,
-            "max": 14
-          },
           "heavyBot": {
-            "posibility": 35,
+            "posibility": 5.0,
             "min": 1,
             "max": 3
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 18
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 18
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 6
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "13": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 193440,
             "max": 644800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 193440,
             "max": 644800
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 51600,
             "max": 258000
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
+            "min": 10,
+            "max": 50
+          },
+          "bot": {
+            "posibility": 15.0,
             "min": 10,
             "max": 40
           },
-          "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 40
-          },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
-            "max": 14
+            "max": 12
           },
           "rocketBot": {
-            "posibility": 35,
+            "posibility": 10.0,
             "min": 1,
-            "max": 16
+            "max": 15
           },
           "heavyBot": {
-            "posibility": 35,
+            "posibility": 5.0,
             "min": 1,
             "max": 9
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 20
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 20
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "14": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 232080,
             "max": 773600
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 232080,
             "max": 773600
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 61920,
             "max": 309600
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 10,
             "max": 42
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
             "min": 1,
-            "max": 15
+            "max": 13
           },
           "rocketBot": {
-            "posibility": 35,
+            "posibility": 10.0,
             "min": 1,
-            "max": 18
+            "max": 17
           },
           "heavyBot": {
-            "posibility": 35,
+            "posibility": 5.0,
             "min": 1,
             "max": 12
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 22
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 22
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 10
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "m.common": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "15": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 278400,
             "max": 928000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 278400,
             "max": 928000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 30.0,
             "min": 74240,
             "max": 371200
           },
           "coin": {
-            "posibility": 50,
+            "posibility": 20.0,
             "min": 10,
-            "max": 40
+            "max": 50
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 10,
             "max": 44
           },
           "infantryBot": {
-            "posibility": 35,
+            "posibility": 15.0,
+            "min": 1,
+            "max": 14
+          },
+          "rocketBot": {
+            "posibility": 10.0,
+            "min": 1,
+            "max": 19
+          },
+          "heavyBot": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 15
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 24
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 24
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
+          },
+          "power": {
+            "posibility": 15.0,
             "min": 1,
             "max": 16
           },
-          "rocketBot": {
-            "posibility": 35,
+          "m.common": {
+            "posibility": 2.0,
             "min": 1,
-            "max": 20
+            "max": 1
           },
-          "heavyBot": {
-            "posibility": 35,
+          "m.rare": {
+            "posibility": 2.0,
             "min": 1,
-            "max": 15
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         }
       }
@@ -1347,17 +2563,25 @@
         "bot",
         "infantryBot",
         "rocketBot",
-        "heavyBot"
+        "heavyBot",
+        "mine",
+        "rocket",
+        "heal",
+        "power",
+        "m.common",
+        "m.rare",
+        "m.epic",
+        "m.legend"
       ],
       "cc": {
         "1": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 800,
             "max": 3000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 800,
             "max": 3000
           },
@@ -1367,9 +2591,9 @@
             "max": 0
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
             "posibility": 0,
@@ -1390,16 +2614,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
           }
         },
         "2": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 1600,
             "max": 6000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 3200,
             "max": 12000
           },
@@ -1409,9 +2673,9 @@
             "max": 0
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
             "posibility": 0,
@@ -1429,6 +2693,46 @@
             "max": 0
           },
           "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.rare": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.epic": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.legend": {
             "posibility": 0,
             "min": 0,
             "max": 0
@@ -1436,12 +2740,12 @@
         },
         "3": {
           "crystalite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 6400,
             "max": 24000
           },
           "adamantite": {
-            "posibility": 80,
+            "posibility": 80.0,
             "min": 6400,
             "max": 24000
           },
@@ -1451,14 +2755,14 @@
             "max": 0
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 12
+            "posibility": 15.0,
+            "min": 5,
+            "max": 9
           },
           "infantryBot": {
             "posibility": 0,
@@ -1474,16 +2778,56 @@
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "rocket": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "4": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 12800,
             "max": 48000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 12800,
             "max": 48000
           },
@@ -1493,18 +2837,182 @@
             "max": 0
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 20
+            "posibility": 15.0,
+            "min": 5,
+            "max": 15
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 15.0,
+            "min": 1,
+            "max": 3
+          },
+          "rocketBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 2
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 4
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "5": {
+          "crystalite": {
+            "posibility": 50.0,
+            "min": 28800,
+            "max": 108000
+          },
+          "adamantite": {
+            "posibility": 50.0,
+            "min": 28800,
+            "max": 108000
+          },
+          "titanium": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "coin": {
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
+          },
+          "bot": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 21
+          },
+          "infantryBot": {
+            "posibility": 15.0,
+            "min": 1,
+            "max": 4
+          },
+          "rocketBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "heavyBot": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 4
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 8
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "6": {
+          "crystalite": {
+            "posibility": 50.0,
+            "min": 43200,
+            "max": 162000
+          },
+          "adamantite": {
+            "posibility": 50.0,
+            "min": 43200,
+            "max": 162000
+          },
+          "titanium": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "coin": {
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
+          },
+          "bot": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 27
+          },
+          "infantryBot": {
+            "posibility": 15.0,
+            "min": 1,
             "max": 5
           },
           "rocketBot": {
@@ -1516,468 +3024,784 @@
             "posibility": 0,
             "min": 0,
             "max": 0
-          }
-        },
-        "5": {
-          "crystalite": {
-            "posibility": 50,
-            "min": 28800,
-            "max": 108000
           },
-          "adamantite": {
-            "posibility": 50,
-            "min": 28800,
-            "max": 108000
-          },
-          "titanium": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          },
-          "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
-          },
-          "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 28
-          },
-          "infantryBot": {
-            "posibility": 35,
-            "min": 2,
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
             "max": 6
           },
-          "rocketBot": {
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 12
+          },
+          "heal": {
             "posibility": 0,
             "min": 0,
             "max": 0
           },
-          "heavyBot": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          }
-        },
-        "6": {
-          "crystalite": {
-            "posibility": 50,
-            "min": 43200,
-            "max": 162000
-          },
-          "adamantite": {
-            "posibility": 50,
-            "min": 43200,
-            "max": 162000
-          },
-          "titanium": {
+          "power": {
             "posibility": 0,
             "min": 0,
             "max": 0
           },
-          "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
           },
-          "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 36
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
           },
-          "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 7
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
           },
-          "rocketBot": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
-          },
-          "heavyBot": {
-            "posibility": 0,
-            "min": 0,
-            "max": 0
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "7": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 86400,
             "max": 324000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 64800,
             "max": 243000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 12960,
             "max": 64800
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 44
+            "posibility": 15.0,
+            "min": 10,
+            "max": 33
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 8
+            "posibility": 15.0,
+            "min": 1,
+            "max": 6
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 4
+            "posibility": 10.0,
+            "min": 1,
+            "max": 3
           },
           "heavyBot": {
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 8
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 16
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "8": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 103680,
             "max": 388800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 103680,
             "max": 388800
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 15540,
             "max": 77700
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 52
+            "posibility": 15.0,
+            "min": 10,
+            "max": 39
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 9
+            "posibility": 15.0,
+            "min": 1,
+            "max": 7
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 6
+            "posibility": 10.0,
+            "min": 1,
+            "max": 5
           },
           "heavyBot": {
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 10
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 20
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "9": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 124480,
             "max": 466800
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 124480,
             "max": 466800
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 37320,
             "max": 186600
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 60
+            "posibility": 15.0,
+            "min": 10,
+            "max": 45
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 10
+            "posibility": 15.0,
+            "min": 1,
+            "max": 8
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 8
+            "posibility": 10.0,
+            "min": 1,
+            "max": 7
           },
           "heavyBot": {
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 12
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 24
+          },
+          "heal": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "10": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 149440,
             "max": 560400
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 149440,
             "max": 560400
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 44880,
             "max": 224400
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 68
+            "posibility": 15.0,
+            "min": 10,
+            "max": 51
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 11
+            "posibility": 15.0,
+            "min": 1,
+            "max": 9
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 10
+            "posibility": 10.0,
+            "min": 1,
+            "max": 9
           },
           "heavyBot": {
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 14
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 28
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 5
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "11": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 179200,
             "max": 672000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 179200,
             "max": 672000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 53760,
             "max": 268800
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 72
+            "posibility": 15.0,
+            "min": 10,
+            "max": 54
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 12
+            "posibility": 15.0,
+            "min": 1,
+            "max": 10
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 12
+            "posibility": 10.0,
+            "min": 1,
+            "max": 11
           },
           "heavyBot": {
             "posibility": 0,
             "min": 0,
             "max": 0
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 16
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 32
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 10
+          },
+          "power": {
+            "posibility": 0,
+            "min": 0,
+            "max": 0
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "12": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 215040,
             "max": 806400
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 215040,
             "max": 806400
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 64560,
             "max": 322800
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 76
+            "posibility": 15.0,
+            "min": 10,
+            "max": 57
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 13
+            "posibility": 15.0,
+            "min": 1,
+            "max": 11
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 14
+            "posibility": 10.0,
+            "min": 1,
+            "max": 13
           },
           "heavyBot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 5.0,
+            "min": 1,
             "max": 3
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 18
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 36
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 15
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 10,
+            "max": 20
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "13": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 257920,
             "max": 967200
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 257920,
             "max": 967200
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 77400,
             "max": 387000
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 80
+            "posibility": 15.0,
+            "min": 20,
+            "max": 60
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 14
+            "posibility": 15.0,
+            "min": 1,
+            "max": 12
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 16
+            "posibility": 10.0,
+            "min": 1,
+            "max": 15
           },
           "heavyBot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 5.0,
+            "min": 1,
             "max": 9
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 20
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 40
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 20
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 10,
+            "max": 30
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "14": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 309440,
             "max": 1160400
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 309440,
             "max": 1160400
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 92880,
             "max": 464400
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 84
+            "posibility": 15.0,
+            "min": 20,
+            "max": 63
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 15
+            "posibility": 15.0,
+            "min": 1,
+            "max": 13
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 18
+            "posibility": 10.0,
+            "min": 1,
+            "max": 17
           },
           "heavyBot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 5.0,
+            "min": 1,
             "max": 12
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 22
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 44
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 25
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 10,
+            "max": 40
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         },
         "15": {
           "crystalite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 371200,
             "max": 1392000
           },
           "adamantite": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 371200,
             "max": 1392000
           },
           "titanium": {
-            "posibility": 50,
+            "posibility": 50.0,
             "min": 111360,
             "max": 556800
           },
           "coin": {
-            "posibility": 65,
-            "min": 20,
-            "max": 50
+            "posibility": 20.0,
+            "min": 30,
+            "max": 100
           },
           "bot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 88
+            "posibility": 15.0,
+            "min": 20,
+            "max": 66
           },
           "infantryBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 16
+            "posibility": 15.0,
+            "min": 1,
+            "max": 14
           },
           "rocketBot": {
-            "posibility": 35,
-            "min": 2,
-            "max": 20
+            "posibility": 10.0,
+            "min": 1,
+            "max": 19
           },
           "heavyBot": {
-            "posibility": 35,
-            "min": 2,
+            "posibility": 5.0,
+            "min": 1,
             "max": 15
+          },
+          "mine": {
+            "posibility": 5.0,
+            "min": 1,
+            "max": 24
+          },
+          "rocket": {
+            "posibility": 15.0,
+            "min": 4,
+            "max": 48
+          },
+          "heal": {
+            "posibility": 15.0,
+            "min": 5,
+            "max": 30
+          },
+          "power": {
+            "posibility": 15.0,
+            "min": 10,
+            "max": 50
+          },
+          "m.common": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.rare": {
+            "posibility": 3.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.epic": {
+            "posibility": 2.0,
+            "min": 1,
+            "max": 1
+          },
+          "m.legend": {
+            "posibility": 1.0,
+            "min": 1,
+            "max": 1
           }
         }
       }

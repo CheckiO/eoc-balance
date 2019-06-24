@@ -500,7 +500,7 @@
             },
             {
               "num": 2,
-              "mission": "3-chefs",
+              "mission": "three-words",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -543,7 +543,7 @@
             },
             {
               "num": 2,
-              "mission": "three-words",
+              "mission": "bigger-price",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -586,7 +586,7 @@
             },
             {
               "num": 2,
-              "mission": "bigger-price",
+              "mission": "time-converter-24h-to-12h",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -629,7 +629,7 @@
             },
             {
               "num": 2,
-              "mission": "time-converter-24h-to-12h",
+              "mission": "popular-words",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -672,7 +672,7 @@
             },
             {
               "num": 2,
-              "mission": "popular-words",
+              "mission": "stick-sawing",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -715,7 +715,7 @@
             },
             {
               "num": 2,
-              "mission": "ghosts-age",
+              "mission": "network-attack",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -758,15 +758,6 @@
               }
             },
             {
-              "num": 2,
-              "mission": "stick-sawing",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "crystaliteCapacity": 13800
-              }
-            },
-            {
               "num": 3,
               "mission": "check-digit",
               "codeXp": 5,
@@ -795,15 +786,6 @@
             {
               "num": 1,
               "mission": "probably-dice",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "crystaliteCapacity": 24900
-              }
-            },
-            {
-              "num": 2,
-              "mission": "network-attack",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1237,7 +1219,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "weekend-counter",
+              "mission": "node-subnetworks",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1285,7 +1267,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "node-subnetworks",
+              "mission": "striped-words",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1334,7 +1316,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "striped-words",
+              "mission": "the-square-chest",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1382,31 +1364,18 @@
           },
           "missions": [
             {
-              "num": 1,
-              "mission": "the-square-chest",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "crystaliteProduction": 389
-              }
-            },
-            {
               "num": 2,
               "mission": "gate-puzzles",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "crystaliteProduction": 389
-              }
+              "display": {}
             },
             {
               "num": 4,
               "mission": "node-disconnected-users2",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "crystaliteProductionCapacity": 8300
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -1683,7 +1652,7 @@
             },
             {
               "num": 2,
-              "mission": "the-ship-teams",
+              "mission": "ship-teams",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1742,16 +1711,14 @@
           "missions": [
             {
               "num": 1,
-              "mission": "friends",
+              "mission": "identify-block",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "adamantiteCapacity": 7680
-              }
+              "display": {}
             },
             {
               "num": 2,
-              "mission": "area-of-a-convex-polygon",
+              "mission": "roman-numerals",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -1775,22 +1742,11 @@
           },
           "missions": [
             {
-              "num": 1,
-              "mission": "identify-block",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "adamantiteCapacity": 13800
-              }
-            },
-            {
               "num": 2,
-              "mission": "roman-numerals",
+              "mission": "compass-map-and-spyglass",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "adamantiteCapacity": 7680
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -1811,12 +1767,10 @@
           "missions": [
             {
               "num": 2,
-              "mission": "compass-map-and-spyglass",
+              "mission": "friendly-number",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "adamantiteCapacity": 13800
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -1834,17 +1788,6 @@
             "adamantite": 25600,
             "titanium": 10200
           },
-          "missions": [
-            {
-              "num": 2,
-              "mission": "friendly-number",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "adamantiteCapacity": 24900
-              }
-            }
-          ],
           "display": {
             "adamantiteCapacity": 249000,
             "hit_points": 1070
@@ -2262,7 +2205,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "super-root",
+              "mission": "the-longest-palindromic",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -2319,7 +2262,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "the-longest-palindromic",
+              "mission": "digits-doublets",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -2377,7 +2320,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "digits-doublets",
+              "mission": "ip-network-route-summarization",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -2425,22 +2368,11 @@
           },
           "missions": [
             {
-              "num": 1,
-              "mission": "ip-network-route-summarization",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "adamantiteProductionCapacity": 8300
-              }
-            },
-            {
               "num": 4,
               "mission": "seven-segment",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "adamantiteProduction": 389
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -3384,16 +3316,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "stair-steps",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "generateEnergy": 96
-              }
-            },
-            {
-              "num": 2,
-              "mission": "wild-dogs",
+              "mission": "long-repeat-inside",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -3426,7 +3349,7 @@
           "missions": [
             {
               "num": 1,
-              "mission": "long-repeat-inside",
+              "mission": "keys-and-locks",
               "codeXp": 5,
               "codeLevel": 1,
               "display": {
@@ -3459,22 +3382,11 @@
           },
           "missions": [
             {
-              "num": 1,
-              "mission": "keys-and-locks",
-              "codeXp": 5,
-              "codeLevel": 1,
-              "display": {
-                "generateEnergy": 149.76
-              }
-            },
-            {
               "num": 3,
               "mission": "ground-for-the-house",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "generateEnergy": 149.76
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -3497,9 +3409,7 @@
               "mission": "short-string-conversion",
               "codeXp": 5,
               "codeLevel": 1,
-              "display": {
-                "generateEnergy": 179.712
-              }
+              "display": {}
             }
           ],
           "display": {
@@ -3631,6 +3541,7 @@
           },
           "display": {
             "hit_points": 500,
+            "slots": 0,
             "unitCapacity": 6
           }
         },
@@ -3645,6 +3556,7 @@
           },
           "display": {
             "hit_points": 550,
+            "slots": 0,
             "unitCapacity": 9
           }
         },
@@ -3659,6 +3571,7 @@
           },
           "display": {
             "hit_points": 605,
+            "slots": 1,
             "unitCapacity": 12
           }
         },
@@ -3673,6 +3586,7 @@
           },
           "display": {
             "hit_points": 665,
+            "slots": 1,
             "unitCapacity": 15
           }
         },
@@ -3687,6 +3601,7 @@
           },
           "display": {
             "hit_points": 730,
+            "slots": 1,
             "unitCapacity": 18
           }
         },
@@ -3701,6 +3616,7 @@
           },
           "display": {
             "hit_points": 805,
+            "slots": 1,
             "unitCapacity": 20
           }
         },
@@ -3715,6 +3631,7 @@
           },
           "display": {
             "hit_points": 885,
+            "slots": 1,
             "unitCapacity": 22
           }
         },
@@ -3730,6 +3647,7 @@
           },
           "display": {
             "hit_points": 975,
+            "slots": 1,
             "unitCapacity": 24
           }
         },
@@ -3745,6 +3663,7 @@
           },
           "display": {
             "hit_points": 1070,
+            "slots": 2,
             "unitCapacity": 26
           }
         },
@@ -3760,6 +3679,7 @@
           },
           "display": {
             "hit_points": 1180,
+            "slots": 2,
             "unitCapacity": 28
           }
         },
@@ -3775,6 +3695,7 @@
           },
           "display": {
             "hit_points": 1290,
+            "slots": 2,
             "unitCapacity": 30
           }
         },
@@ -3790,6 +3711,7 @@
           },
           "display": {
             "hit_points": 1420,
+            "slots": 2,
             "unitCapacity": 31
           }
         },
@@ -3805,6 +3727,7 @@
           },
           "display": {
             "hit_points": 1560,
+            "slots": 2,
             "unitCapacity": 32
           }
         },
@@ -3820,6 +3743,7 @@
           },
           "display": {
             "hit_points": 1720,
+            "slots": 2,
             "unitCapacity": 33
           }
         },
@@ -3835,6 +3759,7 @@
           },
           "display": {
             "hit_points": 1880,
+            "slots": 2,
             "unitCapacity": 34
           }
         }
@@ -5026,7 +4951,8 @@
             "charge_size": 20,
             "has_rocket": 1,
             "has_heal": 0,
-            "has_power": 0
+            "has_power": 0,
+            "slots": 2
           }
         },
         {
@@ -5044,7 +4970,8 @@
             "charge_size": 25,
             "has_rocket": 1,
             "has_heal": 0,
-            "has_power": 0
+            "has_power": 0,
+            "slots": 2
           }
         },
         {
@@ -5062,7 +4989,8 @@
             "charge_size": 30,
             "has_rocket": 1,
             "has_heal": 1,
-            "has_power": 0
+            "has_power": 0,
+            "slots": 2
           }
         },
         {
@@ -5080,7 +5008,8 @@
             "charge_size": 35,
             "has_rocket": 1,
             "has_heal": 1,
-            "has_power": 0
+            "has_power": 0,
+            "slots": 2
           }
         },
         {
@@ -5098,7 +5027,8 @@
             "charge_size": 40,
             "has_rocket": 1,
             "has_heal": 1,
-            "has_power": 1
+            "has_power": 1,
+            "slots": 2
           }
         },
         {
@@ -5116,7 +5046,8 @@
             "charge_size": 45,
             "has_rocket": 1,
             "has_heal": 1,
-            "has_power": 1
+            "has_power": 1,
+            "slots": 2
           }
         },
         {
@@ -5134,7 +5065,8 @@
             "charge_size": 50,
             "has_rocket": 1,
             "has_heal": 1,
-            "has_power": 1
+            "has_power": 1,
+            "slots": 2
           }
         }
       ]
@@ -5179,7 +5111,8 @@
             "hit_points": 1000,
             "damage_per_shot": 50,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 0
           }
         },
         {
@@ -5195,7 +5128,8 @@
             "hit_points": 1100,
             "damage_per_shot": 55,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 0
           }
         },
         {
@@ -5211,7 +5145,8 @@
             "hit_points": 1210,
             "damage_per_shot": 61,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 1
           }
         },
         {
@@ -5227,7 +5162,8 @@
             "hit_points": 1330,
             "damage_per_shot": 67,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 1
           }
         },
         {
@@ -5243,7 +5179,8 @@
             "hit_points": 1460,
             "damage_per_shot": 74,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 1
           }
         },
         {
@@ -5259,7 +5196,8 @@
             "hit_points": 1610,
             "damage_per_shot": 81,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 1
           }
         },
         {
@@ -5275,7 +5213,8 @@
             "hit_points": 1770,
             "damage_per_shot": 89,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5292,7 +5231,8 @@
             "hit_points": 1950,
             "damage_per_shot": 98,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5309,7 +5249,8 @@
             "hit_points": 2140,
             "damage_per_shot": 108,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5326,7 +5267,8 @@
             "hit_points": 2350,
             "damage_per_shot": 119,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5343,7 +5285,8 @@
             "hit_points": 2580,
             "damage_per_shot": 131,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5360,7 +5303,8 @@
             "hit_points": 2840,
             "damage_per_shot": 144,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5377,7 +5321,8 @@
             "hit_points": 3120,
             "damage_per_shot": 158,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 2
           }
         },
         {
@@ -5394,7 +5339,8 @@
             "hit_points": 3430,
             "damage_per_shot": 174,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 3
           }
         },
         {
@@ -5411,7 +5357,8 @@
             "hit_points": 3770,
             "damage_per_shot": 191,
             "firing_range": 12,
-            "rate_of_fire": 0.7
+            "rate_of_fire": 0.7,
+            "slots": 3
           }
         }
       ]
@@ -5449,7 +5396,8 @@
             "hit_points": 2340,
             "damage_per_shot": 20,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5466,7 +5414,8 @@
             "hit_points": 2570,
             "damage_per_shot": 22,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5483,7 +5432,8 @@
             "hit_points": 2820,
             "damage_per_shot": 24,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5500,7 +5450,8 @@
             "hit_points": 3100,
             "damage_per_shot": 26,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5517,7 +5468,8 @@
             "hit_points": 3410,
             "damage_per_shot": 29,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5534,7 +5486,8 @@
             "hit_points": 3740,
             "damage_per_shot": 32,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5551,7 +5504,8 @@
             "hit_points": 4120,
             "damage_per_shot": 35,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         },
         {
@@ -5568,7 +5522,8 @@
             "hit_points": 4520,
             "damage_per_shot": 38,
             "firing_range": 5,
-            "rate_of_fire": 10
+            "rate_of_fire": 10,
+            "slots": 2
           }
         }
       ]
@@ -5682,7 +5637,8 @@
             "titanium": 30600
           },
           "display": {
-            "hit_points": 2140
+            "hit_points": 2140,
+            "slots": 1
           }
         },
         {
@@ -5696,7 +5652,8 @@
             "titanium": 61200
           },
           "display": {
-            "hit_points": 2350
+            "hit_points": 2350,
+            "slots": 1
           }
         },
         {
@@ -5710,7 +5667,8 @@
             "titanium": 91800
           },
           "display": {
-            "hit_points": 2580
+            "hit_points": 2580,
+            "slots": 1
           }
         },
         {
@@ -5724,7 +5682,8 @@
             "titanium": 138000
           },
           "display": {
-            "hit_points": 2840
+            "hit_points": 2840,
+            "slots": 1
           }
         },
         {
@@ -5738,7 +5697,8 @@
             "titanium": 206000
           },
           "display": {
-            "hit_points": 3120
+            "hit_points": 3120,
+            "slots": 1
           }
         },
         {
@@ -5752,7 +5712,8 @@
             "titanium": 309000
           },
           "display": {
-            "hit_points": 3430
+            "hit_points": 3430,
+            "slots": 1
           }
         },
         {
@@ -5766,7 +5727,8 @@
             "titanium": 616000
           },
           "display": {
-            "hit_points": 3770
+            "hit_points": 3770,
+            "slots": 1
           }
         }
       ]
@@ -5799,7 +5761,8 @@
           "display": {
             "hit_points": 6860,
             "firing_range": 10,
-            "rate_of_fire": 0.4
+            "rate_of_fire": 0.4,
+            "slots": 1
           }
         },
         {
@@ -5815,7 +5778,8 @@
           "display": {
             "hit_points": 7540,
             "firing_range": 10,
-            "rate_of_fire": 0.4
+            "rate_of_fire": 0.4,
+            "slots": 1
           }
         }
       ]
@@ -8731,139 +8695,140 @@
   "modules": {
     "u.rateOfFire.lvl1": {
       "type": "unit",
-      "rateOfFire.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "rateOfFire.pr": 10
     },
     "u.rateOfFire.lvl2": {
       "type": "unit",
-      "rateOfFire.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "rateOfFire.pr": 15
     },
     "speed.lvl1": {
       "type": "unit",
-      "speed.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "speed.pr": 10
     },
     "speed.lvl2": {
       "type": "unit",
-      "speed.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "speed.pr": 15
     },
     "u.fireRange.lvl1": {
       "type": "unit",
-      "fireRange.pr": 10,
       "chance": "common",
-      "notFor": "rocketBot"
+      "notFor": "rocketBot",
+      "fireRange.pr": 10
     },
     "u.fireRange.lvl2": {
       "type": "unit",
-      "fireRange.pr": 15,
       "chance": "rare",
-      "notFor": "rocketBot"
+      "notFor": "rocketBot",
+      "fireRange.pr": 15
     },
     "u.damagePerShot.lvl1": {
       "type": "unit",
-      "damagePerShot.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "damagePerShot.pr": 10
     },
     "u.damagePerShot.lvl2": {
       "type": "unit",
-      "damagePerShot.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "damagePerShot.pr": 15
     },
     "u.hitPoints.lvl1": {
       "type": "unit",
-      "hitPoints.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "hitPoints.pr": 10
     },
     "u.hitPoints.lvl2": {
       "type": "unit",
-      "hitPoints.pr": 15,
-      "chance": "epic"
+      "chance": "epic",
+      "hitPoints.pr": 15
     },
     "groupProtect": {
       "type": "unit",
-      "groupProtect": 1,
-      "chance": "legend"
+      "chance": "legend",
+      "groupProtect": 1
     },
     "heavyProtect": {
       "type": "unit",
+      "chance": "epic",
       "for": "heavyBot",
-      "heavyProtect": 1,
-      "chance": "epic"
+      "heavyProtect": 1
     },
     "teleport": {
       "type": "unit",
-      "teleport": 1,
-      "chance": "epic"
+      "chance": "epic",
+      "teleport": 1
     },
     "extDeploy": {
       "type": "unit",
+      "chance": "rare",
       "extDeploy": 1,
-      "coorDeploy": 1,
-      "chance": "rare"
+      "coorDeploy": 1
     },
     "b.rateOfFire.lvl1": {
       "type": "tower",
-      "rateOfFire.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "rateOfFire.pr": 10
     },
     "b.rateOfFire.lvl2": {
       "type": "tower",
-      "rateOfFire.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "rateOfFire.pr": 15
     },
     "b.fireRange.lvl1": {
       "type": "tower",
-      "fireRange.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "fireRange.pr": 10
     },
     "b.fireRange.lvl2": {
       "type": "tower",
-      "fireRange.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "fireRange.pr": 15
     },
     "b.damagePerShot.lvl1": {
       "type": "tower",
-      "damagePerShot.pr": 10,
-      "chance": "common"
+      "chance": "common",
+      "damagePerShot.pr": 10
     },
     "b.damagePerShot.lvl2": {
       "type": "tower",
-      "damagePerShot.pr": 15,
-      "chance": "rare"
+      "chance": "rare",
+      "damagePerShot.pr": 15
     },
     "b.hitPoints.lvl1": {
       "type": "tower",
-      "hitPoints.pr": 10,
-      "chance": "rare"
+      "chance": "rare",
+      "hitPoints.pr": 10
     },
     "b.hitPoints.lvl2": {
       "type": "tower",
-      "hitPoints.pr": 15,
-      "chance": 1
+      "chance": "epic",
+      "hitPoints.pr": 15
     },
     "shotThrough": {
       "type": "tower",
-      "for": "sentryGub",
-      "shotThrough": 1,
-      "chance": "rare"
+      "chance": "rare",
+      "for": "sentryGun",
+      "shotThrough": 1
     },
     "freezing": {
       "type": "tower",
-      "freezing": 1,
-      "chance": "epic"
+      "chance": "epic",
+      "freezing": 1
     },
     "fasterRocket": {
       "type": "tower",
+      "chance": "epic",
       "for": "rocketGun",
-      "fasterRocket": 1,
-      "chance": "epic"
+      "fasterRocket": 1
     },
     "incCoverRange": {
       "type": "tower",
+      "chance": "epic",
       "for": "machineGun",
-      "incCoverRange": "epic"
+      "incCoverRange": 1
     }
   }
 }
