@@ -308,8 +308,15 @@ result = {
                     'upgradeCost': {},
                     'upgradeTime': 0,
                     'xpGain': 0}]
-    }
+    },
+    'obstacle2':{
+        'size': {'x': 2, 'y': 2},
+        'category': 'objective',
+        'role': 'objective'
+    },
 }
+
+
 
 game_config = {
     'buildings': result
@@ -373,7 +380,7 @@ for b_type, b_data in data.items():
         if lvl_data.get('has'):
             new_stat = {
                 'level': lvl_data['level'],
-                'xpGain': lvl_data['xpgain'],
+                'xpGain': lvl_data.get('xpgain'),
                 'upgradeTime': lvl_data['uptime'],
             }
             if b_type != 'commandCenter':
@@ -399,6 +406,9 @@ for b_type, b_data in data.items():
             cost = new_stat['upgradeCost'] = {}
             if lvl_data.get('ad.price'):
                 cost['adamantite'] = lvl_data['ad.price']
+            
+            if lvl_data.get('cr.price'):
+                cost['crystalite'] = lvl_data['cr.price']
 
             if lvl_data.get('ti.price'):
                 cost['titanium'] = lvl_data['ti.price']
@@ -432,8 +442,15 @@ for b_type, b_data in data.items():
             if missions:
                 new_stat['missions'] = missions
 
+            ret = {}
+            if 'ad.return' in lvl_data:
+                ret['adamantite'] = lvl_data['ad.return']
+            
+            if ret:
+                new_stat['ret'] = ret
 
             display = new_stat['display'] = {}
+
             if 'cr.farm' in lvl_data:
                 display['crystaliteProduction'] = lvl_data['cr.farm']
                 display['crystaliteProductionCapacity'] = lvl_data['cr.max']
@@ -485,30 +502,38 @@ for b_type, b_data in data.items():
                 }
             
             if b_type == 'garbage':
-                for term in ('st.lvl1', 'st.lvl2', 'st.lvl3', 
-                             'lt.lvl1', 'lt.lvl2', 'lt.lvl3'):
+                display['expSpeed'] = round(lvl_data['speed'], 1)
+                new_stat['expPrice'] = {
+                    'crystalite': lvl_data['ex.cr.price']
+                }
+                # for term in ('st.lvl1', 'st.lvl2', 'st.lvl3', 
+                #              'lt.lvl1', 'lt.lvl2', 'lt.lvl3'):
                     
-                    display[term.replace('st', 'short').replace('lt', 'long')] = int(lvl_data[term]*100)
-                new_stat['shortExpedition'] = {
-                    'time': lvl_data['shorttime'],
-                    'price': {
-                        'crystalite': lvl_data['shortprice']   
-                    }
-                }
-                new_stat['longExpedition'] = {
-                    'time': lvl_data['longtime'],
-                    'price': {
-                        'crystalite': lvl_data['longprice']   
-                    }
-                }
+                #     display[term.replace('st', 'short').replace('lt', 'long')] = int(lvl_data[term]*100)
+                # new_stat['shortExpedition'] = {
+                #     'time': lvl_data['shorttime'],
+                #     'price': {
+                #         'crystalite': lvl_data['shortprice']   
+                #     }
+                # }
+                # new_stat['longExpedition'] = {
+                #     'time': lvl_data['longtime'],
+                #     'price': {
+                #         'crystalite': lvl_data['longprice']   
+                #     }
+                # }
 
-                private_config['garbage'][lvl_data['level']] = {
-                    'shortTimeCodingPos': int(lvl_data['st.codingpos']*100),
-                    'longTimeCodingPos': int(lvl_data['lt.codingpos']*100)
-                }
+                # private_config['garbage'][lvl_data['level']] = {
+                #     'shortTimeCodingPos': int(lvl_data['st.codingpos']*100),
+                #     'longTimeCodingPos': int(lvl_data['lt.codingpos']*100)
+                # }
 
-
-
+from copy import deepcopy
+result['obstacle3'] =  deepcopy(result['obstacle2'])
+result['obstacle3']['size'] = {
+    'x': 3,
+    'y': 3,
+}
 
 def collect_table(ws_head, ws_data):
     names = {}
@@ -711,6 +736,23 @@ for row in ws['E1':'G200']:
     if row[1].value:
         cur_module[row[1].value] = row[2].value
 
+ws = wb['Radar']
+game_config['radar'] = {}
+
+for pos, row in enumerate(collect_table(ws['A1': 'J1'], ws['A2':'J100'])):
+    name = row.pop('name')
+    game_config['radar'][name] = row
+
+ws = wb['Expedition']
+game_config['expedition'] = []
+
+for pos, row in enumerate(collect_table(ws['A1': 'I1'], ws['A2':'I100'])):
+    row['codingPos'] = int(100*row['codingPos'])
+    row['chlvl1'] = int(100*row['chlvl1'])
+    row['chlvl2'] = int(100*row['chlvl2'])
+    row['chlvl3'] = int(100*row['chlvl3'])
+
+    game_config['expedition'].append(row)
 
 if os.path.exists(BALANCE_JSON):
     with open(BALANCE_JSON, 'w') as fh:

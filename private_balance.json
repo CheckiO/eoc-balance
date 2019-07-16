@@ -1,54 +1,5 @@
 {
-  "garbage": {
-    "1": {
-      "shortTimeCodingPos": 75,
-      "longTimeCodingPos": 50
-    },
-    "2": {
-      "shortTimeCodingPos": 70,
-      "longTimeCodingPos": 50
-    },
-    "3": {
-      "shortTimeCodingPos": 64,
-      "longTimeCodingPos": 50
-    },
-    "4": {
-      "shortTimeCodingPos": 59,
-      "longTimeCodingPos": 50
-    },
-    "5": {
-      "shortTimeCodingPos": 54,
-      "longTimeCodingPos": 50
-    },
-    "6": {
-      "shortTimeCodingPos": 49,
-      "longTimeCodingPos": 50
-    },
-    "7": {
-      "shortTimeCodingPos": 44,
-      "longTimeCodingPos": 50
-    },
-    "8": {
-      "shortTimeCodingPos": 39,
-      "longTimeCodingPos": 50
-    },
-    "9": {
-      "shortTimeCodingPos": 34,
-      "longTimeCodingPos": 50
-    },
-    "10": {
-      "shortTimeCodingPos": 29,
-      "longTimeCodingPos": 50
-    },
-    "11": {
-      "shortTimeCodingPos": 24,
-      "longTimeCodingPos": 50
-    },
-    "12": {
-      "shortTimeCodingPos": 19,
-      "longTimeCodingPos": 50
-    }
-  },
+  "garbage": {},
   "chest": {
     "lvl1": {
       "order": [

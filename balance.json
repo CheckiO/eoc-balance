@@ -4506,24 +4506,10 @@
           },
           "display": {
             "hit_points": 665,
-            "short.lvl1": 50,
-            "short.lvl2": 0,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 25,
-            "long.lvl3": 0
+            "expSpeed": 5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 1600
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 8000
-            }
+          "expPrice": {
+            "crystalite": 1600
           }
         },
         {
@@ -4541,24 +4527,10 @@
           },
           "display": {
             "hit_points": 730,
-            "short.lvl1": 55,
-            "short.lvl2": 0,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 30,
-            "long.lvl3": 0
+            "expSpeed": 5.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 3200
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 16000
-            }
+          "expPrice": {
+            "crystalite": 3200
           }
         },
         {
@@ -4576,24 +4548,10 @@
           },
           "display": {
             "hit_points": 805,
-            "short.lvl1": 60,
-            "short.lvl2": 0,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 35,
-            "long.lvl3": 5
+            "expSpeed": 6
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 6400
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 32000
-            }
+          "expPrice": {
+            "crystalite": 6400
           }
         },
         {
@@ -4611,24 +4569,10 @@
           },
           "display": {
             "hit_points": 885,
-            "short.lvl1": 65,
-            "short.lvl2": 5,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 40,
-            "long.lvl3": 7
+            "expSpeed": 6.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 12800
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 64000
-            }
+          "expPrice": {
+            "crystalite": 12800
           }
         },
         {
@@ -4647,24 +4591,10 @@
           },
           "display": {
             "hit_points": 975,
-            "short.lvl1": 70,
-            "short.lvl2": 7,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 44,
-            "long.lvl3": 10
+            "expSpeed": 7
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 25600
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 128000
-            }
+          "expPrice": {
+            "crystalite": 25600
           }
         },
         {
@@ -4683,24 +4613,10 @@
           },
           "display": {
             "hit_points": 1070,
-            "short.lvl1": 70,
-            "short.lvl2": 10,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 49,
-            "long.lvl3": 12
+            "expSpeed": 7.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 51200
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 256000
-            }
+          "expPrice": {
+            "crystalite": 51200
           }
         },
         {
@@ -4719,24 +4635,10 @@
           },
           "display": {
             "hit_points": 1180,
-            "short.lvl1": 75,
-            "short.lvl2": 12,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 54,
-            "long.lvl3": 15
+            "expSpeed": 8
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 102000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 512000
-            }
+          "expPrice": {
+            "crystalite": 76800
           }
         },
         {
@@ -4755,24 +4657,10 @@
           },
           "display": {
             "hit_points": 1290,
-            "short.lvl1": 80,
-            "short.lvl2": 15,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 60,
-            "long.lvl3": 17
+            "expSpeed": 8.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 204000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 1020000
-            }
+          "expPrice": {
+            "crystalite": 153000
           }
         },
         {
@@ -4791,24 +4679,10 @@
           },
           "display": {
             "hit_points": 1420,
-            "short.lvl1": 85,
-            "short.lvl2": 17,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 65,
-            "long.lvl3": 20
+            "expSpeed": 9
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 306000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 2040000
-            }
+          "expPrice": {
+            "crystalite": 306000
           }
         },
         {
@@ -4827,24 +4701,10 @@
           },
           "display": {
             "hit_points": 1560,
-            "short.lvl1": 90,
-            "short.lvl2": 20,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 70,
-            "long.lvl3": 22
+            "expSpeed": 9.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 612000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 4080000
-            }
+          "expPrice": {
+            "crystalite": 408000
           }
         },
         {
@@ -4863,24 +4723,10 @@
           },
           "display": {
             "hit_points": 1720,
-            "short.lvl1": 95,
-            "short.lvl2": 22,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 75,
-            "long.lvl3": 24
+            "expSpeed": 10
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 1220000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 8160000
-            }
+          "expPrice": {
+            "crystalite": 653000
           }
         },
         {
@@ -4899,24 +4745,10 @@
           },
           "display": {
             "hit_points": 1880,
-            "short.lvl1": 100,
-            "short.lvl2": 24,
-            "short.lvl3": 0,
-            "long.lvl1": 100,
-            "long.lvl2": 80,
-            "long.lvl3": 27
+            "expSpeed": 10.5
           },
-          "shortExpedition": {
-            "time": 18000,
-            "price": {
-              "crystalite": 2440000
-            }
-          },
-          "longExpedition": {
-            "time": 72000,
-            "price": {
-              "crystalite": 16300000
-            }
+          "expPrice": {
+            "crystalite": 1300000
           }
         }
       ]
@@ -5987,6 +5819,418 @@
           "upgradeCost": {},
           "upgradeTime": 0,
           "xpGain": 0
+        }
+      ]
+    },
+    "obstacle2": {
+      "size": {
+        "x": 2,
+        "y": 2
+      },
+      "category": "objective",
+      "role": "objective",
+      "counts": [],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": null,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "upgradeCost": {
+            "crystalite": 50
+          },
+          "ret": {
+            "adamantite": 100
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": null,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "upgradeCost": {
+            "crystalite": 100
+          },
+          "ret": {
+            "adamantite": 200
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": null,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "upgradeCost": {
+            "crystalite": 200
+          },
+          "ret": {
+            "adamantite": 400
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "upgradeCost": {
+            "crystalite": 400
+          },
+          "ret": {
+            "adamantite": 800
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 5,
+          "upgradeCost": {
+            "crystalite": 800
+          },
+          "ret": {
+            "adamantite": 1600
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": null,
+          "upgradeTime": 7200,
+          "commandCenter": 6,
+          "upgradeCost": {
+            "crystalite": 1600
+          },
+          "ret": {
+            "adamantite": 3200
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": null,
+          "upgradeTime": 14400,
+          "commandCenter": 7,
+          "upgradeCost": {
+            "crystalite": 3200
+          },
+          "ret": {
+            "adamantite": 6400
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 8,
+          "upgradeCost": {
+            "crystalite": 6400
+          },
+          "ret": {
+            "adamantite": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 9,
+          "upgradeCost": {
+            "crystalite": 12800
+          },
+          "ret": {
+            "adamantite": 25600
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 10,
+          "upgradeCost": {
+            "crystalite": 25600
+          },
+          "ret": {
+            "adamantite": 51200
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": null,
+          "upgradeTime": 34600,
+          "commandCenter": 11,
+          "upgradeCost": {
+            "crystalite": 51000
+          },
+          "ret": {
+            "adamantite": 102000
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": null,
+          "upgradeTime": 19000,
+          "commandCenter": 12,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": null,
+          "upgradeTime": 20900,
+          "commandCenter": 13,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 14,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 14,
+          "upgradeCost": {
+            "crystalite": 204000
+          },
+          "ret": {
+            "adamantite": 408000
+          },
+          "display": {}
+        },
+        {
+          "level": 15,
+          "xpGain": null,
+          "upgradeTime": 25300,
+          "commandCenter": 15,
+          "upgradeCost": {
+            "crystalite": 407500
+          },
+          "ret": {
+            "adamantite": 815000
+          },
+          "display": {}
+        }
+      ]
+    },
+    "obstacle3": {
+      "size": {
+        "x": 3,
+        "y": 3
+      },
+      "category": "objective",
+      "role": "objective",
+      "counts": [],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": null,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "upgradeCost": {
+            "crystalite": 50
+          },
+          "ret": {
+            "adamantite": 100
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": null,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "upgradeCost": {
+            "crystalite": 100
+          },
+          "ret": {
+            "adamantite": 200
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": null,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "upgradeCost": {
+            "crystalite": 200
+          },
+          "ret": {
+            "adamantite": 400
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "upgradeCost": {
+            "crystalite": 400
+          },
+          "ret": {
+            "adamantite": 800
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 5,
+          "upgradeCost": {
+            "crystalite": 800
+          },
+          "ret": {
+            "adamantite": 1600
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": null,
+          "upgradeTime": 7200,
+          "commandCenter": 6,
+          "upgradeCost": {
+            "crystalite": 1600
+          },
+          "ret": {
+            "adamantite": 3200
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": null,
+          "upgradeTime": 14400,
+          "commandCenter": 7,
+          "upgradeCost": {
+            "crystalite": 3200
+          },
+          "ret": {
+            "adamantite": 6400
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 8,
+          "upgradeCost": {
+            "crystalite": 6400
+          },
+          "ret": {
+            "adamantite": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 9,
+          "upgradeCost": {
+            "crystalite": 12800
+          },
+          "ret": {
+            "adamantite": 25600
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 10,
+          "upgradeCost": {
+            "crystalite": 25600
+          },
+          "ret": {
+            "adamantite": 51200
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": null,
+          "upgradeTime": 34600,
+          "commandCenter": 11,
+          "upgradeCost": {
+            "crystalite": 51000
+          },
+          "ret": {
+            "adamantite": 102000
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": null,
+          "upgradeTime": 19000,
+          "commandCenter": 12,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": null,
+          "upgradeTime": 20900,
+          "commandCenter": 13,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 14,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 14,
+          "upgradeCost": {
+            "crystalite": 204000
+          },
+          "ret": {
+            "adamantite": 408000
+          },
+          "display": {}
+        },
+        {
+          "level": 15,
+          "xpGain": null,
+          "upgradeTime": 25300,
+          "commandCenter": 15,
+          "upgradeCost": {
+            "crystalite": 407500
+          },
+          "ret": {
+            "adamantite": 815000
+          },
+          "display": {}
         }
       ]
     }
@@ -8830,5 +9074,134 @@
       "for": "machineGun",
       "incCoverRange": 1
     }
-  }
+  },
+  "radar": {
+    "ast01": {
+      "x": 20,
+      "y": 20,
+      "type": "exp",
+      "texture": 9,
+      "radar": 1,
+      "garbage": 0,
+      "level": 1
+    },
+    "ast02": {
+      "x": -20,
+      "y": 10,
+      "type": "exp",
+      "texture": 5,
+      "radar": 1,
+      "garbage": 0,
+      "level": 1
+    },
+    "ast03": {
+      "x": 30,
+      "y": 10,
+      "type": "base",
+      "texture": 2,
+      "base": "morgan1",
+      "radar": 1,
+      "garbage": 0,
+      "level": 1
+    },
+    "ast04": {
+      "x": 40,
+      "y": 40,
+      "type": "base",
+      "texture": 1,
+      "base": "morgan2",
+      "radar": 2,
+      "garbage": 1,
+      "level": 1
+    },
+    "ast05": {
+      "x": -40,
+      "y": -20,
+      "type": "exp",
+      "texture": 2,
+      "radar": 2,
+      "garbage": 1,
+      "level": 2
+    },
+    "ast06": {
+      "x": -30,
+      "y": 30,
+      "type": "exp",
+      "texture": 1,
+      "radar": 2,
+      "garbage": 1,
+      "level": 2
+    },
+    "ast07": {
+      "x": -50,
+      "y": 50,
+      "type": "exp",
+      "texture": 8,
+      "radar": 3,
+      "garbage": 1,
+      "level": 2
+    },
+    "ast08": {
+      "x": 45,
+      "y": 50,
+      "type": "exp",
+      "texture": 10,
+      "radar": 3,
+      "garbage": 1,
+      "level": 2
+    },
+    "ast09": {
+      "x": 50,
+      "y": 0,
+      "type": "exp",
+      "texture": 11,
+      "radar": 3,
+      "garbage": 1,
+      "level": 2
+    }
+  },
+  "expedition": [
+    {
+      "level": 1,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 25,
+      "chlvl3": 0
+    },
+    {
+      "level": 2,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 30,
+      "chlvl3": 0
+    },
+    {
+      "level": 3,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 35,
+      "chlvl3": 5
+    },
+    {
+      "level": 4,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 40,
+      "chlvl3": 7
+    },
+    {
+      "level": 5,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 44,
+      "chlvl3": 10
+    },
+    {
+      "level": 6,
+      "codingPos": 50,
+      "chlvl1": 100,
+      "chlvl2": 49,
+      "chlvl3": 12
+    }
+  ]
 }
