@@ -301,6 +301,7 @@ result = {
             'count': 1,
             'commandCenter': 1
         }],
+        'role': 'building',
         'stats': [{'display': {'hitpoints': 100},
                     'level': 1,
                     'requiredPlayerLevel': 1,
@@ -501,32 +502,35 @@ for b_type, b_data in data.items():
                     'power': lvl_data['max.a_power'],
                 }
             
+            if b_type in ('craftPad', 'flagman'):
+                display['expSpeed'] = round(lvl_data['speed'], 1)
+
             if b_type == 'garbage':
                 display['expSpeed'] = round(lvl_data['speed'], 1)
                 new_stat['expPrice'] = {
                     'crystalite': lvl_data['ex.cr.price']
                 }
-                # for term in ('st.lvl1', 'st.lvl2', 'st.lvl3', 
-                #              'lt.lvl1', 'lt.lvl2', 'lt.lvl3'):
+                for term in ('st.lvl1', 'st.lvl2', 'st.lvl3', 
+                             'lt.lvl1', 'lt.lvl2', 'lt.lvl3'):
                     
-                #     display[term.replace('st', 'short').replace('lt', 'long')] = int(lvl_data[term]*100)
-                # new_stat['shortExpedition'] = {
-                #     'time': lvl_data['shorttime'],
-                #     'price': {
-                #         'crystalite': lvl_data['shortprice']   
-                #     }
-                # }
-                # new_stat['longExpedition'] = {
-                #     'time': lvl_data['longtime'],
-                #     'price': {
-                #         'crystalite': lvl_data['longprice']   
-                #     }
-                # }
+                    display[term.replace('st', 'short').replace('lt', 'long')] = int(lvl_data[term]*100)
+                new_stat['shortExpedition'] = {
+                    'time': lvl_data['shorttime'],
+                    'price': {
+                        'crystalite': lvl_data['shortprice']   
+                    }
+                }
+                new_stat['longExpedition'] = {
+                    'time': lvl_data['longtime'],
+                    'price': {
+                        'crystalite': lvl_data['longprice']   
+                    }
+                }
 
-                # private_config['garbage'][lvl_data['level']] = {
-                #     'shortTimeCodingPos': int(lvl_data['st.codingpos']*100),
-                #     'longTimeCodingPos': int(lvl_data['lt.codingpos']*100)
-                # }
+                private_config['garbage'][lvl_data['level']] = {
+                    'shortTimeCodingPos': int(lvl_data['st.codingpos']*100),
+                    'longTimeCodingPos': int(lvl_data['lt.codingpos']*100)
+                }
 
 from copy import deepcopy
 result['obstacle3'] =  deepcopy(result['obstacle2'])
