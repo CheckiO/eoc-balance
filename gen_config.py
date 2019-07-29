@@ -745,6 +745,7 @@ game_config['radar'] = {}
 
 for pos, row in enumerate(collect_table(ws['A1': 'J1'], ws['A2':'J100'])):
     name = row.pop('name')
+    row['order'] = pos
     game_config['radar'][name] = row
 
 ws = wb['Expedition']

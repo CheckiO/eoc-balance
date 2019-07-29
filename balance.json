@@ -3543,7 +3543,7 @@
             "hit_points": 500,
             "slots": 0,
             "unitCapacity": 6,
-            "expSpeed": 4
+            "expSpeed": 40
           }
         },
         {
@@ -3559,7 +3559,7 @@
             "hit_points": 550,
             "slots": 0,
             "unitCapacity": 9,
-            "expSpeed": 4.5
+            "expSpeed": 45
           }
         },
         {
@@ -3575,7 +3575,7 @@
             "hit_points": 605,
             "slots": 1,
             "unitCapacity": 12,
-            "expSpeed": 5
+            "expSpeed": 50
           }
         },
         {
@@ -3591,7 +3591,7 @@
             "hit_points": 665,
             "slots": 1,
             "unitCapacity": 15,
-            "expSpeed": 5.5
+            "expSpeed": 55
           }
         },
         {
@@ -3607,7 +3607,7 @@
             "hit_points": 730,
             "slots": 1,
             "unitCapacity": 18,
-            "expSpeed": 6
+            "expSpeed": 60
           }
         },
         {
@@ -3623,7 +3623,7 @@
             "hit_points": 805,
             "slots": 1,
             "unitCapacity": 20,
-            "expSpeed": 6.5
+            "expSpeed": 65
           }
         },
         {
@@ -3639,7 +3639,7 @@
             "hit_points": 885,
             "slots": 1,
             "unitCapacity": 22,
-            "expSpeed": 7
+            "expSpeed": 70
           }
         },
         {
@@ -3656,7 +3656,7 @@
             "hit_points": 975,
             "slots": 1,
             "unitCapacity": 24,
-            "expSpeed": 7.5
+            "expSpeed": 75
           }
         },
         {
@@ -3673,7 +3673,7 @@
             "hit_points": 1070,
             "slots": 2,
             "unitCapacity": 26,
-            "expSpeed": 8
+            "expSpeed": 80
           }
         },
         {
@@ -3690,7 +3690,7 @@
             "hit_points": 1180,
             "slots": 2,
             "unitCapacity": 28,
-            "expSpeed": 8.5
+            "expSpeed": 85
           }
         },
         {
@@ -3707,7 +3707,7 @@
             "hit_points": 1290,
             "slots": 2,
             "unitCapacity": 30,
-            "expSpeed": 9
+            "expSpeed": 90
           }
         },
         {
@@ -3724,7 +3724,7 @@
             "hit_points": 1420,
             "slots": 2,
             "unitCapacity": 31,
-            "expSpeed": 9.5
+            "expSpeed": 95
           }
         },
         {
@@ -3741,7 +3741,7 @@
             "hit_points": 1560,
             "slots": 2,
             "unitCapacity": 32,
-            "expSpeed": 10
+            "expSpeed": 100
           }
         },
         {
@@ -3758,7 +3758,7 @@
             "hit_points": 1720,
             "slots": 2,
             "unitCapacity": 33,
-            "expSpeed": 10.5
+            "expSpeed": 105
           }
         },
         {
@@ -3775,7 +3775,7 @@
             "hit_points": 1880,
             "slots": 2,
             "unitCapacity": 34,
-            "expSpeed": 11
+            "expSpeed": 110
           }
         }
       ]
@@ -4521,7 +4521,7 @@
           },
           "display": {
             "hit_points": 665,
-            "expSpeed": 5,
+            "expSpeed": 50,
             "short.lvl1": 50,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4560,7 +4560,7 @@
           },
           "display": {
             "hit_points": 730,
-            "expSpeed": 5.5,
+            "expSpeed": 55,
             "short.lvl1": 55,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4599,7 +4599,7 @@
           },
           "display": {
             "hit_points": 805,
-            "expSpeed": 6,
+            "expSpeed": 60,
             "short.lvl1": 60,
             "short.lvl2": 0,
             "short.lvl3": 0,
@@ -4638,7 +4638,7 @@
           },
           "display": {
             "hit_points": 885,
-            "expSpeed": 6.5,
+            "expSpeed": 65,
             "short.lvl1": 65,
             "short.lvl2": 5,
             "short.lvl3": 0,
@@ -4678,7 +4678,7 @@
           },
           "display": {
             "hit_points": 975,
-            "expSpeed": 7,
+            "expSpeed": 70,
             "short.lvl1": 70,
             "short.lvl2": 7,
             "short.lvl3": 0,
@@ -4718,7 +4718,7 @@
           },
           "display": {
             "hit_points": 1070,
-            "expSpeed": 7.5,
+            "expSpeed": 75,
             "short.lvl1": 70,
             "short.lvl2": 10,
             "short.lvl3": 0,
@@ -4758,7 +4758,7 @@
           },
           "display": {
             "hit_points": 1180,
-            "expSpeed": 8,
+            "expSpeed": 80,
             "short.lvl1": 75,
             "short.lvl2": 12,
             "short.lvl3": 0,
@@ -4798,7 +4798,7 @@
           },
           "display": {
             "hit_points": 1290,
-            "expSpeed": 8.5,
+            "expSpeed": 85,
             "short.lvl1": 80,
             "short.lvl2": 15,
             "short.lvl3": 0,
@@ -4838,7 +4838,7 @@
           },
           "display": {
             "hit_points": 1420,
-            "expSpeed": 9,
+            "expSpeed": 90,
             "short.lvl1": 85,
             "short.lvl2": 17,
             "short.lvl3": 0,
@@ -4878,7 +4878,7 @@
           },
           "display": {
             "hit_points": 1560,
-            "expSpeed": 9.5,
+            "expSpeed": 95,
             "short.lvl1": 90,
             "short.lvl2": 20,
             "short.lvl3": 0,
@@ -4918,7 +4918,7 @@
           },
           "display": {
             "hit_points": 1720,
-            "expSpeed": 10,
+            "expSpeed": 100,
             "short.lvl1": 95,
             "short.lvl2": 22,
             "short.lvl3": 0,
@@ -4958,7 +4958,7 @@
           },
           "display": {
             "hit_points": 1880,
-            "expSpeed": 10.5,
+            "expSpeed": 105,
             "short.lvl1": 100,
             "short.lvl2": 24,
             "short.lvl3": 0,
@@ -5016,7 +5016,7 @@
             "has_heal": 0,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 9
+            "expSpeed": 90
           }
         },
         {
@@ -5036,7 +5036,7 @@
             "has_heal": 0,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 9.5
+            "expSpeed": 95
           }
         },
         {
@@ -5056,7 +5056,7 @@
             "has_heal": 1,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 10
+            "expSpeed": 100
           }
         },
         {
@@ -5076,7 +5076,7 @@
             "has_heal": 1,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 10.5
+            "expSpeed": 105
           }
         },
         {
@@ -5096,7 +5096,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 11
+            "expSpeed": 110
           }
         },
         {
@@ -5116,7 +5116,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 11.5
+            "expSpeed": 115
           }
         },
         {
@@ -5136,7 +5136,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 12
+            "expSpeed": 120
           }
         }
       ]
@@ -9316,87 +9316,506 @@
   },
   "radar": {
     "ast01": {
-      "x": 20,
-      "y": 20,
+      "x": 60,
+      "y": 60,
       "type": "exp",
       "texture": 9,
       "radar": 1,
       "garbage": 0,
-      "level": 1
+      "level": 1,
+      "order": 0
     },
     "ast02": {
+      "x": -60,
+      "y": 60,
+      "type": "exp",
+      "texture": 8,
+      "radar": 1,
+      "garbage": 0,
+      "level": 1,
+      "order": 1
+    },
+    "ast03": {
+      "x": 60,
+      "y": -40,
+      "type": "exp",
+      "texture": 7,
+      "radar": 1,
+      "garbage": 0,
+      "level": 1,
+      "order": 2
+    },
+    "ast04": {
+      "x": 60,
+      "y": -60,
+      "type": "exp",
+      "texture": 6,
+      "radar": 1,
+      "garbage": 0,
+      "level": 1,
+      "order": 3
+    },
+    "ast05": {
       "x": -20,
-      "y": 10,
+      "y": 100,
       "type": "exp",
       "texture": 5,
       "radar": 1,
-      "garbage": 0,
-      "level": 1
+      "garbage": 1,
+      "level": 1,
+      "order": 4
     },
-    "ast03": {
-      "x": 30,
-      "y": 10,
+    "ast06": {
+      "x": 300,
+      "y": 100,
       "type": "base",
       "texture": 2,
       "base": "morgan1",
       "radar": 1,
-      "garbage": 0,
-      "level": 1
+      "garbage": 1,
+      "level": 1,
+      "order": 5
     },
-    "ast04": {
-      "x": 40,
-      "y": 40,
+    "ast07": {
+      "x": 400,
+      "y": 400,
       "type": "base",
       "texture": 1,
       "base": "morgan2",
       "radar": 2,
       "garbage": 1,
-      "level": 1
+      "level": 1,
+      "order": 6
     },
-    "ast05": {
-      "x": -40,
-      "y": -20,
-      "type": "exp",
-      "texture": 2,
-      "radar": 2,
-      "garbage": 1,
-      "level": 2
-    },
-    "ast06": {
-      "x": -30,
-      "y": 30,
+    "ast08": {
+      "x": 120,
+      "y": 60,
       "type": "exp",
       "texture": 1,
       "radar": 2,
-      "garbage": 1,
-      "level": 2
-    },
-    "ast07": {
-      "x": -50,
-      "y": 50,
-      "type": "exp",
-      "texture": 8,
-      "radar": 3,
-      "garbage": 1,
-      "level": 2
-    },
-    "ast08": {
-      "x": 45,
-      "y": 50,
-      "type": "exp",
-      "texture": 10,
-      "radar": 3,
-      "garbage": 1,
-      "level": 2
+      "garbage": 2,
+      "level": 2,
+      "order": 7
     },
     "ast09": {
-      "x": 50,
-      "y": 0,
+      "x": 60,
+      "y": -100,
       "type": "exp",
-      "texture": 11,
-      "radar": 3,
+      "texture": 3,
+      "radar": 2,
+      "garbage": 2,
+      "level": 2,
+      "order": 8
+    },
+    "ast10": {
+      "x": -120,
+      "y": 70,
+      "type": "exp",
+      "texture": 6,
+      "radar": 2,
       "garbage": 1,
-      "level": 2
+      "level": 1,
+      "order": 9
+    },
+    "ast11": {
+      "x": 130,
+      "y": 60,
+      "type": "exp",
+      "texture": 3,
+      "radar": 2,
+      "garbage": 3,
+      "level": 1,
+      "order": 10
+    },
+    "ast12": {
+      "x": -100,
+      "y": -100,
+      "type": "exp",
+      "texture": 6,
+      "radar": 2,
+      "garbage": 3,
+      "level": 2,
+      "order": 11
+    },
+    "ast13": {
+      "x": -120,
+      "y": 60,
+      "type": "exp",
+      "texture": 8,
+      "radar": 2,
+      "garbage": 3,
+      "level": 2,
+      "order": 12
+    },
+    "ast14": {
+      "x": -130,
+      "y": -100,
+      "type": "exp",
+      "texture": 9,
+      "radar": 2,
+      "garbage": 2,
+      "level": 2,
+      "order": 13
+    },
+    "ast15": {
+      "x": -150,
+      "y": 150,
+      "type": "exp",
+      "texture": 5,
+      "radar": 3,
+      "garbage": 2,
+      "level": 2,
+      "order": 14
+    },
+    "ast16": {
+      "x": 160,
+      "y": 120,
+      "type": "exp",
+      "texture": 3,
+      "radar": 3,
+      "garbage": 2,
+      "level": 2,
+      "order": 15
+    },
+    "ast17": {
+      "x": 190,
+      "y": 60,
+      "type": "exp",
+      "texture": 5,
+      "radar": 3,
+      "garbage": 3,
+      "level": 1,
+      "order": 16
+    },
+    "ast18": {
+      "x": -220,
+      "y": 20,
+      "type": "exp",
+      "texture": 7,
+      "radar": 3,
+      "garbage": 3,
+      "level": 1,
+      "order": 17
+    },
+    "ast19": {
+      "x": 300,
+      "y": -20,
+      "type": "exp",
+      "texture": 4,
+      "radar": 3,
+      "garbage": 2,
+      "level": 2,
+      "order": 18
+    },
+    "ast20": {
+      "x": 350,
+      "y": -20,
+      "type": "exp",
+      "texture": 3,
+      "radar": 4,
+      "garbage": 2,
+      "level": 2,
+      "order": 19
+    },
+    "ast21": {
+      "x": 400,
+      "y": -50,
+      "type": "exp",
+      "texture": 4,
+      "radar": 4,
+      "garbage": 3,
+      "level": 2,
+      "order": 20
+    },
+    "ast22": {
+      "x": -300,
+      "y": 100,
+      "type": "exp",
+      "texture": 5,
+      "radar": 4,
+      "garbage": 3,
+      "level": 1,
+      "order": 21
+    },
+    "ast23": {
+      "x": -250,
+      "y": 180,
+      "type": "exp",
+      "texture": 7,
+      "radar": 4,
+      "garbage": 3,
+      "level": 2,
+      "order": 22
+    },
+    "ast24": {
+      "x": 300,
+      "y": -80,
+      "type": "exp",
+      "texture": 8,
+      "radar": 4,
+      "garbage": 2,
+      "level": 2,
+      "order": 23
+    },
+    "ast25": {
+      "x": -80,
+      "y": 300,
+      "type": "exp",
+      "texture": 4,
+      "radar": 4,
+      "garbage": 3,
+      "level": 1,
+      "order": 24
+    },
+    "ast26": {
+      "x": 90,
+      "y": 290,
+      "type": "exp",
+      "texture": 3,
+      "radar": 4,
+      "garbage": 2,
+      "level": 1,
+      "order": 25
+    },
+    "ast27": {
+      "x": -300,
+      "y": -200,
+      "type": "exp",
+      "texture": 5,
+      "radar": 4,
+      "garbage": 2,
+      "level": 2,
+      "order": 26
+    },
+    "ast28": {
+      "x": 200,
+      "y": 300,
+      "type": "exp",
+      "texture": 6,
+      "radar": 4,
+      "garbage": 3,
+      "level": 3,
+      "order": 27
+    },
+    "ast29": {
+      "x": -300,
+      "y": 250,
+      "type": "exp",
+      "texture": 8,
+      "radar": 4,
+      "garbage": 3,
+      "level": 2,
+      "order": 28
+    },
+    "ast30": {
+      "x": -190,
+      "y": 350,
+      "type": "exp",
+      "texture": 9,
+      "radar": 4,
+      "garbage": 2,
+      "level": 3,
+      "order": 29
+    },
+    "ast31": {
+      "x": 250,
+      "y": -300,
+      "type": "exp",
+      "texture": 4,
+      "radar": 4,
+      "garbage": 3,
+      "level": 2,
+      "order": 30
+    },
+    "ast32": {
+      "x": 110,
+      "y": -400,
+      "type": "exp",
+      "texture": 3,
+      "radar": 5,
+      "garbage": 3,
+      "level": 3,
+      "order": 31
+    },
+    "ast33": {
+      "x": 200,
+      "y": 290,
+      "type": "exp",
+      "texture": 5,
+      "radar": 5,
+      "garbage": 3,
+      "level": 2,
+      "order": 32
+    },
+    "ast34": {
+      "x": 400,
+      "y": 200,
+      "type": "exp",
+      "texture": 6,
+      "radar": 5,
+      "garbage": 4,
+      "level": 2,
+      "order": 33
+    },
+    "ast35": {
+      "x": -450,
+      "y": -140,
+      "type": "exp",
+      "texture": 2,
+      "radar": 5,
+      "garbage": 3,
+      "level": 2,
+      "order": 34
+    },
+    "ast36": {
+      "x": -350,
+      "y": -350,
+      "type": "exp",
+      "texture": 4,
+      "radar": 5,
+      "garbage": 3,
+      "level": 2,
+      "order": 35
+    },
+    "ast37": {
+      "x": -350,
+      "y": 350,
+      "type": "exp",
+      "texture": 5,
+      "radar": 5,
+      "garbage": 4,
+      "level": 3,
+      "order": 36
+    },
+    "ast38": {
+      "x": 280,
+      "y": -400,
+      "type": "exp",
+      "texture": 1,
+      "radar": 5,
+      "garbage": 4,
+      "level": 3,
+      "order": 37
+    },
+    "ast39": {
+      "x": 350,
+      "y": -350,
+      "type": "exp",
+      "texture": 4,
+      "radar": 5,
+      "garbage": 3,
+      "level": 3,
+      "order": 38
+    },
+    "ast40": {
+      "x": -100,
+      "y": 500,
+      "type": "exp",
+      "texture": 6,
+      "radar": 6,
+      "garbage": 4,
+      "level": 3,
+      "order": 39
+    },
+    "ast41": {
+      "x": -500,
+      "y": 100,
+      "type": "exp",
+      "texture": 8,
+      "radar": 6,
+      "garbage": 4,
+      "level": 3,
+      "order": 40
+    },
+    "ast42": {
+      "x": -480,
+      "y": -100,
+      "type": "exp",
+      "texture": 4,
+      "radar": 6,
+      "garbage": 5,
+      "level": 3,
+      "order": 41
+    },
+    "ast43": {
+      "x": -450,
+      "y": -150,
+      "type": "exp",
+      "texture": 3,
+      "radar": 6,
+      "garbage": 5,
+      "level": 4,
+      "order": 42
+    },
+    "ast44": {
+      "x": 150,
+      "y": 450,
+      "type": "exp",
+      "texture": 8,
+      "radar": 6,
+      "garbage": 5,
+      "level": 3,
+      "order": 43
+    },
+    "ast45": {
+      "x": 400,
+      "y": 350,
+      "type": "exp",
+      "texture": 4,
+      "radar": 6,
+      "garbage": 5,
+      "level": 3,
+      "order": 44
+    },
+    "ast46": {
+      "x": -350,
+      "y": 400,
+      "type": "exp",
+      "texture": 2,
+      "radar": 6,
+      "garbage": 4,
+      "level": 3,
+      "order": 45
+    },
+    "ast47": {
+      "x": 450,
+      "y": -300,
+      "type": "exp",
+      "texture": 2,
+      "radar": 6,
+      "garbage": 4,
+      "level": 4,
+      "order": 46
+    },
+    "ast48": {
+      "x": 500,
+      "y": 100,
+      "type": "exp",
+      "texture": 4,
+      "radar": 6,
+      "garbage": 4,
+      "level": 4,
+      "order": 47
+    },
+    "ast49": {
+      "x": -100,
+      "y": -500,
+      "type": "exp",
+      "texture": 7,
+      "radar": 6,
+      "garbage": 5,
+      "level": 4,
+      "order": 48
+    },
+    "ast50": {
+      "x": 100,
+      "y": 500,
+      "type": "exp",
+      "texture": 3,
+      "radar": 6,
+      "garbage": 5,
+      "level": 3,
+      "order": 49
     }
   },
   "expedition": [
