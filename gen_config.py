@@ -476,6 +476,10 @@ for b_type, b_data in data.items():
                 display['damage_per_shot'] = lvl_data['damagepershot']
             if 'firerange' in lvl_data:
                 display['firing_range'] = lvl_data['firerange']
+            if 'firerange100' in lvl_data:
+                display['firing_range_100'] = lvl_data['firerange100']
+            if 'startchance' in lvl_data:
+                display['start_chance'] = lvl_data['startchance']
             if 'rateoffire' in lvl_data:
                 display['rate_of_fire'] = lvl_data['rateoffire']
             if 'chargesize' in lvl_data:

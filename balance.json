@@ -5181,6 +5181,8 @@
             "hit_points": 1000,
             "damage_per_shot": 50,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 0
           }
@@ -5198,6 +5200,8 @@
             "hit_points": 1100,
             "damage_per_shot": 55,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 0
           }
@@ -5215,6 +5219,8 @@
             "hit_points": 1210,
             "damage_per_shot": 61,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 1
           }
@@ -5232,6 +5238,8 @@
             "hit_points": 1330,
             "damage_per_shot": 67,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 1
           }
@@ -5249,6 +5257,8 @@
             "hit_points": 1460,
             "damage_per_shot": 74,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 1
           }
@@ -5266,6 +5276,8 @@
             "hit_points": 1610,
             "damage_per_shot": 81,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 1
           }
@@ -5283,6 +5295,8 @@
             "hit_points": 1770,
             "damage_per_shot": 89,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5301,6 +5315,8 @@
             "hit_points": 1950,
             "damage_per_shot": 98,
             "firing_range": 12,
+            "firing_range_100": 6,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5319,6 +5335,8 @@
             "hit_points": 2140,
             "damage_per_shot": 108,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5337,6 +5355,8 @@
             "hit_points": 2350,
             "damage_per_shot": 119,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5355,6 +5375,8 @@
             "hit_points": 2580,
             "damage_per_shot": 131,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5373,6 +5395,8 @@
             "hit_points": 2840,
             "damage_per_shot": 144,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5391,6 +5415,8 @@
             "hit_points": 3120,
             "damage_per_shot": 158,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 2
           }
@@ -5409,6 +5435,8 @@
             "hit_points": 3430,
             "damage_per_shot": 174,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 3
           }
@@ -5427,6 +5455,8 @@
             "hit_points": 3770,
             "damage_per_shot": 191,
             "firing_range": 12,
+            "firing_range_100": 7,
+            "start_chance": 50,
             "rate_of_fire": 0.7,
             "slots": 3
           }
