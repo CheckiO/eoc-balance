@@ -5,27 +5,36 @@ from pprint import pprint
 import json
 import os
 
+CUR_DIR = os.path.dirname(__file__)
+
 BALANCE_EXCEL = os.path.join(
-            os.path.dirname(__file__),
+            CUR_DIR,
             'balance.xlsm')
 
 BALANCE_JSON = os.path.join(
-            os.path.dirname(__file__),
+            CUR_DIR,
             '..', 'back', 'balance',
             'balance.json')
 
 PRIVATE_BALANCE_JSON = os.path.join(
-            os.path.dirname(__file__),
+            CUR_DIR,
             '..', 'back', 'balance',
             'private_balance.json')
 
 LOCAL_BALANCE_JSON = os.path.join(
-            os.path.dirname(__file__),
+            CUR_DIR,
             'balance.json')
 
 LOCAL_PRIVATE_BALANCE_JSON = os.path.join(
-            os.path.dirname(__file__),
+            CUR_DIR,
             'private_balance.json')
+
+STRATEGIES_FOLDER = os.path.join(CUR_DIR, 'strategies')
+BASES_FOLDER = os.path.join(CUR_DIR, 'bases')
+BALANCE_BASES_FOLDER = os.path.join(
+            CUR_DIR,
+            '..', 'back', 'balance',
+            'bases')
 
 EXTRAS_TO_PROPS = (
     ('extra.cr.store.{}', 'crystaliteCapacity'),
@@ -320,7 +329,54 @@ result = {
 
 
 game_config = {
-    'buildings': result
+    'buildings': result,
+    'initial_codes': {
+        'python-3': {
+
+            'craft.py': '''
+from battle import commander
+
+
+craft_client = commander.CraftClient()
+craft_client.do_land_units()
+
+def unit_landed(data):
+    unit_client = commander.UnitClient(data['id'])
+
+    def search_and_destroy(data=None):
+        enemy = unit_client.ask_nearest_enemy()
+        unit_client.do_attack(enemy['id'])
+        unit_client.when_im_idle(search_and_destroy)
+
+    search_and_destroy()
+
+craft_client.when_unit_landed(unit_landed)            
+'''.strip(),
+
+            'tower.py': '''
+from battle import commander
+
+
+tower_client = commander.Client()
+
+def search_next_target(data, **kwargs):
+    enemies = tower_client.ask_enemy_items_in_my_firing_range()
+    if enemies:
+        unit_in_firing_range(enemies[0])
+    else:
+        tower_client.when_enemy_in_range(unit_in_firing_range)
+
+def unit_in_firing_range(data, **kwargs):
+    tower_client.attack_item(data['id'])
+    tower_client.when_im_idle(search_next_target)
+
+tower_client.when_enemy_in_range(unit_in_firing_range)
+'''.strip()
+        },
+        'js-node': {
+
+        }
+    }
 }
 
 def scan_data(result, data, sheets, levels):
@@ -470,6 +526,8 @@ for b_type, b_data in data.items():
             if 'gen.en' in lvl_data:
                 display['generateEnergy'] = lvl_data['gen.en']
 
+            if 'chargingtime' in lvl_data:
+                display['charging_time'] = lvl_data['chargingtime']
             if 'hitpoints' in lvl_data:
                 display['hit_points'] = lvl_data['hitpoints']
             if 'damagepershot' in lvl_data:
@@ -488,6 +546,23 @@ for b_type, b_data in data.items():
                 display['has_rocket'] = lvl_data['a_rocket']
                 display['has_heal'] = lvl_data['a_heal']
                 display['has_power'] = lvl_data['a_power']
+
+            if 'fieldofview' in lvl_data:
+                display['field_of_view'] = lvl_data['fieldofview']
+            if 'rateofturn' in lvl_data:
+                display['rate_of_turn'] = lvl_data['rateofturn']
+            if 'damagepersecond' in lvl_data:
+                display['damage_per_second'] = lvl_data['damagepersecond']
+            if 'firingtimelimit' in lvl_data:
+                display['firing_time_limit'] = lvl_data['firingtimelimit']
+            if 'fullcooldowntime' in lvl_data:
+                display['full_cooldown_time'] = lvl_data['fullcooldowntime']
+            if 'minpercentageafteroverheat' in lvl_data:
+                display['min_percentage_after_overheat'] = lvl_data['minpercentageafteroverheat']
+            if 'rocketspeed' in lvl_data:
+                display['rocket_speed'] = lvl_data['rocketspeed']
+            if 'rocketexplosionradius' in lvl_data:
+                display['rocket_explosion_radius'] = lvl_data['rocketexplosionradius']
             
             if 'slots' in lvl_data:
                 display['slots'] = lvl_data['slots']
@@ -609,7 +684,23 @@ for name, unit in labs.items():
         raw['hit_points'] = raw.pop('hitpoints', 0)
         raw['damage_per_shot'] = raw.pop('damagepershot', 0)
         raw['firing_range'] = raw.pop('firerange', 0)
-        raw['rate_of_fire'] = raw.pop('rateoffire', 0)
+        if 'rateoffire' in raw:
+            raw['rate_of_fire'] = raw.pop('rateoffire')
+        if 'chargingtime' in raw:
+            raw['charging_time'] = raw.pop('chargingtime')
+
+        if 'rateofturn' in raw:
+            raw['rate_of_turn'] = raw.pop('rateofturn')
+        if 'damagepersecond' in raw:
+            raw['damage_per_second'] = raw.pop('damagepersecond')
+        if 'firingtimelimit' in raw:
+            raw['firing_time_limit'] = raw.pop('firingtimelimit')
+        if 'fullcooldowntime' in raw:
+            raw['full_cooldown_time'] = raw.pop('fullcooldowntime')
+        if 'minpercentageafteroverheat' in raw:
+            raw['min_percentage_after_overheat'] = raw.pop('minpercentageafteroverheat')
+        if 'rocketspeed' in raw:
+            raw['rocket_speed'] = raw.pop('rocketspeed')
 
         if 'hireprice' in raw:
             raw['hirePrice'] = {
@@ -747,10 +838,27 @@ for row in ws['E1':'G200']:
 ws = wb['Radar']
 game_config['radar'] = {}
 
-for pos, row in enumerate(collect_table(ws['A1': 'J1'], ws['A2':'J100'])):
+for pos, row in enumerate(collect_table(ws['A1': 'O1'], ws['A2':'O100'])):
     name = row.pop('name')
+    row.pop('distance')
     row['order'] = pos
+    
+    rewards = {
+        'resources': {
+            'adamantite': row.pop('rw.ad', None),
+            'crystalite': row.pop('rw.cr', None),
+            'titanium': row.pop('rw.ti', None),
+        }
+    }
+    chest_lvl = row.pop('rw.ch', None)
+    if chest_lvl:
+        rewards['chest'] = 'lvl{}'.format(chest_lvl)
+
+    if row['type'] == 'base':
+        row['rewards'] = rewards
+
     game_config['radar'][name] = row
+    
 
 ws = wb['Expedition']
 game_config['expedition'] = []
@@ -778,9 +886,20 @@ with open(LOCAL_PRIVATE_BALANCE_JSON, 'w') as fh:
     json.dump(private_config, fh, indent=2)
 
 
-    # if cell.value:
-    #     print(cell.value, cell.column, cell.row)
-
-# for row in ws['B2':'N3']:
-#     for cel in row:
-#         print(cel.value)
+if os.path.exists(BALANCE_BASES_FOLDER):
+    strategies = {}
+    for filename in os.listdir(STRATEGIES_FOLDER):
+        with open(os.path.join(STRATEGIES_FOLDER, filename)) as fh:
+            strategies[filename] = {
+                'at': 0,
+                'content': fh.read()
+            }
+    
+    for filename in os.listdir(BASES_FOLDER):
+        with open(os.path.join(BASES_FOLDER, filename)) as fh:
+            base_data = json.load(fh)
+            base_data['strategies'] = strategies
+            base_data['profile']['username'] = filename.split('.')[0]
+        
+        with open(os.path.join(BALANCE_BASES_FOLDER, filename), 'w') as fh:
+            json.dump(base_data, fh)
