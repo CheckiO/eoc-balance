@@ -617,6 +617,11 @@ result['obstacle3']['size'] = {
     'x': 3,
     'y': 3,
 }
+result['obstacle5'] =  deepcopy(result['obstacle2'])
+result['obstacle5']['size'] = {
+    'x': 5,
+    'y': 5,
+}
 
 def collect_table(ws_head, ws_data):
     names = {}

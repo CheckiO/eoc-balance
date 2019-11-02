@@ -6540,6 +6540,212 @@
           "display": {}
         }
       ]
+    },
+    "obstacle5": {
+      "size": {
+        "x": 5,
+        "y": 5
+      },
+      "category": "objective",
+      "role": "objective",
+      "counts": [],
+      "stats": [
+        {
+          "level": 1,
+          "xpGain": null,
+          "upgradeTime": 60,
+          "commandCenter": 1,
+          "upgradeCost": {
+            "crystalite": 50
+          },
+          "ret": {
+            "adamantite": 100
+          },
+          "display": {}
+        },
+        {
+          "level": 2,
+          "xpGain": null,
+          "upgradeTime": 900,
+          "commandCenter": 2,
+          "upgradeCost": {
+            "crystalite": 100
+          },
+          "ret": {
+            "adamantite": 200
+          },
+          "display": {}
+        },
+        {
+          "level": 3,
+          "xpGain": null,
+          "upgradeTime": 1800,
+          "commandCenter": 3,
+          "upgradeCost": {
+            "crystalite": 200
+          },
+          "ret": {
+            "adamantite": 400
+          },
+          "display": {}
+        },
+        {
+          "level": 4,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 4,
+          "upgradeCost": {
+            "crystalite": 400
+          },
+          "ret": {
+            "adamantite": 800
+          },
+          "display": {}
+        },
+        {
+          "level": 5,
+          "xpGain": null,
+          "upgradeTime": 3600,
+          "commandCenter": 5,
+          "upgradeCost": {
+            "crystalite": 800
+          },
+          "ret": {
+            "adamantite": 1600
+          },
+          "display": {}
+        },
+        {
+          "level": 6,
+          "xpGain": null,
+          "upgradeTime": 7200,
+          "commandCenter": 6,
+          "upgradeCost": {
+            "crystalite": 1600
+          },
+          "ret": {
+            "adamantite": 3200
+          },
+          "display": {}
+        },
+        {
+          "level": 7,
+          "xpGain": null,
+          "upgradeTime": 14400,
+          "commandCenter": 7,
+          "upgradeCost": {
+            "crystalite": 3200
+          },
+          "ret": {
+            "adamantite": 6400
+          },
+          "display": {}
+        },
+        {
+          "level": 8,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 8,
+          "upgradeCost": {
+            "crystalite": 6400
+          },
+          "ret": {
+            "adamantite": 12800
+          },
+          "display": {}
+        },
+        {
+          "level": 9,
+          "xpGain": null,
+          "upgradeTime": 28800,
+          "commandCenter": 9,
+          "upgradeCost": {
+            "crystalite": 12800
+          },
+          "ret": {
+            "adamantite": 25600
+          },
+          "display": {}
+        },
+        {
+          "level": 10,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 10,
+          "upgradeCost": {
+            "crystalite": 25600
+          },
+          "ret": {
+            "adamantite": 51200
+          },
+          "display": {}
+        },
+        {
+          "level": 11,
+          "xpGain": null,
+          "upgradeTime": 34600,
+          "commandCenter": 11,
+          "upgradeCost": {
+            "crystalite": 51000
+          },
+          "ret": {
+            "adamantite": 102000
+          },
+          "display": {}
+        },
+        {
+          "level": 12,
+          "xpGain": null,
+          "upgradeTime": 19000,
+          "commandCenter": 12,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 13,
+          "xpGain": null,
+          "upgradeTime": 20900,
+          "commandCenter": 13,
+          "upgradeCost": {
+            "crystalite": 102000
+          },
+          "ret": {
+            "adamantite": 204000
+          },
+          "display": {}
+        },
+        {
+          "level": 14,
+          "xpGain": null,
+          "upgradeTime": 23000,
+          "commandCenter": 14,
+          "upgradeCost": {
+            "crystalite": 204000
+          },
+          "ret": {
+            "adamantite": 408000
+          },
+          "display": {}
+        },
+        {
+          "level": 15,
+          "xpGain": null,
+          "upgradeTime": 25300,
+          "commandCenter": 15,
+          "upgradeCost": {
+            "crystalite": 407500
+          },
+          "ret": {
+            "adamantite": 815000
+          },
+          "display": {}
+        }
+      ]
     }
   },
   "initial_codes": {
@@ -9369,12 +9575,14 @@
     "u.rateOfFire.lvl1": {
       "type": "unit",
       "chance": "common",
-      "rateOfFire.pr": 10
+      "for": "heavyBot",
+      "damagePerSecond.pr": 10
     },
     "u.rateOfFire.lvl2": {
       "type": "unit",
       "chance": "rare",
-      "rateOfFire.pr": 15
+      "for": "heavyBot",
+      "damagePerSecond.pr": 15
     },
     "speed.lvl1": {
       "type": "unit",
@@ -9437,18 +9645,20 @@
     "extDeploy": {
       "type": "unit",
       "chance": "rare",
-      "extDeploy": 1,
-      "coorDeploy": 1
+      "landingShift": 1,
+      "landing": 1
     },
     "b.rateOfFire.lvl1": {
       "type": "tower",
       "chance": "common",
-      "rateOfFire.pr": 10
+      "for": "machineGun",
+      "damagePerSecond.pr": 10
     },
     "b.rateOfFire.lvl2": {
       "type": "tower",
       "chance": "rare",
-      "rateOfFire.pr": 15
+      "for": "machineGun",
+      "damagePerSecond.pr": 15
     },
     "b.fireRange.lvl1": {
       "type": "tower",
@@ -9489,7 +9699,7 @@
     "freezing": {
       "type": "tower",
       "chance": "epic",
-      "freezing": 1
+      "freezeShot": 1
     },
     "fasterRocket": {
       "type": "tower",
@@ -9559,7 +9769,7 @@
       "x": 100,
       "y": 100,
       "type": "base",
-      "texture": 2,
+      "texture": "1-1",
       "base": "io",
       "radar": 1,
       "garbage": 0,
@@ -9577,7 +9787,7 @@
       "x": -100,
       "y": -100,
       "type": "base",
-      "texture": 1,
+      "texture": "2-1",
       "base": "europa",
       "radar": 1,
       "garbage": 0,
@@ -9636,7 +9846,7 @@
       "x": 150,
       "y": 0,
       "type": "base",
-      "texture": 3,
+      "texture": "2-1",
       "base": "ganymede",
       "radar": 2,
       "garbage": 0,
@@ -9654,7 +9864,7 @@
       "x": -159,
       "y": 0,
       "type": "base",
-      "texture": 1,
+      "texture": "3-1",
       "base": "callisto",
       "radar": 2,
       "garbage": 0,
@@ -9673,7 +9883,7 @@
       "x": 120,
       "y": 120,
       "type": "base",
-      "texture": 2,
+      "texture": "4-1",
       "base": "himalia",
       "radar": 2,
       "garbage": 0,
@@ -9732,7 +9942,7 @@
       "x": 210,
       "y": 60,
       "type": "base",
-      "texture": 2,
+      "texture": "5-1",
       "base": "leda",
       "radar": 3,
       "garbage": 0,
@@ -9750,7 +9960,7 @@
       "x": -150,
       "y": 150,
       "type": "base",
-      "texture": 1,
+      "texture": "6-1",
       "base": "lysithea",
       "radar": 3,
       "garbage": 0,
