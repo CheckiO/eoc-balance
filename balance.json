@@ -9694,7 +9694,7 @@
       "type": "tower",
       "chance": "rare",
       "for": "sentryGun",
-      "shotThrough": 1
+      "pierceShot": 1
     },
     "freezing": {
       "type": "tower",
@@ -9705,7 +9705,7 @@
       "type": "tower",
       "chance": "epic",
       "for": "rocketGun",
-      "fasterRocket": 1
+      "rocketSpeed.pr": 10
     },
     "incCoverRange": {
       "type": "tower",
