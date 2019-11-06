@@ -6134,8 +6134,8 @@
         "x": 2,
         "y": 2
       },
-      "category": "objective",
-      "role": "objective",
+      "category": "obstacle",
+      "role": "obstacle",
       "counts": [],
       "stats": [
         {
@@ -6340,8 +6340,8 @@
         "x": 3,
         "y": 3
       },
-      "category": "objective",
-      "role": "objective",
+      "category": "obstacle",
+      "role": "obstacle",
       "counts": [],
       "stats": [
         {
@@ -6546,8 +6546,8 @@
         "x": 5,
         "y": 5
       },
-      "category": "objective",
-      "role": "objective",
+      "category": "obstacle",
+      "role": "obstacle",
       "counts": [],
       "stats": [
         {
@@ -9721,7 +9721,7 @@
       "type": "exp",
       "texture": 9,
       "radar": 1,
-      "garbage": 0,
+      "garbage": 1,
       "level": 1,
       "order": 0
     },
@@ -9731,7 +9731,7 @@
       "type": "exp",
       "texture": 8,
       "radar": 1,
-      "garbage": 0,
+      "garbage": 1,
       "level": 1,
       "order": 1
     },
@@ -9741,7 +9741,7 @@
       "type": "exp",
       "texture": 7,
       "radar": 1,
-      "garbage": 0,
+      "garbage": 1,
       "level": 1,
       "order": 2
     },
@@ -9751,7 +9751,7 @@
       "type": "exp",
       "texture": 6,
       "radar": 1,
-      "garbage": 0,
+      "garbage": 1,
       "level": 1,
       "order": 3
     },
@@ -9828,7 +9828,7 @@
       "type": "exp",
       "texture": 6,
       "radar": 2,
-      "garbage": 1,
+      "garbage": 2,
       "level": 1,
       "order": 9
     },
@@ -9838,7 +9838,7 @@
       "type": "exp",
       "texture": 3,
       "radar": 2,
-      "garbage": 3,
+      "garbage": 2,
       "level": 1,
       "order": 10
     },
@@ -9895,77 +9895,38 @@
           "crystalite": 0,
           "titanium": 0
         },
-        "chest": "lvl2"
+        "chest": "lvl1"
       }
     },
-    "ast12": {
-      "x": -100,
-      "y": -100,
-      "type": "exp",
-      "texture": 6,
-      "radar": 2,
-      "garbage": 3,
-      "level": 2,
-      "order": 14
-    },
-    "ast13": {
-      "x": -120,
-      "y": 60,
-      "type": "exp",
-      "texture": 8,
-      "radar": 2,
-      "garbage": 3,
-      "level": 2,
-      "order": 15
-    },
-    "ast14": {
-      "x": -130,
-      "y": -100,
-      "type": "exp",
-      "texture": 9,
-      "radar": 2,
-      "garbage": 2,
-      "level": 2,
-      "order": 16
-    },
-    "ast15": {
-      "x": -150,
-      "y": 150,
-      "type": "exp",
-      "texture": 5,
-      "radar": 3,
-      "garbage": 2,
-      "level": 2,
-      "order": 17
-    },
     "leda": {
-      "x": 210,
-      "y": 60,
+      "x": -180,
+      "y": -110,
       "type": "base",
-      "texture": "5-1",
+      "texture": "6-2",
       "base": "leda",
       "radar": 3,
       "garbage": 0,
       "level": 2,
-      "order": 18,
+      "order": 27,
       "rewards": {
         "resources": {
-          "adamantite": 2500,
-          "crystalite": 2500,
+          "adamantite": 0,
+          "crystalite": 0,
           "titanium": 0
-        }
+        },
+        "chest": "lvl1"
       }
     },
     "lysithea": {
-      "x": -150,
+      "x": 150,
       "y": 150,
       "type": "base",
-      "texture": "6-1",
+      "texture": "3-2",
       "base": "lysithea",
       "radar": 3,
       "garbage": 0,
       "level": 2,
-      "order": 19,
+      "order": 24,
       "rewards": {
         "resources": {
           "adamantite": 0,
@@ -9975,15 +9936,205 @@
         "chest": "lvl2"
       }
     },
+    "ast12": {
+      "x": -100,
+      "y": -100,
+      "type": "exp",
+      "texture": 6,
+      "radar": 2,
+      "garbage": 2,
+      "level": 2,
+      "order": 16
+    },
+    "ast13": {
+      "x": -120,
+      "y": 60,
+      "type": "exp",
+      "texture": 8,
+      "radar": 2,
+      "garbage": 2,
+      "level": 2,
+      "order": 17
+    },
+    "ast14": {
+      "x": -130,
+      "y": -100,
+      "type": "exp",
+      "texture": 9,
+      "radar": 2,
+      "garbage": 2,
+      "level": 2,
+      "order": 18
+    },
+    "ast15": {
+      "x": -150,
+      "y": 150,
+      "type": "exp",
+      "texture": 5,
+      "radar": 3,
+      "garbage": 3,
+      "level": 2,
+      "order": 19
+    },
+    "amalthea": {
+      "x": 210,
+      "y": 60,
+      "type": "base",
+      "texture": "5-1",
+      "base": "amalthea",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 20,
+      "rewards": {
+        "resources": {
+          "adamantite": 4500,
+          "crystalite": 1500,
+          "titanium": 0
+        }
+      }
+    },
+    "elara": {
+      "x": -150,
+      "y": 150,
+      "type": "base",
+      "texture": "6-1",
+      "base": "elara",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 21,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "pasiphae": {
+      "x": 160,
+      "y": 120,
+      "type": "base",
+      "texture": "1-2",
+      "base": "pasiphae",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 22,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "sinope": {
+      "x": 180,
+      "y": -110,
+      "type": "base",
+      "texture": "2-2",
+      "base": "sinope",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 23,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "carme": {
+      "x": 200,
+      "y": 10,
+      "type": "base",
+      "texture": "4-2",
+      "base": "carme",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 25,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "ananke": {
+      "x": -200,
+      "y": -10,
+      "type": "base",
+      "texture": "5-2",
+      "base": "ananke",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 26,
+      "rewards": {
+        "resources": {
+          "adamantite": 10000,
+          "crystalite": 0,
+          "titanium": 0
+        }
+      }
+    },
+    "thebe": {
+      "x": 50,
+      "y": -190,
+      "type": "base",
+      "texture": "1-2",
+      "base": "thebe",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 28,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "adrastea": {
+      "x": 70,
+      "y": -200,
+      "type": "base",
+      "texture": "2-2",
+      "base": "adrastea",
+      "radar": 3,
+      "garbage": 0,
+      "level": 2,
+      "order": 29,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
     "ast16": {
       "x": 160,
       "y": 120,
       "type": "exp",
       "texture": 3,
       "radar": 3,
-      "garbage": 2,
+      "garbage": 3,
       "level": 2,
-      "order": 20
+      "order": 30
     },
     "ast17": {
       "x": 190,
@@ -9993,7 +10144,7 @@
       "radar": 3,
       "garbage": 3,
       "level": 1,
-      "order": 21
+      "order": 31
     },
     "ast18": {
       "x": -220,
@@ -10003,7 +10154,7 @@
       "radar": 3,
       "garbage": 3,
       "level": 1,
-      "order": 22
+      "order": 32
     },
     "ast19": {
       "x": 300,
@@ -10011,9 +10162,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 3,
-      "garbage": 2,
+      "garbage": 4,
       "level": 2,
-      "order": 23
+      "order": 33
     },
     "ast20": {
       "x": 350,
@@ -10021,9 +10172,9 @@
       "type": "exp",
       "texture": 3,
       "radar": 4,
-      "garbage": 2,
+      "garbage": 4,
       "level": 2,
-      "order": 24
+      "order": 34
     },
     "ast21": {
       "x": 400,
@@ -10031,9 +10182,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 4,
       "level": 2,
-      "order": 25
+      "order": 35
     },
     "ast22": {
       "x": -300,
@@ -10041,9 +10192,178 @@
       "type": "exp",
       "texture": 5,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 4,
       "level": 1,
-      "order": 26
+      "order": 36
+    },
+    "metis": {
+      "x": 300,
+      "y": 100,
+      "type": "base",
+      "texture": "3-2",
+      "base": "metis",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 37,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "callirrhoe": {
+      "x": 250,
+      "y": 250,
+      "type": "base",
+      "texture": "4-2",
+      "base": "callirrhoe",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 38,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "themisto": {
+      "x": -250,
+      "y": 190,
+      "type": "base",
+      "texture": "5-2",
+      "base": "themisto",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 39,
+      "rewards": {
+        "resources": {
+          "adamantite": 10000,
+          "crystalite": 0,
+          "titanium": 0
+        }
+      }
+    },
+    "megaclite": {
+      "x": 190,
+      "y": -250,
+      "type": "base",
+      "texture": "6-3",
+      "base": "megaclite",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 40,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl2"
+      }
+    },
+    "taygete": {
+      "x": -190,
+      "y": -250,
+      "type": "base",
+      "texture": "1-3",
+      "base": "taygete",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 41,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl2"
+      }
+    },
+    "chaldene": {
+      "x": 150,
+      "y": 270,
+      "type": "base",
+      "texture": "2-2",
+      "base": "chaldene",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 42,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "harpalyke": {
+      "x": -270,
+      "y": 150,
+      "type": "base",
+      "texture": "3-2",
+      "base": "harpalyke",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 43,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
+    },
+    "kalyke": {
+      "x": -150,
+      "y": -270,
+      "type": "base",
+      "texture": "4-2",
+      "base": "kalyke",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 44,
+      "rewards": {
+        "resources": {
+          "adamantite": 10000,
+          "crystalite": 0,
+          "titanium": 0
+        }
+      }
+    },
+    "iocaste": {
+      "x": -270,
+      "y": -150,
+      "type": "base",
+      "texture": "5-2",
+      "base": "iocaste",
+      "radar": 4,
+      "garbage": 0,
+      "level": 2,
+      "order": 45,
+      "rewards": {
+        "resources": {
+          "adamantite": 0,
+          "crystalite": 0,
+          "titanium": 0
+        },
+        "chest": "lvl1"
+      }
     },
     "ast23": {
       "x": -250,
@@ -10051,9 +10371,9 @@
       "type": "exp",
       "texture": 7,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 5,
       "level": 2,
-      "order": 27
+      "order": 46
     },
     "ast24": {
       "x": 300,
@@ -10061,9 +10381,9 @@
       "type": "exp",
       "texture": 8,
       "radar": 4,
-      "garbage": 2,
+      "garbage": 4,
       "level": 2,
-      "order": 28
+      "order": 47
     },
     "ast25": {
       "x": -80,
@@ -10071,9 +10391,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 4,
       "level": 1,
-      "order": 29
+      "order": 48
     },
     "ast26": {
       "x": 90,
@@ -10081,9 +10401,9 @@
       "type": "exp",
       "texture": 3,
       "radar": 4,
-      "garbage": 2,
+      "garbage": 5,
       "level": 1,
-      "order": 30
+      "order": 49
     },
     "ast27": {
       "x": -300,
@@ -10091,9 +10411,9 @@
       "type": "exp",
       "texture": 5,
       "radar": 4,
-      "garbage": 2,
+      "garbage": 4,
       "level": 2,
-      "order": 31
+      "order": 50
     },
     "ast28": {
       "x": 200,
@@ -10101,9 +10421,9 @@
       "type": "exp",
       "texture": 6,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 4,
       "level": 3,
-      "order": 32
+      "order": 51
     },
     "ast29": {
       "x": -300,
@@ -10111,9 +10431,9 @@
       "type": "exp",
       "texture": 8,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 4,
       "level": 2,
-      "order": 33
+      "order": 52
     },
     "ast30": {
       "x": -190,
@@ -10121,9 +10441,9 @@
       "type": "exp",
       "texture": 9,
       "radar": 4,
-      "garbage": 2,
+      "garbage": 5,
       "level": 3,
-      "order": 34
+      "order": 53
     },
     "ast31": {
       "x": 250,
@@ -10131,9 +10451,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 4,
-      "garbage": 3,
+      "garbage": 5,
       "level": 2,
-      "order": 35
+      "order": 54
     },
     "ast32": {
       "x": 110,
@@ -10141,9 +10461,9 @@
       "type": "exp",
       "texture": 3,
       "radar": 5,
-      "garbage": 3,
+      "garbage": 5,
       "level": 3,
-      "order": 36
+      "order": 55
     },
     "ast33": {
       "x": 200,
@@ -10151,9 +10471,9 @@
       "type": "exp",
       "texture": 5,
       "radar": 5,
-      "garbage": 3,
+      "garbage": 5,
       "level": 2,
-      "order": 37
+      "order": 56
     },
     "ast34": {
       "x": 400,
@@ -10161,9 +10481,9 @@
       "type": "exp",
       "texture": 6,
       "radar": 5,
-      "garbage": 4,
+      "garbage": 6,
       "level": 2,
-      "order": 38
+      "order": 57
     },
     "ast35": {
       "x": -450,
@@ -10171,9 +10491,9 @@
       "type": "exp",
       "texture": 2,
       "radar": 5,
-      "garbage": 3,
+      "garbage": 5,
       "level": 2,
-      "order": 39
+      "order": 58
     },
     "ast36": {
       "x": -350,
@@ -10181,9 +10501,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 5,
-      "garbage": 3,
+      "garbage": 5,
       "level": 2,
-      "order": 40
+      "order": 59
     },
     "ast37": {
       "x": -350,
@@ -10191,9 +10511,9 @@
       "type": "exp",
       "texture": 5,
       "radar": 5,
-      "garbage": 4,
+      "garbage": 6,
       "level": 3,
-      "order": 41
+      "order": 60
     },
     "ast38": {
       "x": 280,
@@ -10201,9 +10521,9 @@
       "type": "exp",
       "texture": 1,
       "radar": 5,
-      "garbage": 4,
+      "garbage": 6,
       "level": 3,
-      "order": 42
+      "order": 61
     },
     "ast39": {
       "x": 350,
@@ -10211,9 +10531,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 5,
-      "garbage": 3,
+      "garbage": 5,
       "level": 3,
-      "order": 43
+      "order": 62
     },
     "ast40": {
       "x": -100,
@@ -10221,9 +10541,9 @@
       "type": "exp",
       "texture": 6,
       "radar": 6,
-      "garbage": 4,
+      "garbage": 5,
       "level": 3,
-      "order": 44
+      "order": 63
     },
     "ast41": {
       "x": -500,
@@ -10231,9 +10551,9 @@
       "type": "exp",
       "texture": 8,
       "radar": 6,
-      "garbage": 4,
+      "garbage": 6,
       "level": 3,
-      "order": 45
+      "order": 64
     },
     "ast42": {
       "x": -480,
@@ -10241,9 +10561,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 6,
-      "garbage": 5,
+      "garbage": 6,
       "level": 3,
-      "order": 46
+      "order": 65
     },
     "ast43": {
       "x": -450,
@@ -10251,9 +10571,9 @@
       "type": "exp",
       "texture": 3,
       "radar": 6,
-      "garbage": 5,
+      "garbage": 6,
       "level": 4,
-      "order": 47
+      "order": 66
     },
     "ast44": {
       "x": 150,
@@ -10261,9 +10581,9 @@
       "type": "exp",
       "texture": 8,
       "radar": 6,
-      "garbage": 5,
+      "garbage": 6,
       "level": 3,
-      "order": 48
+      "order": 67
     },
     "ast45": {
       "x": 400,
@@ -10273,7 +10593,7 @@
       "radar": 6,
       "garbage": 5,
       "level": 3,
-      "order": 49
+      "order": 68
     },
     "ast46": {
       "x": -350,
@@ -10281,9 +10601,9 @@
       "type": "exp",
       "texture": 2,
       "radar": 6,
-      "garbage": 4,
+      "garbage": 6,
       "level": 3,
-      "order": 50
+      "order": 69
     },
     "ast47": {
       "x": 450,
@@ -10291,9 +10611,9 @@
       "type": "exp",
       "texture": 2,
       "radar": 6,
-      "garbage": 4,
+      "garbage": 6,
       "level": 4,
-      "order": 51
+      "order": 70
     },
     "ast48": {
       "x": 500,
@@ -10301,9 +10621,9 @@
       "type": "exp",
       "texture": 4,
       "radar": 6,
-      "garbage": 4,
+      "garbage": 6,
       "level": 4,
-      "order": 52
+      "order": 71
     },
     "ast49": {
       "x": -100,
@@ -10313,7 +10633,7 @@
       "radar": 6,
       "garbage": 5,
       "level": 4,
-      "order": 53
+      "order": 72
     },
     "ast50": {
       "x": 100,
@@ -10321,9 +10641,9 @@
       "type": "exp",
       "texture": 3,
       "radar": 6,
-      "garbage": 5,
+      "garbage": 6,
       "level": 3,
-      "order": 54
+      "order": 73
     }
   },
   "expedition": [

@@ -321,8 +321,8 @@ result = {
     },
     'obstacle2':{
         'size': {'x': 2, 'y': 2},
-        'category': 'objective',
-        'role': 'objective'
+        'category': 'obstacle',
+        'role': 'obstacle'
     },
 }
 
