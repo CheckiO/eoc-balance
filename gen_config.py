@@ -367,7 +367,7 @@ def search_next_target(data, **kwargs):
         tower_client.when_enemy_in_range(unit_in_firing_range)
 
 def unit_in_firing_range(data, **kwargs):
-    tower_client.attack_item(data['id'])
+    tower_client.do_attack(data['id'])
     tower_client.when_im_idle(search_next_target)
 
 tower_client.when_enemy_in_range(unit_in_firing_range)
@@ -375,6 +375,50 @@ tower_client.when_enemy_in_range(unit_in_firing_range)
         },
         'js-node': {
 
+            'craft.py': '''
+var commander = require("battle/commander.js");
+
+
+var craftClient = new commander.CraftClient();
+craftClient.doLandUnits();
+
+function unitLanded(data) {
+    var unitClient = new commander.UnitClient(data['id']);
+
+    function searchAndDestroy() {
+        var enemy = unitClient.askNearestEnemy();
+        unitClient.doAttack(enemy['id']);
+        unitClient.whenImIdle().then(searchAndDestroy);
+    };
+
+    searchAndDestroy();
+}
+
+craftClient.whenUnitLanded(unitLanded);
+'''.strip(),
+
+            'tower.py': '''
+var commander = require("battle/commander.js");
+
+
+var towerClient = new commander.Client();
+
+function searchNextTarget(data) {
+    var enemies = towerClient.askEnemyItemsInMyFiringRange();
+    if (typeof enemies !== 'undefined') {
+        unitInFiringRange(enemies[0]);
+    } else {
+        towerClient.whenEnemyInRange().then(unitInFiringRange);
+    };
+};
+
+function unitInFiringRange(data) {
+    towerClient.doAttack(data['id']);
+    towerClient.whenImIdle().then(searchNextTarget);
+};
+
+towerClient.whenEnemyInRange().then(unitInFiringRange);
+'''.strip()
         }
     }
 }

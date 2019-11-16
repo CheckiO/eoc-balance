@@ -3543,7 +3543,7 @@
             "hit_points": 500,
             "slots": 0,
             "unitCapacity": 6,
-            "expSpeed": 150
+            "expSpeed": 900
           }
         },
         {
@@ -3559,7 +3559,7 @@
             "hit_points": 550,
             "slots": 0,
             "unitCapacity": 9,
-            "expSpeed": 175
+            "expSpeed": 950
           }
         },
         {
@@ -3575,7 +3575,7 @@
             "hit_points": 605,
             "slots": 1,
             "unitCapacity": 12,
-            "expSpeed": 200
+            "expSpeed": 1000
           }
         },
         {
@@ -3591,7 +3591,7 @@
             "hit_points": 665,
             "slots": 1,
             "unitCapacity": 15,
-            "expSpeed": 225
+            "expSpeed": 1050
           }
         },
         {
@@ -3607,7 +3607,7 @@
             "hit_points": 730,
             "slots": 1,
             "unitCapacity": 18,
-            "expSpeed": 250
+            "expSpeed": 1100
           }
         },
         {
@@ -3623,7 +3623,7 @@
             "hit_points": 805,
             "slots": 1,
             "unitCapacity": 20,
-            "expSpeed": 275
+            "expSpeed": 1150
           }
         },
         {
@@ -3639,7 +3639,7 @@
             "hit_points": 885,
             "slots": 1,
             "unitCapacity": 22,
-            "expSpeed": 300
+            "expSpeed": 1200
           }
         },
         {
@@ -3656,7 +3656,7 @@
             "hit_points": 975,
             "slots": 1,
             "unitCapacity": 24,
-            "expSpeed": 325
+            "expSpeed": 1250
           }
         },
         {
@@ -3673,7 +3673,7 @@
             "hit_points": 1070,
             "slots": 2,
             "unitCapacity": 26,
-            "expSpeed": 350
+            "expSpeed": 1300
           }
         },
         {
@@ -3690,7 +3690,7 @@
             "hit_points": 1180,
             "slots": 2,
             "unitCapacity": 28,
-            "expSpeed": 375
+            "expSpeed": 1350
           }
         },
         {
@@ -3707,7 +3707,7 @@
             "hit_points": 1290,
             "slots": 2,
             "unitCapacity": 30,
-            "expSpeed": 400
+            "expSpeed": 1400
           }
         },
         {
@@ -3724,7 +3724,7 @@
             "hit_points": 1420,
             "slots": 2,
             "unitCapacity": 31,
-            "expSpeed": 425
+            "expSpeed": 1450
           }
         },
         {
@@ -3741,7 +3741,7 @@
             "hit_points": 1560,
             "slots": 2,
             "unitCapacity": 32,
-            "expSpeed": 450
+            "expSpeed": 1500
           }
         },
         {
@@ -3758,7 +3758,7 @@
             "hit_points": 1720,
             "slots": 2,
             "unitCapacity": 33,
-            "expSpeed": 475
+            "expSpeed": 1550
           }
         },
         {
@@ -3775,7 +3775,7 @@
             "hit_points": 1880,
             "slots": 2,
             "unitCapacity": 34,
-            "expSpeed": 500
+            "expSpeed": 1600
           }
         }
       ]
@@ -5016,7 +5016,7 @@
             "has_heal": 0,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 360
+            "expSpeed": 1310
           }
         },
         {
@@ -5036,7 +5036,7 @@
             "has_heal": 0,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 385
+            "expSpeed": 1360
           }
         },
         {
@@ -5056,7 +5056,7 @@
             "has_heal": 1,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 410
+            "expSpeed": 1410
           }
         },
         {
@@ -5076,7 +5076,7 @@
             "has_heal": 1,
             "has_power": 0,
             "slots": 2,
-            "expSpeed": 435
+            "expSpeed": 1460
           }
         },
         {
@@ -5096,7 +5096,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 460
+            "expSpeed": 1510
           }
         },
         {
@@ -5116,7 +5116,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 485
+            "expSpeed": 1560
           }
         },
         {
@@ -5136,7 +5136,7 @@
             "has_heal": 1,
             "has_power": 1,
             "slots": 2,
-            "expSpeed": 510
+            "expSpeed": 1610
           }
         }
       ]
@@ -6751,9 +6751,12 @@
   "initial_codes": {
     "python-3": {
       "craft.py": "from battle import commander\n\n\ncraft_client = commander.CraftClient()\ncraft_client.do_land_units()\n\ndef unit_landed(data):\n    unit_client = commander.UnitClient(data['id'])\n\n    def search_and_destroy(data=None):\n        enemy = unit_client.ask_nearest_enemy()\n        unit_client.do_attack(enemy['id'])\n        unit_client.when_im_idle(search_and_destroy)\n\n    search_and_destroy()\n\ncraft_client.when_unit_landed(unit_landed)",
-      "tower.py": "from battle import commander\n\n\ntower_client = commander.Client()\n\ndef search_next_target(data, **kwargs):\n    enemies = tower_client.ask_enemy_items_in_my_firing_range()\n    if enemies:\n        unit_in_firing_range(enemies[0])\n    else:\n        tower_client.when_enemy_in_range(unit_in_firing_range)\n\ndef unit_in_firing_range(data, **kwargs):\n    tower_client.attack_item(data['id'])\n    tower_client.when_im_idle(search_next_target)\n\ntower_client.when_enemy_in_range(unit_in_firing_range)"
+      "tower.py": "from battle import commander\n\n\ntower_client = commander.Client()\n\ndef search_next_target(data, **kwargs):\n    enemies = tower_client.ask_enemy_items_in_my_firing_range()\n    if enemies:\n        unit_in_firing_range(enemies[0])\n    else:\n        tower_client.when_enemy_in_range(unit_in_firing_range)\n\ndef unit_in_firing_range(data, **kwargs):\n    tower_client.do_attack(data['id'])\n    tower_client.when_im_idle(search_next_target)\n\ntower_client.when_enemy_in_range(unit_in_firing_range)"
     },
-    "js-node": {}
+    "js-node": {
+      "craft.py": "var commander = require(\"battle/commander.js\");\n\n\nvar craftClient = new commander.CraftClient();\ncraftClient.doLandUnits();\n\nfunction unitLanded(data) {\n    var unitClient = new commander.UnitClient(data['id']);\n\n    function searchAndDestroy() {\n        var enemy = unitClient.askNearestEnemy();\n        unitClient.doAttack(enemy['id']);\n        unitClient.whenImIdle().then(searchAndDestroy);\n    };\n\n    searchAndDestroy();\n}\n\ncraftClient.whenUnitLanded(unitLanded);",
+      "tower.py": "var commander = require(\"battle/commander.js\");\n\n\nvar towerClient = new commander.Client();\n\nfunction searchNextTarget(data) {\n    var enemies = towerClient.askEnemyItemsInMyFiringRange();\n    if (typeof enemies !== 'undefined') {\n        unitInFiringRange(enemies[0]);\n    } else {\n        towerClient.whenEnemyInRange().then(unitInFiringRange);\n    };\n};\n\nfunction unitInFiringRange(data) {\n    towerClient.doAttack(data['id']);\n    towerClient.whenImIdle().then(searchNextTarget);\n};\n\ntowerClient.whenEnemyInRange().then(unitInFiringRange);"
+    }
   },
   "levels": [
     {
